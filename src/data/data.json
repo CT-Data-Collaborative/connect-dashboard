@@ -154,7 +154,7 @@
       "grouping": "",
       "metadata": ""
     },
-    "type": "Bar Chart",
+    "type": "bar",
     "name": "Sanctions by Type"
   },
   {
@@ -354,7 +354,7 @@
       "grouping": "",
       "metadata": ""
     },
-    "type": "Bar Chart",
+    "type": "bar",
     "name": "Percent Incidents by Race"
   },
   {
@@ -512,7 +512,7 @@
       "grouping": "",
       "metadata": ""
     },
-    "type": "Bar Chart",
+    "type": "bar",
     "name": "Student Characteristics"
   },
   {
@@ -686,7 +686,7 @@
       "grouping": "",
       "metadata": ""
     },
-    "type": "Bar Chart",
+    "type": "bar",
     "name": "Sanctions by Substance"
   },
   {
@@ -1348,7 +1348,7 @@
       "grouping": "Age",
       "metadata": ""
     },
-    "type": "Grouped Bar Chart",
+    "type": "groupedbar",
     "name": "Treatment Chart"
   }
 ]

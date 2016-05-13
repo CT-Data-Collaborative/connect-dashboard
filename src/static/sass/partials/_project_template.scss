@@ -86,11 +86,14 @@
 }
 
 
-.output {
+.output div#content {
     max-height: 75vh;
-    overflow: scroll;
-    .card-block {
-        padding: .75rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .category-section {
+        border-bottom: 1px solid $extra-light-grey;
+        margin-bottom: 0.5rem;
     }
 }
 

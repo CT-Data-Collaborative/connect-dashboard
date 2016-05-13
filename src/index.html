@@ -27,6 +27,13 @@
     <script src="js/app.js"></script>
     <!-- Town GeoJSON -->
     <script src="data/town.geojson"></script>
+    <!-- Viz scripts -->
+    <script src="js/libs/visualizations/bar.js"></script>
+    <script src="js/libs/visualizations/groupedbar.js"></script>
+    <script src="js/libs/visualizations/pie.js"></script>
+    <script src="js/libs/visualizations/simpletable.js"></script>
+    <script src="js/libs/visualizations/stackedbar.js"></script>
+    <script src="js/libs/visualizations/table.js"></script>
   </head>
   <body>
     <div id="wrap">
@@ -47,11 +54,11 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-4 col-lg-offset-0 input">
+              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-2 col-lg-offset-0 input">
                   <!-- controls -->
                 <div ng-include="'partials/controls.html'"></div>
               </div>
-              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-0  output">
+              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-0 output">
                 <div class="card card-block">
                   <!-- content -->
                 <div ng-include="'partials/content.html'"></div>

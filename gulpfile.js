@@ -16,7 +16,8 @@ gulp.task('js_dependencies', function() {
         'node_modules/d3-jetpack/d3-jetpack.js',
         'node_modules/ng-lodash/build/ng-lodash.min.js',
         'node_modules/tether/dist/js/tether.min.js',
-        'node_modules/jquery/dist/jquery.min.js'
+        'node_modules/jquery/dist/jquery.min.js',
+        'src/static/js/**/visualizations/*.js'
     ]).pipe(gulp.dest('dist/js/libs'));
 });
 
@@ -28,7 +29,7 @@ gulp.task('css_dependencies', function() {
 });
 
 gulp.task('js', function() {
-    gulp.src(['src/static/js/**/module.js', 'src/static/js/**/*/*.js'])
+    gulp.src(['src/static/js/**/module.js', 'src/static/js/**/dataviz/*.js'])
      .pipe(sourcemaps.init())
       .pipe(concat('app.js'))
      .pipe(gulp.dest('./dist/js/'))

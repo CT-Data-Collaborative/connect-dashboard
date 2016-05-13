@@ -4,17 +4,16 @@
     </div>
     <div class="card-block">
         <div class="settings-section">
-            <h5>option Title</h5>
-            <p>option text</p>
-            <select class="form-control" ng-model="selectedRegion"
-                ng-options="region.name for region in regions track by region.id">
+            <h5>Region:</h5>
+            <select class="form-control" ng-model="selectedRegion.selected" ng-options="region.name for region in regions track by region.id">
+                <option value="">Please Select a Region</option>
+
             </select>
         </div>
         <div class="settings-section">
-            <h5>option Title</h5>
-            <p>option text</p>
-            <!--  list of sections, floated buttons -->
-            <button class="btn ctdata-btn" ng-repeat="category in categories" ng-click="scrollElement('#'+(category|sluggify), '#content')">{{ category }}</button
+            <h5>Jump to Section:</h5>
+            <!--  list of sections as buttons, triggers content scroll-->
+            <button class="btn btn-sm ctdata-btn" ng-repeat="category in categories" ng-click="scrollContent((category|sluggify))">{{ category }}</button>
         </div>
     </div>
 </div>

@@ -1,9 +1,10 @@
 .ctdata-btn {
-	background-color: $ctdata-extra-dark-blue;
-	color: $ctdata-extra-light-blue;
+    margin: 0.1rem;
+    background-color: $ctdata-extra-dark-blue;
+    color: $ctdata-extra-light-blue;
 }
 
 .ctdata-btn:hover {
-	background-color: $ctdata-extra-light-blue;
-	color: black;
+    background-color: $ctdata-extra-light-blue;
+    color: black;
 }
