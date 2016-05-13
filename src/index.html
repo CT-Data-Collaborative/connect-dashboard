@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CONNECT Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/tether.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ui-bootstrap-csp.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/project.css">
+    <script src="js/libs/d3.min.js"></script>
+    <!-- index.js is D3-Tip js code -->
+    <script src="js/libs/index.js"></script>
+    <script src="js/libs/d3-jetpack.js"></script>
+    <script src="js/libs/angular.min.js"></script>
+    <script src="js/libs/angular-animate.min.js"></script>
+    <script src="js/libs/ui-bootstrap-tpls.js"></script>
+    <script src="js/libs/ng-lodash.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Town GeoJSON -->
+    <script src="data/town.geojson"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <ng-include src="'partials/header.html'"></ng-include>
+      <div id="main">
+        <div id="page-content-wrapper" ng-controller="DataVizController">
+          <div class="container-fluid main-internal">
+            <div class="row hero-row">
+              <div class="col-sm-11 col-md-7 col-md-offset-1 col-lg-7 col-lg-offset-1">
+                <div class="project-logo">
+                  <p class="big">CONNECT</p>
+                  <p class="small">Interactive Dashboard</p>
+                </div>
+                <h4>Description Header</h4>
+                <p>
+                  Description
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-4 col-lg-offset-0 input">
+                  <!-- controls -->
+                <div ng-include="'partials/controls.html'"></div>
+              </div>
+              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-0  output">
+                <div class="card card-block">
+                  <!-- content -->
+                <div ng-include="'partials/content.html'"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ng-include src="'partials/footer.html'"></ng-include>
+    <script src="js/libs/tether.min.js"></script>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script>$(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })</script>
+  </body>
+</html>

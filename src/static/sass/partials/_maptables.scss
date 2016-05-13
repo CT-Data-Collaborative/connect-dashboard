@@ -1,0 +1,38 @@
+/* "Table" data */
+div.mapdiv h3, div.mapdivh4,
+div.state h3, div.state h4,
+div.town h3, div.townh4,
+div.grants h3, div.grants h4 {
+  margin: 0.5rem 0;
+  //padding-top: 2rem;
+  padding-bottom: .5rem;
+}
+div.state p,
+div.town p {
+  margin: 0.25rem 0;
+}
+div.state p span:first-child,
+div.town p span:first-child {
+  font-weight: $heavy;
+  padding-right: 0.3rem;
+}
+div.state p span:first-child:after,
+div.town p span:first-child:after {
+  content: "\003A";
+}
+div.state p span:last-child,
+div.town p span:last-child {
+  float: right;
+}
+div.state p span:last-child {
+  padding-right: 5rem;
+}
+
+table.grant-allocation-table {
+  tbody>tr:last-child {
+    td {
+      font-weight: bold;
+    }
+  }
+}
+

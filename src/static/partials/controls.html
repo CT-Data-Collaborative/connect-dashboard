@@ -1,0 +1,20 @@
+<div class="card paremeters">
+    <div class="card-header">
+        <h3>Select Region</h3>
+    </div>
+    <div class="card-block">
+        <div class="settings-section">
+            <h5>option Title</h5>
+            <p>option text</p>
+            <select class="form-control" ng-model="selectedRegion"
+                ng-options="region.name for region in regions track by region.id">
+            </select>
+        </div>
+        <div class="settings-section">
+            <h5>option Title</h5>
+            <p>option text</p>
+            <!--  list of sections, floated buttons -->
+            <button class="btn ctdata-btn" ng-repeat="category in categories" ng-click="scrollElement('#'+(category|sluggify), '#content')">{{ category }}</button
+        </div>
+    </div>
+</div>

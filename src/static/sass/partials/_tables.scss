@@ -1,0 +1,240 @@
+div.ctdata-table-container {
+    height: 40vh;
+    width: 100%;
+    overflow: auto;
+}
+table.ctdata-table {
+    margin-bottom: 2rem;
+
+    &.ctdata-table-wide {
+        width: 100%;
+    }
+
+    tr:hover {
+        background: $ctdata-light-blue;
+    }
+
+    th,td {
+        max-width: calc(100%/6);
+        text-wrap: normal;
+        padding-right: .25rem;
+    }
+    .name {
+        text-align: left;
+        font-weight:500;
+        padding-left: 1rem;
+    }
+
+    .col-name {
+        text-align: right;
+        font-weight: 700;
+        background-color: $ctdata-extra-light-blue;
+        border-left: 5px solid #fff;
+    }
+
+    .sortable {
+        cursor: pointer;
+    }
+
+    .col-name.town {
+        text-align: left;
+    }
+    .value {
+        text-align: right;
+        font-weight: 300;
+    }
+
+    .name, .col-name, .value {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .gap-color {
+        &.red {
+            color: $red;
+        }
+        &.green {
+            color: $green;
+        }
+    }
+}
+
+div.ctdata-list-table {
+    width: 100%;
+    overflow-x: auto;
+    
+    > div {
+        white-space: nowrap;
+        display: inline-block;
+
+        > div {
+            padding: 0 0.5rem;
+        }
+
+        ul {
+            list-style: none inside none;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin: 0 0.5rem;
+            display: inline-block;
+            white-space: normal;
+            word-wrap: break-on-word;
+            word-break: normal;
+
+            &.text-left {
+                text-align: left;
+            }
+            &.text-center {
+                text-align: center;
+            }
+            &.text-right {
+                text-align: right;
+            }
+        }
+
+        div.thead {
+            ul {
+                background: $ctdata-extra-light-blue;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            ul li {
+                font-weight: $heavy;
+                vertical-align: middle;
+                cursor: pointer;
+            }
+        }
+
+        div.tbody {
+            overflow-y: auto;
+            overflow-x: hidden;
+            height: 45vh;
+
+            ul {
+                border-bottom: 1px solid $extra-light-grey;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            /* Colors, highlight */
+            ul:hover {
+                background: $ctdata-light-blue;
+            }
+
+            .gap-color {
+                &.red {
+                    color: $red;
+                }
+                &.green {
+                    color: $green;
+                }
+            }
+
+            span.reflow-label {
+                display: none;
+            }
+        }
+
+        div.tfoot {
+            display: absolute;
+            bottom: 0;
+            margin-top: 1rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid $extra-dark-grey;
+        }
+
+        /* Column width definitions */
+        li.col-town {
+            //width: 9rem;
+            width: 10%;
+        }
+        li.col-population {
+            //width: 5rem;
+            width: 8%;
+        }
+        li.col-gap {
+            //width: 5rem;
+            width: 8%;
+        }
+        li.col-allocation {
+            //width: 7rem;
+            width: 10%;
+        }
+        li.col-even-cut {
+            //width: 7rem;
+            width: 9%;
+        }
+        li.col-sim-allocation {
+            //width: 7rem;
+            width: 9%;
+        }
+        li.col-percent-change {
+            //width: 5rem;
+            width: 7%;
+        }
+        li.col-allocation-diff {
+            //width: 7rem;
+            width: 14%;
+        }
+        li.col-category {
+            //width: 7rem;
+            width: 10%;
+        }
+
+        /* NPR-esque mobile reflow */
+        @media screen and (max-width: 500px) {
+            /* still the first nested div */
+            width: 100%;
+
+            div.thead {
+                display: none!important;
+            }
+
+            div.tbody {
+                width: 100%;
+
+                ul {
+                    width: 100%;
+
+                    &:hover {
+                        background-color: $white!important;
+                    }
+                }
+
+                ul li {
+                    width: 100%!important;
+                    display: block!important;
+
+                    &:not(:first-child) {
+                        margtin-left: 1em;
+                    }
+
+                    &:hover {
+                        background-color: $ctdata-extra-light-blue!important;
+                    }
+                }
+
+                li.col-town {
+                    font-weight: $heavy;
+                }
+
+                span.reflow-label {
+                    display: inline-block!important;
+                    float: left;
+                    padding-left:1rem;
+
+                    &:after {
+                        content: ":";
+                    }
+                }
+            }
+        }
+    }
+}
