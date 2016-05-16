@@ -16,7 +16,7 @@ angular.module('app')
         link: function(scope, element, attrs) {
             scope.render = function() {
                 data = scope.data
-                d3.select(element).datum(data).call(charts[data.type])
+                d3.select(element[0]).datum(data).call(charts[data.type])
             }
 
             scope.$watchCollection(function() {

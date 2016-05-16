@@ -1,0 +1,31 @@
+chart {
+    svg {
+
+        /* Axis Styling */
+        g.axis path {
+            display: none;
+        }
+
+        g.axis g.tick text {
+            fill: $extra-dark-grey;
+        }
+        g.axis g.tick line {
+            stroke: $light-grey;
+            stroke-width: 1px;
+        }
+        /* END Axis Styling */
+    }
+
+    div.legend {
+        div.key {
+            width: 1rem;
+            height: 1rem;
+            display:inline-block;
+        }
+        div.legend-text {
+            display:inline-block;
+            vertical-align: top;
+            padding-left: 0.5rem;
+        }
+    }
+}

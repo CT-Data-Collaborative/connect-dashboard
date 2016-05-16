@@ -39,7 +39,7 @@ function stackedbarChart() {
         var aspect_width = 16;
         var mobile_threshold = 500;
 
-        var margin = {top: 10, right: 10, bottom: 20, left: 50};
+        var margin = {top: 10, right: 10, bottom: 60, left: 50};
         var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
         var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
             // scales
@@ -58,6 +58,30 @@ function stackedbarChart() {
                 .scale(y)
                 .orient("left")
                 .ticks(8);
+
+            function wrap(text, width) {
+                text.each(function() {
+                  var text = d3.select(this),
+                      words = text.text().split(/\s+/).reverse(),
+                      word,
+                      line = [],
+                      lineNumber = 0,
+                      lineHeight = 1.1, // ems
+                      y = text.attr("y"),
+                      dy = parseFloat(text.attr("dy")),
+                      tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+                  while (word = words.pop()) {
+                    line.push(word);
+                    tspan.text(line.join(" "));
+                    if (tspan.node().getComputedTextLength() > width) {
+                      line.pop();
+                      tspan.text(line.join(" "));
+                      line = [word];
+                      tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                    }
+                  }
+                });
+            }
 
         selection.each(function(dataset) {
             var charLimit = Math.round(Math.floor((width + margin.right + margin.left) / 6) / 5) * 5;
@@ -151,35 +175,24 @@ function stackedbarChart() {
 
             // x axis, includes group labels automatically
             var xAxisGroup = barGroup.append("g")
-                .attr("transform", "translate(0," + height + ")")
-                .call(xAxis)
-                .call(function(g) {
-                    g.selectAll("path").remove();
-
-                    g.selectAll("g").selectAll("text")
-                        .attr("fill", "#4A4A4A")
-
-                    g.selectAll("g").selectAll("line")
-                        .attr("stroke", "#979797");
-                });
+              .attr("class", "x axis")
+              .attr("transform", "translate(0," + height + ")")
+              .call(xAxis)
+             .selectAll(".tick text")
+              .call(wrap, x.rangeBand());
 
             // Y axis
             var yAxisGroup = barGroup.append("g")
-                .attr("transform", "translate(0,0)")
-                .call(yAxis)
-                .call(function(g) {
-                    g.selectAll("path").remove();
-
-                    g.selectAll("g").selectAll("text")
-                        .attr("fill", "#4A4A4A")
-                        .attr("x", 0);
-
-                    g.selectAll("g").selectAll("line")
-                        .attr("x1", 0)
-                        .attr("x2", width)
-                        .attr("stroke", "#DEDEDE")
-                        .attr("stroke-width", "1px");
-                });
+              .attr("class", "y axis")
+              .attr("transform", "translate(0,0)")
+              .call(yAxis)
+              .call(function(g) {
+                  g.selectAll("g").selectAll("text")
+                      .attr("x", 0);
+                  g.selectAll("g").selectAll("line")
+                      .attr("x1", 0)
+                      .attr("x2", width)
+              });
 
             // group containers
             var groups = barGroup.selectAll(".group")

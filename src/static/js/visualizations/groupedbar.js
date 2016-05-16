@@ -25,6 +25,31 @@ var formatters = {
     },
     "percent" : d3.format(".1%")
 };
+var tickFormatters = {
+    "string" : function(val) {return val; },
+    "currency" : function(val) {
+        if (val.toString().length > 4) {
+            return d3.format("$.1s")(val).replace(/G/, "B");
+        } else {
+            return d3.format("$,.0f")(val);
+        }
+    },
+    "integer" : function(val) {
+        if (val.toString().length > 4) {
+            return d3.format(".1s")(val).replace(/G/, "B");
+        } else {
+            return d3.format(",0f")(val);
+        }
+    },
+    "decimal" : function(val) {
+        if (val.toString().length > 4) {
+            return d3.format(".1s")(val).replace(/G/, "B");
+        } else {
+            return d3.format(",1f")(val);
+        }
+    },
+    "percent" : d3.format(".0%")
+};
 
 
 // get body from jsdom, call chart function
@@ -39,7 +64,7 @@ function groupedbarChart() {
         var aspect_width = 16;
         var mobile_threshold = 500;
 
-        var margin = {top: 10, right: 10, bottom: 20, left: 50};
+        var margin = {top: 10, right: 10, bottom: 60, left: 50};
         var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
         var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
             // scales
@@ -60,6 +85,29 @@ function groupedbarChart() {
                 .orient("left")
                 .ticks(8);
 
+            function wrap(text, width) {
+                text.each(function() {
+                    var text = d3.select(this),
+                        words = text.text().split(/\s+/).reverse(),
+                        word,
+                        line = [],
+                        lineNumber = 0,
+                        lineHeight = 1.1, // ems
+                        y = text.attr("y"),
+                        dy = parseFloat(text.attr("dy")),
+                        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+                    while (word = words.pop()) {
+                        line.push(word);
+                        tspan.text(line.join(" "));
+                        if (tspan.node().getComputedTextLength() > width) {
+                        line.pop();
+                        tspan.text(line.join(" "));
+                        line = [word];
+                        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                    }
+                }
+            });
+        }
         selection.each(function(dataset) {
             var charLimit = Math.round(Math.floor((width + margin.right + margin.left) / 6) / 5) * 5;
             // Should this be a parameter? passed in config?
@@ -67,8 +115,6 @@ function groupedbarChart() {
             var data = dataset['data']['records'];
             var config = dataset['config'];
             var grouping = config.grouping;
-            console.log(data);
-            console.log(grouping);
 
             // check if we have a grouping value, if not, we're just producing a standard bar chart
             if (grouping) {
@@ -77,7 +123,7 @@ function groupedbarChart() {
                 // This is the step that seems to be the most confused and broken - what shape am i aiming for?
                 data.forEach(function(d) {
                     d.values = groupLabels.map(function(label) {
-                        yAxis.tickFormat(formatters[d[label].type]); // there should really only be one of these?
+                        yAxis.tickFormat(tickFormatters[d[label].type]); // there should really only be one of these?
                         return {name: label, label: formatters[d[label].type](d[label].value), value: d[label].value};
                     });
                 });
@@ -149,37 +195,26 @@ function groupedbarChart() {
 
             // x axis, includes group labels automatically
             var xAxisGroup = barGroup.append("g")
+                .attr("class", "x axis")
                 .attr("transform", "translate(0," + height + ")")
                 .attr("font-size", "8pt")
                 .call(xAxis)
-                .call(function(g) {
-                    g.selectAll("path").remove();
-
-                    g.selectAll("g").selectAll("text")
-                        .attr("fill", "#4A4A4A")
-
-                    g.selectAll("g").selectAll("line")
-                        .attr("stroke", "#979797");
-                });
+                .selectAll(".tick text")
+                    .call(wrap, x0.rangeBand());
 
             // Y axis
             var yAxisGroup = barGroup.append("g")
+                .attr("class", "y axis")
                 .attr("transform", "translate(0,0)")
                 .attr("font-size", "8pt")
                 .call(yAxis)
                 .call(function(g) {
-                    g.selectAll("path").remove();
-
-                    g.selectAll("g").selectAll("text")
-                        .attr("fill", "#4A4A4A")
-                        .attr("x", 0);
-
-                    g.selectAll("g").selectAll("line")
-                        .attr("x1", 0)
-                        .attr("x2", width)
-                        .attr("stroke", "#DEDEDE")
-                        .attr("stroke-width", "1px");
-                });
+                  g.selectAll("g").selectAll("text")
+                      .attr("x", 0);
+                  g.selectAll("g").selectAll("line")
+                      .attr("x1", 0)
+                      .attr("x2", width)
+              });
 
             // group containers
             var groups = barGroup.selectAll(".group")

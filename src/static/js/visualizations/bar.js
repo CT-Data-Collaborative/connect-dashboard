@@ -25,6 +25,31 @@ var formatters = {
     },
     "percent" : d3.format(".1%")
 };
+var tickFormatters = {
+    "string" : function(val) {return val; },
+    "currency" : function(val) {
+        if (val.toString().length > 4) {
+            return d3.format("$.1s")(val).replace(/G/, "B");
+        } else {
+            return d3.format("$,.0f")(val);
+        }
+    },
+    "integer" : function(val) {
+        if (val.toString().length > 4) {
+            return d3.format(".1s")(val).replace(/G/, "B");
+        } else {
+            return d3.format(",0f")(val);
+        }
+    },
+    "decimal" : function(val) {
+        if (val.toString().length > 4) {
+            return d3.format(".1s")(val).replace(/G/, "B");
+        } else {
+            return d3.format(",1f")(val);
+        }
+    },
+    "percent" : d3.format(".0%")
+};
 
 
 // get body from jsdom, call chart function
@@ -42,8 +67,6 @@ function barChart() {
         var margin = {top: 10, right: 10, bottom: 60, left: 50};
         var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
         var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
-
-        console.log($graphic.getBoundingClientRect())
 
         var x = d3.scale.ordinal()
           .rangeRoundBands([0, width], 0.1);
@@ -95,14 +118,11 @@ function barChart() {
             var config = dataset['config'];
             if (config.color) {
               var color = config.color;
-              console.log(color);
             }
             if (config.metadata) {
               var metadata = config.metadata;
-              console.log(metadata);
             }
 
-            console.log(data);
             x.domain(data.map(function(d) { return Object.keys(d)[0]}));
 
             var maxVal = d3.max(data, function(d) {
@@ -121,7 +141,7 @@ function barChart() {
                 return d[key].type;
             }
 
-            yAxis.tickFormat(formatters[getTickType(data[0])]);
+            yAxis.tickFormat(tickFormatters[getTickType(data[0])]);
 
             // title
             if ("title" in config && config.title !== "") {
@@ -144,7 +164,6 @@ function barChart() {
             svg.append("g")
               .attr("class", "x axis")
               .attr("transform", "translate(0," + height + ")")
-              .attr("font-size", "8pt")
               .call(xAxis)
              .selectAll(".tick text")
               .call(wrap, x.rangeBand());
@@ -153,18 +172,13 @@ function barChart() {
             svg.append("g")
               .attr("class", "y axis")
               .attr("transform", "translate(0,0)")
-              .attr("font-size", "8pt")
               .call(yAxis)
               .call(function(g) {
-                  g.selectAll("path").remove();
                   g.selectAll("g").selectAll("text")
-                      .attr("fill", "#4A4A4A")
                       .attr("x", 0);
                   g.selectAll("g").selectAll("line")
                       .attr("x1", 0)
                       .attr("x2", width)
-                      .attr("stroke", "#DEDEDE")
-                      .attr("stroke-width", "1px");
               });
 
             svg.selectAll(".bar")

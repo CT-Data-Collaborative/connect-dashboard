@@ -6,7 +6,7 @@
         <div class="settings-section category-section row" ng-repeat="category in categories">
             <h5 id="{{ category | sluggify }}">{{ category }}</h5>
             <p>category notes</p>
-            <chart ng-class="'col-xs-'+chart.config.width" ng-repeat="chart in chartObjects | filter:{category: category}" data=chart />
+            <chart ng-repeat="chart in chartObjects | filter:{category: category}" data="chart" class="col-sm-{{chart.config.width}}"></chart>
         </div>
     </div>
 </div>
