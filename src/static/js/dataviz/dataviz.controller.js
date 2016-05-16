@@ -84,7 +84,7 @@ angular.module('app')
             });
 
             $scope.chartObjects = $scope.chartObjects.filter(function(chart) {
-                return typeof chart.data.records !== "undefined" && chart.data.records.length > 0;
+                return ((typeof chart.data.records !== "undefined") && (chart.data.records.length > 0));
             })
 
             return;

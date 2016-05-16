@@ -859,6 +859,7 @@
     "type": "pie"
   },
   {
+    "category": "Child Welfare",
     "config": {
       "width": 12,
       "title": "Treatment by Age and Race",
@@ -5406,6 +5407,7 @@
     "type": "bar"
   },
   {
+    "category": "Child Welfare",
     "config": {
       "width": 8,
       "title": "Children in Placement, In State by Age SFY 2014",
@@ -8388,160 +8390,174 @@
     },
     "data": {
       "records": {
-        "State": {
-          "Relative Foster Care": {
-            "type": "integer",
-            "value": "64"
-          },
-          "Foster Care": {
-            "type": "integer",
-            "value": "23"
-          },
-          "Med./Psych. Hospital": {
-            "type": "integer",
-            "value": "1"
-          },
-          "Res. Treatment Center": {
-            "type": "integer",
-            "value": "42"
-          },
-          "Therapeutic Foster Care": {
-            "type": "integer",
-            "value": "7"
+        "State": [
+          {
+            "Relative Foster Care": {
+              "type": "integer",
+              "value": "64"
+            },
+            "Foster Care": {
+              "type": "integer",
+              "value": "23"
+            },
+            "Med./Psych. Hospital": {
+              "type": "integer",
+              "value": "1"
+            },
+            "Res. Treatment Center": {
+              "type": "integer",
+              "value": "42"
+            },
+            "Therapeutic Foster Care": {
+              "type": "integer",
+              "value": "7"
+            }
           }
-        },
-        "1": {
-          "Relative Foster Care": {
-            "type": "integer",
-            "value": "12"
-          },
-          "Foster Care": {
-            "type": "integer",
-            "value": "1"
-          },
-          "Med./Psych. Hospital": {
-            "type": "integer",
-            "value": "0"
-          },
-          "Res. Treatment Center": {
-            "type": "integer",
-            "value": "6"
-          },
-          "Therapeutic Foster Care": {
-            "type": "integer",
-            "value": "2"
+        ],
+        "1": [
+          {
+            "Relative Foster Care": {
+              "type": "integer",
+              "value": "12"
+            },
+            "Foster Care": {
+              "type": "integer",
+              "value": "1"
+            },
+            "Med./Psych. Hospital": {
+              "type": "integer",
+              "value": "0"
+            },
+            "Res. Treatment Center": {
+              "type": "integer",
+              "value": "6"
+            },
+            "Therapeutic Foster Care": {
+              "type": "integer",
+              "value": "2"
+            }
           }
-        },
-        "3": {
-          "Relative Foster Care": {
-            "type": "integer",
-            "value": "18"
-          },
-          "Foster Care": {
-            "type": "integer",
-            "value": "10"
-          },
-          "Med./Psych. Hospital": {
-            "type": "integer",
-            "value": "0"
-          },
-          "Res. Treatment Center": {
-            "type": "integer",
-            "value": "12"
-          },
-          "Therapeutic Foster Care": {
-            "type": "integer",
-            "value": "1"
+        ],
+        "3": [
+          {
+            "Relative Foster Care": {
+              "type": "integer",
+              "value": "18"
+            },
+            "Foster Care": {
+              "type": "integer",
+              "value": "10"
+            },
+            "Med./Psych. Hospital": {
+              "type": "integer",
+              "value": "0"
+            },
+            "Res. Treatment Center": {
+              "type": "integer",
+              "value": "12"
+            },
+            "Therapeutic Foster Care": {
+              "type": "integer",
+              "value": "1"
+            }
           }
-        },
-        "2": {
-          "Relative Foster Care": {
-            "type": "integer",
-            "value": "4"
-          },
-          "Foster Care": {
-            "type": "integer",
-            "value": "3"
-          },
-          "Med./Psych. Hospital": {
-            "type": "integer",
-            "value": "0"
-          },
-          "Res. Treatment Center": {
-            "type": "integer",
-            "value": "5"
-          },
-          "Therapeutic Foster Care": {
-            "type": "integer",
-            "value": "2"
+        ],
+        "2": [
+          {
+            "Relative Foster Care": {
+              "type": "integer",
+              "value": "4"
+            },
+            "Foster Care": {
+              "type": "integer",
+              "value": "3"
+            },
+            "Med./Psych. Hospital": {
+              "type": "integer",
+              "value": "0"
+            },
+            "Res. Treatment Center": {
+              "type": "integer",
+              "value": "5"
+            },
+            "Therapeutic Foster Care": {
+              "type": "integer",
+              "value": "2"
+            }
           }
-        },
-        "5": {
-          "Relative Foster Care": {
-            "type": "integer",
-            "value": "6"
-          },
-          "Foster Care": {
-            "type": "integer",
-            "value": "2"
-          },
-          "Med./Psych. Hospital": {
-            "type": "integer",
-            "value": "0"
-          },
-          "Res. Treatment Center": {
-            "type": "integer",
-            "value": "7"
-          },
-          "Therapeutic Foster Care": {
-            "type": "integer",
-            "value": "0"
+        ],
+        "5": [
+          {
+            "Relative Foster Care": {
+              "type": "integer",
+              "value": "6"
+            },
+            "Foster Care": {
+              "type": "integer",
+              "value": "2"
+            },
+            "Med./Psych. Hospital": {
+              "type": "integer",
+              "value": "0"
+            },
+            "Res. Treatment Center": {
+              "type": "integer",
+              "value": "7"
+            },
+            "Therapeutic Foster Care": {
+              "type": "integer",
+              "value": "0"
+            }
           }
-        },
-        "4": {
-          "Relative Foster Care": {
-            "type": "integer",
-            "value": "14"
-          },
-          "Foster Care": {
-            "type": "integer",
-            "value": "4"
-          },
-          "Med./Psych. Hospital": {
-            "type": "integer",
-            "value": "1"
-          },
-          "Res. Treatment Center": {
-            "type": "integer",
-            "value": "7"
-          },
-          "Therapeutic Foster Care": {
-            "type": "integer",
-            "value": "1"
+        ],
+        "4": [
+          {
+            "Relative Foster Care": {
+              "type": "integer",
+              "value": "14"
+            },
+            "Foster Care": {
+              "type": "integer",
+              "value": "4"
+            },
+            "Med./Psych. Hospital": {
+              "type": "integer",
+              "value": "1"
+            },
+            "Res. Treatment Center": {
+              "type": "integer",
+              "value": "7"
+            },
+            "Therapeutic Foster Care": {
+              "type": "integer",
+              "value": "1"
+            }
           }
-        },
-        "6": {
-          "Relative Foster Care": {
-            "type": "integer",
-            "value": "10"
-          },
-          "Foster Care": {
-            "type": "integer",
-            "value": "3"
-          },
-          "Med./Psych. Hospital": {
-            "type": "integer",
-            "value": "0"
-          },
-          "Res. Treatment Center": {
-            "type": "integer",
-            "value": "4"
-          },
-          "Therapeutic Foster Care": {
-            "type": "integer",
-            "value": "1"
+        ],
+        "6": [
+          {
+            "Relative Foster Care": {
+              "type": "integer",
+              "value": "10"
+            },
+            "Foster Care": {
+              "type": "integer",
+              "value": "3"
+            },
+            "Med./Psych. Hospital": {
+              "type": "integer",
+              "value": "0"
+            },
+            "Res. Treatment Center": {
+              "type": "integer",
+              "value": "4"
+            },
+            "Therapeutic Foster Care": {
+              "type": "integer",
+              "value": "1"
+            }
           }
-        }
+        ]
       }
     },
     "name": "CIP Out of State Pie",

@@ -92,7 +92,8 @@ function tableChart() {
             container = container.append("div");
             
             // Table
-            var table = container.append("table");
+            var table = container.append("table")
+                .attr("class", "ctdata-table ctdata-table-wide");
 
             // table header
             var thead = table.append("thead");
@@ -108,7 +109,8 @@ function tableChart() {
                         if (theadTR.empty()) {
                             theadTR = thead.append("tr")
                                                         .attr("id", "level_"+level);
-                            theadTR.append("th");
+                            theadTR.append("th")
+                                .attr("class", "col-name");
                             if (header_zero !== false) {
                                 theadTR.select("th")
                                     .text(header_zero);
@@ -116,6 +118,7 @@ function tableChart() {
                         }
                         for (var key in data) {
                             theadTR.append("th")
+                                .attr("class", "col-name")
                                 .text(key)
                                 .attr("colspan", d3.keys(data[key]).length);
                                 populateHeader(data[key], thead, header_zero, level + 1)
@@ -148,6 +151,7 @@ function tableChart() {
                     }
                 } else {
                     tr.append("td")
+                        .class("value")
                         .text(formatters[data.type](data.value));
                 }
             }
@@ -155,6 +159,7 @@ function tableChart() {
             for (rowKey in data) {
                 var tr = tbody.append("tr");
                 tr.append("td")
+                    .class("name")
                     .text(rowKey);
                 populateCells(data[rowKey], thead, tr, 0);
             }

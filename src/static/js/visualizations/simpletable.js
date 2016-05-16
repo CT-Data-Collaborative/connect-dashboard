@@ -28,12 +28,13 @@ var formatters = {
 
 function simpletableChart() {
     // Vars
-    var colspan = null;
     
     function chart(selection) {
         var $graphic = this[0][0];
 
         selection.each(function(dataset) {
+            var colspan = null;
+            
             var data = dataset['data']['records'];
             var config = dataset['config'];
 
@@ -52,7 +53,8 @@ function simpletableChart() {
             container = container.append("div");
             
             // Table
-            var table = container.append("table");
+            var table = container.append("table")
+                .attr("class", "ctdata-table ctdata-table-wide ctdata-simpletable");
 
             // thead element
             var thead = table.append("thead"),
@@ -82,6 +84,7 @@ function simpletableChart() {
                     .data(headerData)
                     .enter()
                     .append("th")
+                        .attr("class", "col-name")
                         .text(function(d) {
                             return formatters[d.type](d.value);
                         })
@@ -108,6 +111,13 @@ function simpletableChart() {
                     .data(rowData)
                     .enter()
                     .append("td")
+                        .attr("class", function(d, i) {
+                            if (i === 0) {
+                                return "name";
+                            } else {
+                                return "value";
+                            }
+                        })
                         .text(function(d) { return formatters[d.type](d.value); })
             })
 

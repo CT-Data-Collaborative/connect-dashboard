@@ -28,4 +28,21 @@ chart {
             padding-left: 0.5rem;
         }
     }
+
+    /* Special styles for specific charts - use "&#sluggified_name" */
+    &#treatment_table {
+        th {
+            text-align: center;
+        }
+
+        /* Every td except the first */
+        td:nth-child(n+2) {
+            border-left: 1px solid $extra-light-grey;
+        }
+
+        /* Every third td (counting from second td on) */
+        td:nth-child(3n+2) {
+            border-left: 1px solid $dark-grey;
+        }
+    }
 }
