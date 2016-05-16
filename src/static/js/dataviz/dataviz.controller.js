@@ -5,7 +5,7 @@ angular.module('app')
         var lo = lodash;
 
         $scope.data = [];
-        $scope.vizData = [];
+        $scope.chartObjects = [];
 
         $scope.regions = [
             {'name' : 'Region 1: Southwest', 'id' : '1'},
@@ -69,14 +69,23 @@ angular.module('app')
                 return
             }
 
-            $scope.vizData = $scope.data.map(function(viz) {
-                viz.data.records = viz.data.records[$scope.selectedRegion.selected.id];
-                return viz;
-            }).filter(function(viz) {
-                return viz.data.records.length > 0;
+            $scope.chartObjects = [];
+
+            $scope.data.forEach(function(dataset) {
+                // angular.copy() takes deep copy, without matching hash keys
+                // allowing us to edit the object without editing the original data.
+                var chart = angular.copy(dataset);
+
+                // filter the data of this chart object
+                chart.data.records = chart.data.records[$scope.selectedRegion.selected.id];
+
+                // add to list
+                $scope.chartObjects.push(chart);
             });
 
-            console.log($scope.vizData);
+            $scope.chartObjects = $scope.chartObjects.filter(function(chart) {
+                return typeof chart.data.records !== "undefined" && chart.data.records.length > 0;
+            })
 
             return;
         }
