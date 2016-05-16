@@ -6,6 +6,10 @@ angular.module('app')
 
         $scope.data = [];
         $scope.chartObjects = [];
+        $scope.regionMapData = {
+            "data" : '',
+            "type" : "regionmap"
+        };
 
         $scope.regions = [
             {'name' : 'Region 1: Southwest', 'id' : '1'},
@@ -94,12 +98,28 @@ angular.module('app')
         // -----------------------------------------
 
         // -----------------------------------------
+        // Update Region Map
+        // -----------------------------------------
+        $scope.updateRegionMap = function() {
+            $scope.regionMapData = {
+                "data" : $scope.selectedRegion.selected.id,
+                "type" : "regionmap"
+            };
+
+            return;
+        }
+        // -----------------------------------------
+        // End Update Region Map
+        // -----------------------------------------
+
+        // -----------------------------------------
         // Main watch function on selected Region
         // -----------------------------------------
         $scope.$watch(function() {
             return $scope.selectedRegion;
         }, function() {
             $scope.updateData();
+            $scope.updateRegionMap();
         }, true);
         // -----------------------------------------
         // End of Watch function on selected Region

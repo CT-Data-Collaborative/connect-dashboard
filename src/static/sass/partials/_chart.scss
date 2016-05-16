@@ -30,6 +30,20 @@ chart {
     }
 
     /* Special styles for specific charts - use "&#sluggified_name" */
+    &#region_map {
+        path.town {
+            fill: $white;
+            fill-opacity: 0;
+            stroke: $extra-dark-grey;
+            stroke-width: 1px;
+            
+            &.region {
+                fill-opacity: 1;
+                fill: $ctdata-extra-dark-blue;
+            }
+        }
+
+    }
     &#treatment_table {
         th {
             text-align: center;

@@ -6,8 +6,10 @@ angular.module('app')
         "stackedbar" : stackedbarChart(),
         "table" : tableChart(),
         "simpletable" : simpletableChart(),
-        "pie" : pieChart()
-    }
+        "pie" : pieChart(),
+        "regionmap" : regionmapChart()
+    };
+    
     return {
         restrict: 'E',
         scope: {
