@@ -210,11 +210,11 @@ function barChart() {
               });
 
 
-            if ("source" in config && config.source !== "") {
-                var source = d3.select(this).append("p")
-                    .attr("class", "chart-source")
-                    .text(config.source);
-            }
+            // if ("source" in config && config.source !== "") {
+            //     var source = d3.select(this).append("p")
+            //         .attr("class", "chart-source")
+            //         .text(config.source);
+            // }
         });
     }
 /**

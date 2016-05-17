@@ -3,10 +3,326 @@
     "category": "Education",
     "config": {
       "source": "CT State Dept of Education",
+      "color": "#5B771C",
+      "title": "Student Characteristics, 2013-2014",
+      "height": 3,
+      "width": 6,
+      "footnotes": "",
+      "grouping": ""
+    },
+    "data": {
+      "records": {
+        "1": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".376"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".105"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".067"
+            }
+          }
+        ],
+        "2": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".439"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".119"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".071"
+            }
+          }
+        ],
+        "3": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".315"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".125"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".036"
+            }
+          }
+        ],
+        "4": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".424"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".124"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".065"
+            }
+          }
+        ],
+        "5": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".369"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".125"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".067"
+            }
+          }
+        ],
+        "6": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".345"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".129"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".06"
+            }
+          }
+        ],
+        "State": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".378"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".12"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".061"
+            }
+          }
+        ]
+      }
+    },
+    "name": "Student Characteristics",
+    "type": "bar"
+  },
+  {
+    "category": "Education",
+    "config": {
+      "source": "CT State Dept of Education",
+      "color": "#A05D56",
+      "title": "School Sanctions by Type, 2012-2013",
+      "height": 3,
+      "width": 6,
+      "footnotes": "",
+      "grouping": ""
+    },
+    "data": {
+      "records": {
+        "1": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "8746"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "5585"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "163"
+            }
+          }
+        ],
+        "2": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "6318"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "4416"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "157"
+            }
+          }
+        ],
+        "3": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "8199"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "3905"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "83"
+            }
+          }
+        ],
+        "4": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "13005"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "9237"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "196"
+            }
+          }
+        ],
+        "5": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "13332"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "8091"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "59"
+            }
+          }
+        ],
+        "6": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "12081"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "4681"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "52"
+            }
+          }
+        ],
+        "State": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "61681"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "35915"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "710"
+            }
+          }
+        ]
+      }
+    },
+    "name": "Sanctions by Type",
+    "type": "bar"
+  },
+  {
+    "category": "Education",
+    "config": {
+      "source": "CT State Dept of Education",
       "color": "#F67C92",
       "title": "Substance-Related School Suspensions and Expulsions, 2009",
       "height": 3,
-      "width": 4,
+      "width": 6,
       "footnotes": "",
       "grouping": ""
     },
@@ -177,317 +493,170 @@
     "category": "Education",
     "config": {
       "source": "CT State Dept of Education",
-      "color": "#A05D56",
-      "title": "School Sanctions by Type, 2012-2013",
-      "height": 3,
-      "width": 4,
+      "color": "",
+      "title": "School Incidents by Type",
+      "height": 5,
+      "width": 6,
       "footnotes": "",
+      "order": [
+        "School Policy Violations",
+        "Personally Threatening Behavior",
+        "Physical and Verbal Confrontation",
+        "Fighting and Battery",
+        "Other"
+      ],
       "grouping": ""
     },
     "data": {
       "records": {
         "1": [
           {
-            "In School Suspensions": {
+            "Physical and Verbal Confrontation": {
               "type": "integer",
-              "value": "8746"
-            }
-          },
-          {
-            "Out of School Suspensions": {
+              "value": "1971"
+            },
+            "School Policy Violations": {
               "type": "integer",
-              "value": "5585"
-            }
-          },
-          {
-            "Expulsions": {
+              "value": "15835"
+            },
+            "Other": {
               "type": "integer",
-              "value": "163"
-            }
-          }
-        ],
-        "2": [
-          {
-            "In School Suspensions": {
+              "value": "1451"
+            },
+            "Fighting and Battery": {
               "type": "integer",
-              "value": "6318"
-            }
-          },
-          {
-            "Out of School Suspensions": {
+              "value": "2951"
+            },
+            "Personally Threatening Behavior": {
               "type": "integer",
-              "value": "4416"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "157"
+              "value": "1073"
             }
           }
         ],
         "3": [
           {
-            "In School Suspensions": {
+            "Physical and Verbal Confrontation": {
               "type": "integer",
-              "value": "8199"
-            }
-          },
-          {
-            "Out of School Suspensions": {
+              "value": "1608"
+            },
+            "School Policy Violations": {
               "type": "integer",
-              "value": "3905"
-            }
-          },
-          {
-            "Expulsions": {
+              "value": "8185"
+            },
+            "Other": {
               "type": "integer",
-              "value": "83"
-            }
-          }
-        ],
-        "4": [
-          {
-            "In School Suspensions": {
+              "value": "987"
+            },
+            "Fighting and Battery": {
               "type": "integer",
-              "value": "13005"
-            }
-          },
-          {
-            "Out of School Suspensions": {
+              "value": "1509"
+            },
+            "Personally Threatening Behavior": {
               "type": "integer",
-              "value": "9237"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "196"
-            }
-          }
-        ],
-        "5": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "13332"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "8091"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "59"
-            }
-          }
-        ],
-        "6": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "12081"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "4681"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "52"
-            }
-          }
-        ],
-        "State": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "61681"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "35915"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "710"
-            }
-          }
-        ]
-      }
-    },
-    "name": "Sanctions by Type",
-    "type": "bar"
-  },
-  {
-    "category": "Education",
-    "config": {
-      "source": "CT State Dept of Education",
-      "color": "#5B771C",
-      "title": "Student Characteristics, 2013-2014",
-      "height": 3,
-      "width": 4,
-      "footnotes": "",
-      "grouping": ""
-    },
-    "data": {
-      "records": {
-        "1": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".376"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".105"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".067"
+              "value": "1138"
             }
           }
         ],
         "2": [
           {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".439"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".119"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".071"
-            }
-          }
-        ],
-        "3": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".315"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".125"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".036"
-            }
-          }
-        ],
-        "4": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".424"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".124"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".065"
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1100"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "7162"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "813"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "1403"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "622"
             }
           }
         ],
         "5": [
           {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".369"
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1682"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "16164"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "1008"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "1914"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "1073"
             }
-          },
+          }
+        ],
+        "4": [
           {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".125"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".067"
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "2783"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "16066"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "1781"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "3571"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "1852"
             }
           }
         ],
         "6": [
           {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".345"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".129"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".06"
-            }
-          }
-        ],
-        "State": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".378"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".12"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".061"
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1807"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "12583"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "1004"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "1265"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "985"
             }
           }
         ]
       }
     },
-    "name": "Student Characteristics",
-    "type": "bar"
+    "name": "School Incidents Pie",
+    "type": "pie"
   },
   {
     "category": "Education",
@@ -495,7 +664,7 @@
       "source": "CT State Dept of Education",
       "color": "#7B6888",
       "title": "Percent of All Students Involved in Incidents by Race, 2012-2013",
-      "height": 5,
+      "height": 3,
       "width": 6,
       "footnotes": "",
       "grouping": ""
@@ -690,182 +859,13 @@
     "type": "bar"
   },
   {
-    "category": "Education",
-    "config": {
-      "source": "CT State Dept of Education",
-      "color": "",
-      "title": "School Incidents by Type",
-      "height": 5,
-      "width": 6,
-      "footnotes": "",
-      "order": [
-        "School Policy Violations",
-        "Personally Threatening Behavior",
-        "Physical and Verbal Confrontation",
-        "Fighting and Battery",
-        "Other"
-      ],
-      "grouping": ""
-    },
-    "data": {
-      "records": {
-        "1": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1971"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "15835"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1451"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "2951"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1073"
-            }
-          }
-        ],
-        "3": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1608"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "8185"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "987"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1509"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1138"
-            }
-          }
-        ],
-        "2": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1100"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "7162"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "813"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1403"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "622"
-            }
-          }
-        ],
-        "5": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1682"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "16164"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1008"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1914"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1073"
-            }
-          }
-        ],
-        "4": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "2783"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "16066"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1781"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "3571"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1852"
-            }
-          }
-        ],
-        "6": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1807"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "12583"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1004"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1265"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "985"
-            }
-          }
-        ]
-      }
-    },
-    "name": "School Incidents Pie",
-    "type": "pie"
-  },
-  {
     "category": "Child Welfare",
     "config": {
       "width": 12,
       "title": "Treatment by Age and Race",
       "header_offset": true,
       "height": 3,
-      "source": "CONNECT",
+      "source": "US Census; Calcuations by CT Dept of Children and Families",
       "footnotes": [
         "Pop - 2010 Decennial Census Population.",
         "Tx - Estimated number of individuals needing treatment for a serious emotional disturbance.",
@@ -3859,7 +3859,7 @@
   {
     "category": "Child Welfare",
     "config": {
-      "source": "CONNECT",
+      "source": "US Census; Calcuations by CT Dept of Children and Families",
       "color": "",
       "title": "Number of Children in Need of Treatment: By Age Group and Race, 2010",
       "height": 6,
@@ -4521,7 +4521,7 @@
   {
     "category": "Child Welfare",
     "config": {
-      "source": "CONNECT",
+      "source": "US Census; Calcuations by CT Dept of Children and Families",
       "color": "",
       "title": "Children in Need of Treatment by Age",
       "height": 5,
@@ -4690,7 +4690,7 @@
   {
     "category": "Child Welfare",
     "config": {
-      "source": "CONNECT",
+      "source": "US Census; Calcuations by CT Dept of Children and Families",
       "color": "",
       "title": "Children in Need of Treatment by Race",
       "height": 5,
@@ -4836,7 +4836,7 @@
     "config": {
       "source": "CT Office of Early Childhood",
       "color": "",
-      "title": "Number of Birth to Three Interactions, 2012",
+      "title": "Birth to Three Services, 2012",
       "height": 3,
       "width": 12,
       "footnotes": [
@@ -5123,13 +5123,13 @@
     "config": {
       "source": "CT Office of Early Childhood",
       "color": "",
-      "title": "Birth to Three Interactions, Percent of Birth Cohort, 2012",
+      "title": "Birth to Three Services, Percent of Birth Cohort, 2012",
       "height": 3,
       "width": 12,
       "footnotes": [
         "IFSP - Individualized Family Service Plan",
         "ECSE - Early Childhood Special Education",
-        "Percents derived as the total number of children per their interaction with the Birth to Three system out of the total number of children born in 2012."
+        "Values represent the number of families recieving Birth to Three Services out of the total number of births."
       ],
       "grouping": ""
     },
@@ -11663,6 +11663,7 @@
       "title": "Fetal Mortality Rate, 5-Year Aggregation 2007-2011",
       "height": 5,
       "width": 6,
+      "ckan_url" : "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
       "footnotes": [
         "Rate per 1000 live births",
         "Fetal mortality occurs after 20 weeks of gestation and before labor.",
@@ -11867,6 +11868,7 @@
       "title": "Infant Mortality Rate, 5-Year Aggregation 2007-2011",
       "height": 5,
       "width": 6,
+      "ckan_url" : "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
       "footnotes": [
         "Rate per 1000 live births",
         "Infant mortality occurs before the first year of age and is a sum of Neonatal (the first 28 days after birth) and Postneonatal (from 28 days up to 1 year) mortality.",

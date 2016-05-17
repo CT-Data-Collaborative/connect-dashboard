@@ -6,7 +6,26 @@
         <div class="settings-section category-section row" ng-repeat="category in categories">
             <h5 id="{{ category | sluggify }}">{{ category }}</h5>
             <p>category notes</p>
-            <chart ng-repeat="chart in chartObjects | filter:{category: category}" data="chart" class="col-sm-{{chart.config.width}}" id="{{chart.name | sluggify}}"></chart>
+            <div class="chart-container col-xs-12 col-sm-{{chart.config.width}}" ng-repeat="chart in chartObjects | filter:{category: category}" >
+                <chart data="chart" id="{{chart.name | sluggify}}"></chart>
+                <div ng-if="chart.config.source&&chart.config.source!=''" class="source-block">
+                    {{ chart.config.source }}
+                    <span ng-if="chart.config.ckan_url&&chart.config.ckan_url!=''"> &mdash; </span>
+                    <a ng-if="chart.config.ckan_url&&chart.config.ckan_url!=''" ng-href="{{chart.config.ckan_url}}" target="_blank">
+                        Explore the Data <i class="fa fa-external-link"></i>
+                    </a>
+                </div>
+                <div ng-if="chart.config.footnotes&&chart.config.footnotes!=''" class="footnote-block">
+                    <!-- collaps toggle in some sort of header -->
+                    <p ng-click="collapsed[(chart.name|sluggify)]=!collapsed[(chart.name|sluggify)]">
+                        Notes <i class="fa" ng-class="{true: 'fa-minus', false : 'fa-plus'}[collapsed[(chart.name|sluggify)]||false]"></i>
+                    </p>
+                    <!-- actual content -->
+                    <ul class="footnote-list" ng-show="collapsed[(chart.name|sluggify)]">
+                        <li ng-repeat="footnote in chart.config.footnotes">{{ footnote }}</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,6 +1,61 @@
-chart {
-    svg {
+div.chart-container{
+    margin-bottom: 2rem;
 
+    div.source-block {
+
+        > a {
+            color: $ctdata-extra-dark-blue;
+            cursor: pointer;
+
+            i {
+                color: $ctdata-extra-dark-blue;
+                cursor: pointer;
+                text-decoration: inherit;
+            }
+        }
+    }
+    div.footnote-block {
+        font-size: smaller;
+        color: $extra-dark-grey;
+        background-color: $extra-light-grey;
+        border-radius: 0.25rem;
+
+        > p {
+            background-color: $ctdata-dark-blue;
+            border-radius: 0.25rem 0.25rem 0 0 ;
+            margin: 0;
+            color: white;
+            cursor: pointer;
+
+            i {
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        > ul {
+            &.ng-hide {
+                line-height: 0;
+                opacity: 0;
+            }
+
+            &.ng-show-add,
+            &.ng-hide-add {
+                -webkit-transition: all 0.25s ease;
+                -moz-transition: all 0.25s ease;
+                -ms-transition: all 0.25s ease;
+                -o-transition: all 0.25s ease;
+                transition: all 0.25s ease;
+            }
+        }
+    }
+}
+
+chart {
+    display: block;
+    width: 100%;
+
+    svg {
         /* Axis Styling */
         g.axis path {
             display: none;

@@ -30,12 +30,14 @@ function pieChart() {
 
     function chart(selection) {
         var $graphic = this[0][0];
-        var aspect_height = 12;
+        var aspect_height = 10;
         var aspect_width = 16;
         var mobile_threshold = 500;
+
         var margin = {top : 65, left : 20, bottom : 70, right : 20};
         var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
         var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
+        
         var radius = Math.min(height, width) / 2;
         var innerRadius = 0;
         var outerRadius = radius * 0.9;
