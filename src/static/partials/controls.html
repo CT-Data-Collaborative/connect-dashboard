@@ -16,7 +16,7 @@
         <div class="settings-section">
             <h5>Jump to Section:</h5>
             <!--  list of sections as buttons, triggers content scroll-->
-            <button class="btn btn-sm ctdata-btn" ng-repeat="category in categories" ng-click="scrollContent((category|sluggify))">{{ category }}</button>
+            <button class="btn btn-sm ctdata-btn" ng-repeat="category in categories" ng-click="scrollContent((category.name|sluggify))">{{ category.name }}</button>
         </div>
     </div>
 </div>

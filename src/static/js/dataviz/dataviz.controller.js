@@ -24,12 +24,34 @@ angular.module('app')
         $scope.selectedRegion = {'selected' : {'name' : 'Please Select a Region', 'id' : ''}};
 
         $scope.categories = [
-            'Demographics',
-            'Early Childhood',
-            'Education',
-            'Behavioral Health',
-            'Child Welfare',
-            'Juvenile Justice'
+            {
+                'name' : 'Behavioral Health',
+                'notes' : 'category notes'
+            },
+            {
+                'name' : 'Education',
+                'notes' : 'category notes'
+            },
+            {
+                'name' : 'Early Childhood',
+                'notes' : 'category notes'
+            },
+            {
+                'name' : 'Child Welfare',
+                'notes' : 'category notes'
+            },
+            {
+                'name' : 'Health',
+                'notes' : 'category notes'
+            },
+            {
+                'name' : 'Demographics',
+                'notes' : 'category notes'
+            },
+            {
+                'name' : 'Juvenile Justice',
+                'notes' : 'category notes'
+            }
         ];
 
         // -----------------------------------------

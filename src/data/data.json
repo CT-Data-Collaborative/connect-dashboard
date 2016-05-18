@@ -1,865 +1,6 @@
 [
   {
-    "category": "Education",
-    "config": {
-      "source": "CT State Dept of Education",
-      "color": "#5B771C",
-      "title": "Student Characteristics, 2013-2014",
-      "height": 3,
-      "width": 6,
-      "footnotes": "",
-      "grouping": ""
-    },
-    "data": {
-      "records": {
-        "1": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".376"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".105"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".067"
-            }
-          }
-        ],
-        "2": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".439"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".119"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".071"
-            }
-          }
-        ],
-        "3": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".315"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".125"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".036"
-            }
-          }
-        ],
-        "4": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".424"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".124"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".065"
-            }
-          }
-        ],
-        "5": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".369"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".125"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".067"
-            }
-          }
-        ],
-        "6": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".345"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".129"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".06"
-            }
-          }
-        ],
-        "State": [
-          {
-            "Eligible for Free or Reduced Lunch": {
-              "type": "percent",
-              "value": ".378"
-            }
-          },
-          {
-            "Recieving Special Education Services": {
-              "type": "percent",
-              "value": ".12"
-            }
-          },
-          {
-            "English Language Learner": {
-              "type": "percent",
-              "value": ".061"
-            }
-          }
-        ]
-      }
-    },
-    "name": "Student Characteristics",
-    "type": "bar"
-  },
-  {
-    "category": "Education",
-    "config": {
-      "source": "CT State Dept of Education",
-      "color": "#A05D56",
-      "title": "School Sanctions by Type, 2012-2013",
-      "height": 3,
-      "width": 6,
-      "footnotes": "",
-      "grouping": ""
-    },
-    "data": {
-      "records": {
-        "1": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "8746"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "5585"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "163"
-            }
-          }
-        ],
-        "2": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "6318"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "4416"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "157"
-            }
-          }
-        ],
-        "3": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "8199"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "3905"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "83"
-            }
-          }
-        ],
-        "4": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "13005"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "9237"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "196"
-            }
-          }
-        ],
-        "5": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "13332"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "8091"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "59"
-            }
-          }
-        ],
-        "6": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "12081"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "4681"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "52"
-            }
-          }
-        ],
-        "State": [
-          {
-            "In School Suspensions": {
-              "type": "integer",
-              "value": "61681"
-            }
-          },
-          {
-            "Out of School Suspensions": {
-              "type": "integer",
-              "value": "35915"
-            }
-          },
-          {
-            "Expulsions": {
-              "type": "integer",
-              "value": "710"
-            }
-          }
-        ]
-      }
-    },
-    "name": "Sanctions by Type",
-    "type": "bar"
-  },
-  {
-    "category": "Education",
-    "config": {
-      "source": "CT State Dept of Education",
-      "color": "#F67C92",
-      "title": "Substance-Related School Suspensions and Expulsions, 2009",
-      "height": 3,
-      "width": 6,
-      "footnotes": "",
-      "grouping": ""
-    },
-    "data": {
-      "records": {
-        "1": [
-          {
-            "Tobacco": {
-              "type": "integer",
-              "value": "92"
-            }
-          },
-          {
-            "Alcohol": {
-              "type": "integer",
-              "value": "140"
-            }
-          },
-          {
-            "Illegal Drugs": {
-              "type": "integer",
-              "value": "178"
-            }
-          },
-          {
-            "Prescription Drugs": {
-              "type": "integer",
-              "value": "7"
-            }
-          }
-        ],
-        "2": [
-          {
-            "Tobacco": {
-              "type": "integer",
-              "value": "208"
-            }
-          },
-          {
-            "Alcohol": {
-              "type": "integer",
-              "value": "41"
-            }
-          },
-          {
-            "Illegal Drugs": {
-              "type": "integer",
-              "value": "130"
-            }
-          },
-          {
-            "Prescription Drugs": {
-              "type": "integer",
-              "value": "4"
-            }
-          }
-        ],
-        "3": [
-          {
-            "Tobacco": {
-              "type": "integer",
-              "value": "234"
-            }
-          },
-          {
-            "Alcohol": {
-              "type": "integer",
-              "value": "79"
-            }
-          },
-          {
-            "Illegal Drugs": {
-              "type": "integer",
-              "value": "177"
-            }
-          },
-          {
-            "Prescription Drugs": {
-              "type": "integer",
-              "value": "26"
-            }
-          }
-        ],
-        "4": [
-          {
-            "Tobacco": {
-              "type": "integer",
-              "value": "143"
-            }
-          },
-          {
-            "Alcohol": {
-              "type": "integer",
-              "value": "63"
-            }
-          },
-          {
-            "Illegal Drugs": {
-              "type": "integer",
-              "value": "241"
-            }
-          },
-          {
-            "Prescription Drugs": {
-              "type": "integer",
-              "value": "24"
-            }
-          }
-        ],
-        "5": [
-          {
-            "Tobacco": {
-              "type": "integer",
-              "value": "284"
-            }
-          },
-          {
-            "Alcohol": {
-              "type": "integer",
-              "value": "107"
-            }
-          },
-          {
-            "Illegal Drugs": {
-              "type": "integer",
-              "value": "158"
-            }
-          },
-          {
-            "Prescription Drugs": {
-              "type": "integer",
-              "value": "35"
-            }
-          }
-        ],
-        "6": [
-          {
-            "Tobacco": {
-              "type": "integer",
-              "value": "159"
-            }
-          },
-          {
-            "Alcohol": {
-              "type": "integer",
-              "value": "70"
-            }
-          },
-          {
-            "Illegal Drugs": {
-              "type": "integer",
-              "value": "151"
-            }
-          },
-          {
-            "Prescription Drugs": {
-              "type": "integer",
-              "value": "22"
-            }
-          }
-        ]
-      }
-    },
-    "name": "Sanctions by Substance",
-    "type": "bar"
-  },
-  {
-    "category": "Education",
-    "config": {
-      "source": "CT State Dept of Education",
-      "color": "",
-      "title": "School Incidents by Type",
-      "height": 5,
-      "width": 6,
-      "footnotes": "",
-      "order": [
-        "School Policy Violations",
-        "Personally Threatening Behavior",
-        "Physical and Verbal Confrontation",
-        "Fighting and Battery",
-        "Other"
-      ],
-      "grouping": ""
-    },
-    "data": {
-      "records": {
-        "1": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1971"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "15835"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1451"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "2951"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1073"
-            }
-          }
-        ],
-        "3": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1608"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "8185"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "987"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1509"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1138"
-            }
-          }
-        ],
-        "2": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1100"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "7162"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "813"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1403"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "622"
-            }
-          }
-        ],
-        "5": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1682"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "16164"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1008"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1914"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1073"
-            }
-          }
-        ],
-        "4": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "2783"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "16066"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1781"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "3571"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "1852"
-            }
-          }
-        ],
-        "6": [
-          {
-            "Physical and Verbal Confrontation": {
-              "type": "integer",
-              "value": "1807"
-            },
-            "School Policy Violations": {
-              "type": "integer",
-              "value": "12583"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1004"
-            },
-            "Fighting and Battery": {
-              "type": "integer",
-              "value": "1265"
-            },
-            "Personally Threatening Behavior": {
-              "type": "integer",
-              "value": "985"
-            }
-          }
-        ]
-      }
-    },
-    "name": "School Incidents Pie",
-    "type": "pie"
-  },
-  {
-    "category": "Education",
-    "config": {
-      "source": "CT State Dept of Education",
-      "color": "#7B6888",
-      "title": "Percent of All Students Involved in Incidents by Race, 2012-2013",
-      "height": 3,
-      "width": 6,
-      "footnotes": "",
-      "grouping": ""
-    },
-    "data": {
-      "records": {
-        "1": [
-          {
-            "Black": {
-              "type": "percent",
-              "value": "0.169"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "percent",
-              "value": "0.089"
-            }
-          },
-          {
-            "White": {
-              "type": "percent",
-              "value": "0.020"
-            }
-          },
-          {
-            "Other": {
-              "type": "percent",
-              "value": "0.021"
-            }
-          }
-        ],
-        "2": [
-          {
-            "Black": {
-              "type": "percent",
-              "value": "0.140"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "percent",
-              "value": "0.080"
-            }
-          },
-          {
-            "White": {
-              "type": "percent",
-              "value": "0.050"
-            }
-          },
-          {
-            "Other": {
-              "type": "percent",
-              "value": "0.030"
-            }
-          }
-        ],
-        "3": [
-          {
-            "Black": {
-              "type": "percent",
-              "value": "0.170"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "percent",
-              "value": "0.130"
-            }
-          },
-          {
-            "White": {
-              "type": "percent",
-              "value": "0.050"
-            }
-          },
-          {
-            "Other": {
-              "type": "percent",
-              "value": "0.060"
-            }
-          }
-        ],
-        "4": [
-          {
-            "Black": {
-              "type": "percent",
-              "value": "0.190"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "percent",
-              "value": "0.160"
-            }
-          },
-          {
-            "White": {
-              "type": "percent",
-              "value": "0.050"
-            }
-          },
-          {
-            "Other": {
-              "type": "percent",
-              "value": "0.050"
-            }
-          }
-        ],
-        "5": [
-          {
-            "Black": {
-              "type": "percent",
-              "value": "0.240"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "percent",
-              "value": "0.160"
-            }
-          },
-          {
-            "White": {
-              "type": "percent",
-              "value": "0.050"
-            }
-          },
-          {
-            "Other": {
-              "type": "percent",
-              "value": "0.070"
-            }
-          }
-        ],
-        "6": [
-          {
-            "Black": {
-              "type": "percent",
-              "value": "0.190"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "percent",
-              "value": "0.160"
-            }
-          },
-          {
-            "White": {
-              "type": "percent",
-              "value": "0.040"
-            }
-          },
-          {
-            "Other": {
-              "type": "percent",
-              "value": "0.040"
-            }
-          }
-        ],
-        "State": [
-          {
-            "Black": {
-              "type": "percent",
-              "value": "0.175"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "percent",
-              "value": "0.127"
-            }
-          },
-          {
-            "White": {
-              "type": "percent",
-              "value": "0.043"
-            }
-          },
-          {
-            "Other": {
-              "type": "percent",
-              "value": "0.043"
-            }
-          }
-        ]
-      }
-    },
-    "name": "Percent Incidents by Race",
-    "type": "bar"
-  },
-  {
-    "category": "Child Welfare",
+    "category": "Behavioral Health",
     "config": {
       "width": 12,
       "title": "Treatment by Age and Race",
@@ -911,15 +52,15 @@
             },
             {
               "type": "string",
-              "value": "Pop"
+              "value": "Pop*"
             },
             {
               "type": "string",
-              "value": "Tx"
+              "value": "Tx*"
             },
             {
               "type": "string",
-              "value": "Life"
+              "value": "Life*"
             },
             {
               "type": "string",
@@ -1219,7 +360,7 @@
           [
             {
               "type": "string",
-              "value": "Other"
+              "value": "Other*"
             },
             {
               "type": "integer",
@@ -1407,15 +548,15 @@
             },
             {
               "type": "string",
-              "value": "Pop"
+              "value": "Pop*"
             },
             {
               "type": "string",
-              "value": "Tx"
+              "value": "Tx*"
             },
             {
               "type": "string",
-              "value": "Life"
+              "value": "Life*"
             },
             {
               "type": "string",
@@ -1715,7 +856,7 @@
           [
             {
               "type": "string",
-              "value": "Other"
+              "value": "Other*"
             },
             {
               "type": "integer",
@@ -1903,15 +1044,15 @@
             },
             {
               "type": "string",
-              "value": "Pop"
+              "value": "Pop*"
             },
             {
               "type": "string",
-              "value": "Tx"
+              "value": "Tx*"
             },
             {
               "type": "string",
-              "value": "Life"
+              "value": "Life*"
             },
             {
               "type": "string",
@@ -2211,7 +1352,7 @@
           [
             {
               "type": "string",
-              "value": "Other"
+              "value": "Other*"
             },
             {
               "type": "integer",
@@ -2399,15 +1540,15 @@
             },
             {
               "type": "string",
-              "value": "Pop"
+              "value": "Pop*"
             },
             {
               "type": "string",
-              "value": "Tx"
+              "value": "Tx*"
             },
             {
               "type": "string",
-              "value": "Life"
+              "value": "Life*"
             },
             {
               "type": "string",
@@ -2707,7 +1848,7 @@
           [
             {
               "type": "string",
-              "value": "Other"
+              "value": "Other*"
             },
             {
               "type": "integer",
@@ -2895,15 +2036,15 @@
             },
             {
               "type": "string",
-              "value": "Pop"
+              "value": "Pop*"
             },
             {
               "type": "string",
-              "value": "Tx"
+              "value": "Tx*"
             },
             {
               "type": "string",
-              "value": "Life"
+              "value": "Life*"
             },
             {
               "type": "string",
@@ -3203,7 +2344,7 @@
           [
             {
               "type": "string",
-              "value": "Other"
+              "value": "Other*"
             },
             {
               "type": "integer",
@@ -3391,15 +2532,15 @@
             },
             {
               "type": "string",
-              "value": "Pop"
+              "value": "Pop*"
             },
             {
               "type": "string",
-              "value": "Tx"
+              "value": "Tx*"
             },
             {
               "type": "string",
-              "value": "Life"
+              "value": "Life*"
             },
             {
               "type": "string",
@@ -3699,7 +2840,7 @@
           [
             {
               "type": "string",
-              "value": "Other"
+              "value": "Other*"
             },
             {
               "type": "integer",
@@ -3852,17 +2993,513 @@
               "value": "2132"
             }
           ]
+        ],
+        "State": [
+          [
+            {
+              "type": "string",
+              "value": "0 - 21"
+            },
+            {
+              "type": "string",
+              "value": "0 - 5"
+            },
+            {
+              "type": "string",
+              "value": "6 - 9"
+            },
+            {
+              "type": "string",
+              "value": "10 - 15"
+            },
+            {
+              "type": "string",
+              "value": "16 - 19"
+            },
+            {
+              "type": "string",
+              "value": "20 - 21"
+            }
+          ],
+          [
+            {
+              "type": "string",
+              "value": "Race"
+            },
+            {
+              "type": "string",
+              "value": "Pop*"
+            },
+            {
+              "type": "string",
+              "value": "Tx*"
+            },
+            {
+              "type": "string",
+              "value": "Life*"
+            },
+            {
+              "type": "string",
+              "value": "Pop"
+            },
+            {
+              "type": "string",
+              "value": "Tx"
+            },
+            {
+              "type": "string",
+              "value": "Life"
+            },
+            {
+              "type": "string",
+              "value": "Pop"
+            },
+            {
+              "type": "string",
+              "value": "Tx"
+            },
+            {
+              "type": "string",
+              "value": "Life"
+            },
+            {
+              "type": "string",
+              "value": "Pop"
+            },
+            {
+              "type": "string",
+              "value": "Tx"
+            },
+            {
+              "type": "string",
+              "value": "Life"
+            },
+            {
+              "type": "string",
+              "value": "Pop"
+            },
+            {
+              "type": "string",
+              "value": "Tx"
+            },
+            {
+              "type": "string",
+              "value": "Life"
+            },
+            {
+              "type": "string",
+              "value": "Pop"
+            },
+            {
+              "type": "string",
+              "value": "Tx"
+            },
+            {
+              "type": "string",
+              "value": "Life"
+            }
+          ],
+          [
+            {
+              "type": "string",
+              "value": "White"
+            },
+            {
+              "type": "integer",
+              "value": "620452"
+            },
+            {
+              "type": "integer",
+              "value": "44050"
+            },
+            {
+              "type": "integer",
+              "value": "124090"
+            },
+            {
+              "type": "integer",
+              "value": "137618"
+            },
+            {
+              "type": "integer",
+              "value": "9772"
+            },
+            {
+              "type": "integer",
+              "value": "27522"
+            },
+            {
+              "type": "integer",
+              "value": "110078"
+            },
+            {
+              "type": "integer",
+              "value": "7816"
+            },
+            {
+              "type": "integer",
+              "value": "22016"
+            },
+            {
+              "type": "integer",
+              "value": "185437"
+            },
+            {
+              "type": "integer",
+              "value": "13167"
+            },
+            {
+              "type": "integer",
+              "value": "37088"
+            },
+            {
+              "type": "integer",
+              "value": "128261"
+            },
+            {
+              "type": "integer",
+              "value": "9107"
+            },
+            {
+              "type": "integer",
+              "value": "25653"
+            },
+            {
+              "type": "integer",
+              "value": "59058"
+            },
+            {
+              "type": "integer",
+              "value": "4194"
+            },
+            {
+              "type": "integer",
+              "value": "11811"
+            }
+          ],
+          [
+            {
+              "type": "string",
+              "value": "Black"
+            },
+            {
+              "type": "integer",
+              "value": "113638"
+            },
+            {
+              "type": "integer",
+              "value": "8070"
+            },
+            {
+              "type": "integer",
+              "value": "22727"
+            },
+            {
+              "type": "integer",
+              "value": "26567"
+            },
+            {
+              "type": "integer",
+              "value": "1886"
+            },
+            {
+              "type": "integer",
+              "value": "5313"
+            },
+            {
+              "type": "integer",
+              "value": "18821"
+            },
+            {
+              "type": "integer",
+              "value": "1336"
+            },
+            {
+              "type": "integer",
+              "value": "3763"
+            },
+            {
+              "type": "integer",
+              "value": "31922"
+            },
+            {
+              "type": "integer",
+              "value": "2268"
+            },
+            {
+              "type": "integer",
+              "value": "6385"
+            },
+            {
+              "type": "integer",
+              "value": "24437"
+            },
+            {
+              "type": "integer",
+              "value": "1737"
+            },
+            {
+              "type": "integer",
+              "value": "4887"
+            },
+            {
+              "type": "integer",
+              "value": "11891"
+            },
+            {
+              "type": "integer",
+              "value": "845"
+            },
+            {
+              "type": "integer",
+              "value": "2378"
+            }
+          ],
+          [
+            {
+              "type": "string",
+              "value": "Hispanic"
+            },
+            {
+              "type": "integer",
+              "value": "195413"
+            },
+            {
+              "type": "integer",
+              "value": "13874"
+            },
+            {
+              "type": "integer",
+              "value": "39083"
+            },
+            {
+              "type": "integer",
+              "value": "55929"
+            },
+            {
+              "type": "integer",
+              "value": "3971"
+            },
+            {
+              "type": "integer",
+              "value": "11185"
+            },
+            {
+              "type": "integer",
+              "value": "34751"
+            },
+            {
+              "type": "integer",
+              "value": "2467"
+            },
+            {
+              "type": "integer",
+              "value": "6949"
+            },
+            {
+              "type": "integer",
+              "value": "51933"
+            },
+            {
+              "type": "integer",
+              "value": "3687"
+            },
+            {
+              "type": "integer",
+              "value": "10386"
+            },
+            {
+              "type": "integer",
+              "value": "35492"
+            },
+            {
+              "type": "integer",
+              "value": "2520"
+            },
+            {
+              "type": "integer",
+              "value": "7099"
+            },
+            {
+              "type": "integer",
+              "value": "17311"
+            },
+            {
+              "type": "integer",
+              "value": "1230"
+            },
+            {
+              "type": "integer",
+              "value": "3462"
+            }
+          ],
+          [
+            {
+              "type": "string",
+              "value": "Other*"
+            },
+            {
+              "type": "integer",
+              "value": "80677"
+            },
+            {
+              "type": "integer",
+              "value": "5728"
+            },
+            {
+              "type": "integer",
+              "value": "16135"
+            },
+            {
+              "type": "integer",
+              "value": "25262"
+            },
+            {
+              "type": "integer",
+              "value": "1793"
+            },
+            {
+              "type": "integer",
+              "value": "5053"
+            },
+            {
+              "type": "integer",
+              "value": "15599"
+            },
+            {
+              "type": "integer",
+              "value": "1108"
+            },
+            {
+              "type": "integer",
+              "value": "3120"
+            },
+            {
+              "type": "integer",
+              "value": "20921"
+            },
+            {
+              "type": "integer",
+              "value": "1487"
+            },
+            {
+              "type": "integer",
+              "value": "4184"
+            },
+            {
+              "type": "integer",
+              "value": "12696"
+            },
+            {
+              "type": "integer",
+              "value": "902"
+            },
+            {
+              "type": "integer",
+              "value": "2539"
+            },
+            {
+              "type": "integer",
+              "value": "6199"
+            },
+            {
+              "type": "integer",
+              "value": "440"
+            },
+            {
+              "type": "integer",
+              "value": "1241"
+            }
+          ],
+          [
+            {
+              "type": "string",
+              "value": "Total"
+            },
+            {
+              "type": "integer",
+              "value": "1010183"
+            },
+            {
+              "type": "integer",
+              "value": "71726"
+            },
+            {
+              "type": "integer",
+              "value": "202035"
+            },
+            {
+              "type": "integer",
+              "value": "245376"
+            },
+            {
+              "type": "integer",
+              "value": "17421"
+            },
+            {
+              "type": "integer",
+              "value": "49075"
+            },
+            {
+              "type": "integer",
+              "value": "179249"
+            },
+            {
+              "type": "integer",
+              "value": "12728"
+            },
+            {
+              "type": "integer",
+              "value": "35850"
+            },
+            {
+              "type": "integer",
+              "value": "290213"
+            },
+            {
+              "type": "integer",
+              "value": "20607"
+            },
+            {
+              "type": "integer",
+              "value": "58044"
+            },
+            {
+              "type": "integer",
+              "value": "200886"
+            },
+            {
+              "type": "integer",
+              "value": "14263"
+            },
+            {
+              "type": "integer",
+              "value": "40177"
+            },
+            {
+              "type": "integer",
+              "value": "94459"
+            },
+            {
+              "type": "integer",
+              "value": "6707"
+            },
+            {
+              "type": "integer",
+              "value": "18893"
+            }
+          ]
         ]
       }
     }
   },
   {
-    "category": "Child Welfare",
+    "category": "Behavioral Health",
     "config": {
       "source": "US Census; Calcuations by CT Dept of Children and Families",
       "color": "",
       "title": "Number of Children in Need of Treatment: By Age Group and Race, 2010",
-      "height": 6,
+      "height": 3,
       "width": 12,
       "footnotes": "",
       "grouping": "Age"
@@ -4519,7 +4156,7 @@
     "type": "groupedbar"
   },
   {
-    "category": "Child Welfare",
+    "category": "Behavioral Health",
     "config": {
       "source": "US Census; Calcuations by CT Dept of Children and Families",
       "color": "",
@@ -4538,6 +4175,30 @@
     },
     "data": {
       "records": {
+        "State": [
+          {
+            "16 - 19": {
+              "type": "integer",
+              "value": "14263"
+            },
+            "20 - 21": {
+              "type": "integer",
+              "value": "6707"
+            },
+            "10 - 15": {
+              "type": "integer",
+              "value": "20607"
+            },
+            "6 - 9": {
+              "type": "integer",
+              "value": "12728"
+            },
+            "0 - 5": {
+              "type": "integer",
+              "value": "17421"
+            }
+          }
+        ],
         "1": [
           {
             "16 - 19": {
@@ -4688,14 +4349,16 @@
     "type": "pie"
   },
   {
-    "category": "Child Welfare",
+    "category": "Behavioral Health",
     "config": {
       "source": "US Census; Calcuations by CT Dept of Children and Families",
       "color": "",
       "title": "Children in Need of Treatment by Race",
       "height": 5,
       "width": 6,
-      "footnotes": "",
+      "footnotes": [
+        "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."
+      ],
       "order": [
         "White",
         "Black",
@@ -4706,15 +4369,31 @@
     },
     "data": {
       "records": {
+        "State": [
+          {
+            "Hispanic": {
+              "type": "integer",
+              "value": "13874"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "8070"
+            },
+            "White": {
+              "type": "integer",
+              "value": "44050"
+            },
+            "Other*": {
+              "type": "integer",
+              "value": "5728"
+            }
+          }
+        ],
         "1": [
           {
             "Hispanic": {
               "type": "integer",
               "value": "3328"
-            },
-            "Other": {
-              "type": "integer",
-              "value": "1130"
             },
             "Black": {
               "type": "integer",
@@ -4723,6 +4402,10 @@
             "White": {
               "type": "integer",
               "value": "7844"
+            },
+            "Other*": {
+              "type": "integer",
+              "value": "1130"
             }
           }
         ],
@@ -4732,10 +4415,6 @@
               "type": "integer",
               "value": "1473"
             },
-            "Other": {
-              "type": "integer",
-              "value": "1128"
-            },
             "Black": {
               "type": "integer",
               "value": "600"
@@ -4743,6 +4422,10 @@
             "White": {
               "type": "integer",
               "value": "9907"
+            },
+            "Other*": {
+              "type": "integer",
+              "value": "1128"
             }
           }
         ],
@@ -4752,10 +4435,6 @@
               "type": "integer",
               "value": "2017"
             },
-            "Other": {
-              "type": "integer",
-              "value": "842"
-            },
             "Black": {
               "type": "integer",
               "value": "1847"
@@ -4763,6 +4442,10 @@
             "White": {
               "type": "integer",
               "value": "5426"
+            },
+            "Other*": {
+              "type": "integer",
+              "value": "842"
             }
           }
         ],
@@ -4772,10 +4455,6 @@
               "type": "integer",
               "value": "2205"
             },
-            "Other": {
-              "type": "integer",
-              "value": "890"
-            },
             "Black": {
               "type": "integer",
               "value": "779"
@@ -4783,6 +4462,10 @@
             "White": {
               "type": "integer",
               "value": "8409"
+            },
+            "Other*": {
+              "type": "integer",
+              "value": "890"
             }
           }
         ],
@@ -4792,10 +4475,6 @@
               "type": "integer",
               "value": "2798"
             },
-            "Other": {
-              "type": "integer",
-              "value": "1050"
-            },
             "Black": {
               "type": "integer",
               "value": "2303"
@@ -4803,6 +4482,10 @@
             "White": {
               "type": "integer",
               "value": "6211"
+            },
+            "Other*": {
+              "type": "integer",
+              "value": "1050"
             }
           }
         ],
@@ -4812,10 +4495,6 @@
               "type": "integer",
               "value": "2053"
             },
-            "Other": {
-              "type": "integer",
-              "value": "688"
-            },
             "Black": {
               "type": "integer",
               "value": "491"
@@ -4823,6 +4502,10 @@
             "White": {
               "type": "integer",
               "value": "6253"
+            },
+            "Other*": {
+              "type": "integer",
+              "value": "688"
             }
           }
         ]
@@ -4832,18 +4515,928 @@
     "type": "pie"
   },
   {
-    "category": "Child Welfare",
+    "category": "Education",
+    "config": {
+      "source": "CT State Dept of Education",
+      "color": "#5B771C",
+      "title": "Student Characteristics, 2013-2014",
+      "height": 4,
+      "width": 6,
+      "footnotes": "",
+      "grouping": "",
+      "ckan_url" : "http://data.ctdata.org/visualization/educational-need"
+    },
+    "data": {
+      "records": {
+        "1": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".376"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".105"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".067"
+            }
+          }
+        ],
+        "2": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".439"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".119"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".071"
+            }
+          }
+        ],
+        "3": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".315"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".125"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".036"
+            }
+          }
+        ],
+        "4": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".424"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".124"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".065"
+            }
+          }
+        ],
+        "5": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".369"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".125"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".067"
+            }
+          }
+        ],
+        "6": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".345"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".129"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".06"
+            }
+          }
+        ],
+        "State": [
+          {
+            "Eligible for Free or Reduced Lunch": {
+              "type": "percent",
+              "value": ".378"
+            }
+          },
+          {
+            "Recieving Special Education Services": {
+              "type": "percent",
+              "value": ".12"
+            }
+          },
+          {
+            "English Language Learner": {
+              "type": "percent",
+              "value": ".061"
+            }
+          }
+        ]
+      }
+    },
+    "name": "Student Characteristics",
+    "type": "bar"
+  },
+  {
+    "category": "Education",
+    "config": {
+      "source": "CT State Dept of Education",
+      "color": "#F67C92",
+      "title": "Substance-Related School Suspensions and Expulsions, 2009",
+      "height": 4,
+      "width": 6,
+      "footnotes": "",
+      "grouping": ""
+    },
+    "data": {
+      "records": {
+        "State": [
+          {
+            "Alcohol": {
+              "type": "integer",
+              "value": "500"
+            }
+          },
+          {
+            "Illegal Drugs": {
+              "type": "integer",
+              "value": "1035"
+            }
+          },
+          {
+            "Prescription Drugs": {
+              "type": "integer",
+              "value": "117"
+            }
+          },
+          {
+            "Tobacco": {
+              "type": "integer",
+              "value": "1106"
+            }
+          }
+        ],
+        "1": [
+          {
+            "Alcohol": {
+              "type": "integer",
+              "value": "140"
+            }
+          },
+          {
+            "Illegal Drugs": {
+              "type": "integer",
+              "value": "178"
+            }
+          },
+          {
+            "Prescription Drugs": {
+              "type": "integer",
+              "value": "7"
+            }
+          },
+          {
+            "Tobacco": {
+              "type": "integer",
+              "value": "92"
+            }
+          }
+        ],
+        "3": [
+          {
+            "Alcohol": {
+              "type": "integer",
+              "value": "71"
+            }
+          },
+          {
+            "Illegal Drugs": {
+              "type": "integer",
+              "value": "175"
+            }
+          },
+          {
+            "Prescription Drugs": {
+              "type": "integer",
+              "value": "25"
+            }
+          },
+          {
+            "Tobacco": {
+              "type": "integer",
+              "value": "227"
+            }
+          }
+        ],
+        "2": [
+          {
+            "Alcohol": {
+              "type": "integer",
+              "value": "41"
+            }
+          },
+          {
+            "Illegal Drugs": {
+              "type": "integer",
+              "value": "136"
+            }
+          },
+          {
+            "Prescription Drugs": {
+              "type": "integer",
+              "value": "4"
+            }
+          },
+          {
+            "Tobacco": {
+              "type": "integer",
+              "value": "208"
+            }
+          }
+        ],
+        "5": [
+          {
+            "Alcohol": {
+              "type": "integer",
+              "value": "107"
+            }
+          },
+          {
+            "Illegal Drugs": {
+              "type": "integer",
+              "value": "154"
+            }
+          },
+          {
+            "Prescription Drugs": {
+              "type": "integer",
+              "value": "35"
+            }
+          },
+          {
+            "Tobacco": {
+              "type": "integer",
+              "value": "276"
+            }
+          }
+        ],
+        "4": [
+          {
+            "Alcohol": {
+              "type": "integer",
+              "value": "71"
+            }
+          },
+          {
+            "Illegal Drugs": {
+              "type": "integer",
+              "value": "241"
+            }
+          },
+          {
+            "Prescription Drugs": {
+              "type": "integer",
+              "value": "24"
+            }
+          },
+          {
+            "Tobacco": {
+              "type": "integer",
+              "value": "144"
+            }
+          }
+        ],
+        "6": [
+          {
+            "Alcohol": {
+              "type": "integer",
+              "value": "70"
+            }
+          },
+          {
+            "Illegal Drugs": {
+              "type": "integer",
+              "value": "151"
+            }
+          },
+          {
+            "Prescription Drugs": {
+              "type": "integer",
+              "value": "22"
+            }
+          },
+          {
+            "Tobacco": {
+              "type": "integer",
+              "value": "159"
+            }
+          }
+        ]
+      }
+    },
+    "name": "Sanctions by Substance",
+    "type": "bar"
+  },
+  {
+    "category": "Education",
+    "config": {
+      "source": "CT State Dept of Education",
+      "color": "#A05D56",
+      "title": "School Sanctions by Type, 2012-2013",
+      "height": 4,
+      "width": 6,
+      "footnotes": "",
+      "grouping": ""
+    },
+    "data": {
+      "records": {
+        "1": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "8746"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "5585"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "163"
+            }
+          }
+        ],
+        "2": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "6318"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "4416"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "157"
+            }
+          }
+        ],
+        "3": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "8199"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "3905"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "83"
+            }
+          }
+        ],
+        "4": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "13005"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "9237"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "196"
+            }
+          }
+        ],
+        "5": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "13332"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "8091"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "59"
+            }
+          }
+        ],
+        "6": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "12081"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "4681"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "52"
+            }
+          }
+        ],
+        "State": [
+          {
+            "In School Suspensions": {
+              "type": "integer",
+              "value": "61681"
+            }
+          },
+          {
+            "Out of School Suspensions": {
+              "type": "integer",
+              "value": "35915"
+            }
+          },
+          {
+            "Expulsions": {
+              "type": "integer",
+              "value": "710"
+            }
+          }
+        ]
+      }
+    },
+    "name": "Sanctions by Type",
+    "type": "bar"
+  },
+  {
+    "category": "Education",
+    "config": {
+      "source": "CT State Dept of Education",
+      "color": "#7B6888",
+      "title": "Percent of All Students Involved in Incidents by Race, 2012-2013",
+      "height": 3,
+      "width": 6,
+      "footnotes": "",
+      "grouping": "",
+      "ckan_url" : "http://data.ctdata.org/visualization/suspension-rate-by-race"
+    },
+    "data": {
+      "records": {
+        "1": [
+          {
+            "Black": {
+              "type": "percent",
+              "value": "0.169"
+            }
+          },
+          {
+            "Hispanic": {
+              "type": "percent",
+              "value": "0.089"
+            }
+          },
+          {
+            "White": {
+              "type": "percent",
+              "value": "0.020"
+            }
+          },
+          {
+            "Other": {
+              "type": "percent",
+              "value": "0.021"
+            }
+          }
+        ],
+        "2": [
+          {
+            "Black": {
+              "type": "percent",
+              "value": "0.140"
+            }
+          },
+          {
+            "Hispanic": {
+              "type": "percent",
+              "value": "0.080"
+            }
+          },
+          {
+            "White": {
+              "type": "percent",
+              "value": "0.050"
+            }
+          },
+          {
+            "Other": {
+              "type": "percent",
+              "value": "0.030"
+            }
+          }
+        ],
+        "3": [
+          {
+            "Black": {
+              "type": "percent",
+              "value": "0.170"
+            }
+          },
+          {
+            "Hispanic": {
+              "type": "percent",
+              "value": "0.130"
+            }
+          },
+          {
+            "White": {
+              "type": "percent",
+              "value": "0.050"
+            }
+          },
+          {
+            "Other": {
+              "type": "percent",
+              "value": "0.060"
+            }
+          }
+        ],
+        "4": [
+          {
+            "Black": {
+              "type": "percent",
+              "value": "0.190"
+            }
+          },
+          {
+            "Hispanic": {
+              "type": "percent",
+              "value": "0.160"
+            }
+          },
+          {
+            "White": {
+              "type": "percent",
+              "value": "0.050"
+            }
+          },
+          {
+            "Other": {
+              "type": "percent",
+              "value": "0.050"
+            }
+          }
+        ],
+        "5": [
+          {
+            "Black": {
+              "type": "percent",
+              "value": "0.240"
+            }
+          },
+          {
+            "Hispanic": {
+              "type": "percent",
+              "value": "0.160"
+            }
+          },
+          {
+            "White": {
+              "type": "percent",
+              "value": "0.050"
+            }
+          },
+          {
+            "Other": {
+              "type": "percent",
+              "value": "0.070"
+            }
+          }
+        ],
+        "6": [
+          {
+            "Black": {
+              "type": "percent",
+              "value": "0.190"
+            }
+          },
+          {
+            "Hispanic": {
+              "type": "percent",
+              "value": "0.160"
+            }
+          },
+          {
+            "White": {
+              "type": "percent",
+              "value": "0.040"
+            }
+          },
+          {
+            "Other": {
+              "type": "percent",
+              "value": "0.040"
+            }
+          }
+        ],
+        "State": [
+          {
+            "Black": {
+              "type": "percent",
+              "value": "0.175"
+            }
+          },
+          {
+            "Hispanic": {
+              "type": "percent",
+              "value": "0.127"
+            }
+          },
+          {
+            "White": {
+              "type": "percent",
+              "value": "0.043"
+            }
+          },
+          {
+            "Other": {
+              "type": "percent",
+              "value": "0.043"
+            }
+          }
+        ]
+      }
+    },
+    "name": "Percent Incidents by Race",
+    "type": "bar"
+  },
+  {
+    "category": "Education",
+    "config": {
+      "source": "CT State Dept of Education",
+      "color": "",
+      "title": "School Incidents by Type",
+      "height": 6,
+      "width": 6,
+      "footnotes": "",
+      "order": [
+        "School Policy Violations",
+        "Personally Threatening Behavior",
+        "Physical and Verbal Confrontation",
+        "Fighting and Battery",
+        "Other"
+      ],
+      "grouping": ""
+    },
+    "data": {"records" : {
+      "State": [
+        {
+          "Physical and Verbal Confrontation": {
+            "type": "integer",
+            "value": "10951"
+          },
+          "School Policy Violations": {
+            "type": "integer",
+            "value": "75995"
+          },
+          "Other": {
+            "type": "integer",
+            "value": "7044"
+          },
+          "Fighting and Battery": {
+            "type": "integer",
+            "value": "12613"
+          },
+          "Personally Threatening Behavior": {
+            "type": "integer",
+            "value": "6743"
+          }
+        }
+      ],
+      "1": [
+        {
+          "Physical and Verbal Confrontation": {
+            "type": "integer",
+            "value": "1971"
+          },
+          "School Policy Violations": {
+            "type": "integer",
+            "value": "15835"
+          },
+          "Other": {
+            "type": "integer",
+            "value": "1451"
+          },
+          "Fighting and Battery": {
+            "type": "integer",
+            "value": "2951"
+          },
+          "Personally Threatening Behavior": {
+            "type": "integer",
+            "value": "1073"
+          }
+        }
+      ],
+      "3": [
+        {
+          "Physical and Verbal Confrontation": {
+            "type": "integer",
+            "value": "1608"
+          },
+          "School Policy Violations": {
+            "type": "integer",
+            "value": "8185"
+          },
+          "Other": {
+            "type": "integer",
+            "value": "987"
+          },
+          "Fighting and Battery": {
+            "type": "integer",
+            "value": "1509"
+          },
+          "Personally Threatening Behavior": {
+            "type": "integer",
+            "value": "1138"
+          }
+        }
+      ],
+      "2": [
+        {
+          "Physical and Verbal Confrontation": {
+            "type": "integer",
+            "value": "1100"
+          },
+          "School Policy Violations": {
+            "type": "integer",
+            "value": "7162"
+          },
+          "Other": {
+            "type": "integer",
+            "value": "813"
+          },
+          "Fighting and Battery": {
+            "type": "integer",
+            "value": "1403"
+          },
+          "Personally Threatening Behavior": {
+            "type": "integer",
+            "value": "622"
+          }
+        }
+      ],
+      "5": [
+        {
+          "Physical and Verbal Confrontation": {
+            "type": "integer",
+            "value": "1682"
+          },
+          "School Policy Violations": {
+            "type": "integer",
+            "value": "16164"
+          },
+          "Other": {
+            "type": "integer",
+            "value": "1008"
+          },
+          "Fighting and Battery": {
+            "type": "integer",
+            "value": "1914"
+          },
+          "Personally Threatening Behavior": {
+            "type": "integer",
+            "value": "1073"
+          }
+        }
+      ],
+      "4": [
+        {
+          "Physical and Verbal Confrontation": {
+            "type": "integer",
+            "value": "2783"
+          },
+          "School Policy Violations": {
+            "type": "integer",
+            "value": "16066"
+          },
+          "Other": {
+            "type": "integer",
+            "value": "1781"
+          },
+          "Fighting and Battery": {
+            "type": "integer",
+            "value": "3571"
+          },
+          "Personally Threatening Behavior": {
+            "type": "integer",
+            "value": "1852"
+          }
+        }
+      ],
+      "6": [
+        {
+          "Physical and Verbal Confrontation": {
+            "type": "integer",
+            "value": "1807"
+          },
+          "School Policy Violations": {
+            "type": "integer",
+            "value": "12583"
+          },
+          "Other": {
+            "type": "integer",
+            "value": "1004"
+          },
+          "Fighting and Battery": {
+            "type": "integer",
+            "value": "1265"
+          },
+          "Personally Threatening Behavior": {
+            "type": "integer",
+            "value": "985"
+          }
+        }
+      ]
+    }},
+    "name": "School Incidents Pie",
+    "type": "pie"
+  },
+  {
+    "category": "Early Childhood",
     "config": {
       "source": "CT Office of Early Childhood",
       "color": "",
-      "title": "Birth to Three Services, 2012",
-      "height": 3,
+      "title": "Birth to Three Services, 2012 Cohort",
+      "height": 5,
       "width": 12,
       "footnotes": [
         "IFSP - Individualized Family Service Plan",
         "ECSE - Early Childhood Special Education"
       ],
-      "grouping": ""
+      "grouping": "",
+      "ckan_url" : "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
     },
     "data": {
       "records": {
@@ -5119,19 +5712,20 @@
     "type": "bar"
   },
   {
-    "category": "Child Welfare",
+    "category": "Early Childhood",
     "config": {
       "source": "CT Office of Early Childhood",
       "color": "",
       "title": "Birth to Three Services, Percent of Birth Cohort, 2012",
-      "height": 3,
+      "height": 5,
       "width": 12,
       "footnotes": [
         "IFSP - Individualized Family Service Plan",
         "ECSE - Early Childhood Special Education",
         "Values represent the number of families recieving Birth to Three Services out of the total number of births."
       ],
-      "grouping": ""
+      "grouping": "",
+      "ckan_url" : "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
     },
     "data": {
       "records": {
@@ -5409,12 +6003,13 @@
   {
     "category": "Child Welfare",
     "config": {
+      "height": 6,
       "width": 8,
       "title": "Children in Placement, In State by Age SFY 2014",
       "header_offset": false,
-      "height": 6,
       "source": "CT Dept of Children and Families",
-      "footnotes": ""
+      "footnotes": "",
+      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-age"
     },
     "type": "simpletable",
     "name": "CIP In State Age Table",
@@ -8386,7 +8981,8 @@
       "height": 5,
       "width": 4,
       "footnotes": "",
-      "grouping": ""
+      "grouping": "",
+      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-age"
     },
     "data": {
       "records": {
@@ -8576,7 +9172,8 @@
         "#ff7f0e"
       ],
       "footnotes": "",
-      "grouping": "Type of Placement"
+      "grouping": "Type of Placement",
+      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-gender"
     },
     "data": {
       "records": {
@@ -9781,10 +10378,11 @@
       "source": "CT Dept of Children and Families",
       "color": "",
       "title": "Children in Placement by Race, In-State SFY 2014",
-      "height": 6,
+      "height": 5,
       "width": 12,
       "footnotes": "",
-      "grouping": "Type of Placement"
+      "grouping": "Type of Placement",
+      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-race-and-ethnicity"
     },
     "data": {
       "records": {
@@ -11656,14 +12254,14 @@
     "type": "stackedbar"
   },
   {
-    "category": "Child Welfare",
+    "category": "Health",
     "config": {
       "source": "CT Dept of Public Health",
       "color": "#F67C92",
       "title": "Fetal Mortality Rate, 5-Year Aggregation 2007-2011",
       "height": 5,
       "width": 6,
-      "ckan_url" : "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
+      "ckan_url": "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
       "footnotes": [
         "Rate per 1000 live births",
         "Fetal mortality occurs after 20 weeks of gestation and before labor.",
@@ -11861,14 +12459,14 @@
     "type": "bar"
   },
   {
-    "category": "Child Welfare",
+    "category": "Health",
     "config": {
       "source": "CT Dept of Public Health",
       "color": "#F67C92",
       "title": "Infant Mortality Rate, 5-Year Aggregation 2007-2011",
       "height": 5,
       "width": 6,
-      "ckan_url" : "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
+      "ckan_url": "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
       "footnotes": [
         "Rate per 1000 live births",
         "Infant mortality occurs before the first year of age and is a sum of Neonatal (the first 28 days after birth) and Postneonatal (from 28 days up to 1 year) mortality.",
