@@ -3501,572 +3501,22 @@
       "title": "Number of Children in Need of Treatment: By Age Group and Race, 2010",
       "height": 3,
       "width": 12,
-      "footnotes": "",
+      "footnotes": [
+        "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."
+      ],
       "grouping": "Age"
     },
     "data": {
       "records": {
-        "1": [
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "966"
-            },
-            "Age": {
-              "type": "string",
-              "value": "0 to 5"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "486"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1948"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "590"
-            },
-            "Age": {
-              "type": "string",
-              "value": "6 to 9"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "347"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1537"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "878"
-            },
-            "Age": {
-              "type": "string",
-              "value": "10 to 15"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "592"
-            },
-            "White": {
-              "type": "integer",
-              "value": "2466"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "595"
-            },
-            "Age": {
-              "type": "string",
-              "value": "16 to 19"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "433"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1400"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "299"
-            },
-            "Age": {
-              "type": "string",
-              "value": "20 to 21"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "192"
-            },
-            "White": {
-              "type": "integer",
-              "value": "494"
-            }
-          }
-        ],
-        "2": [
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "585"
-            },
-            "Age": {
-              "type": "string",
-              "value": "0 to 5"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "441"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1130"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "359"
-            },
-            "Age": {
-              "type": "string",
-              "value": "6 to 9"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "303"
-            },
-            "White": {
-              "type": "integer",
-              "value": "837"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "517"
-            },
-            "Age": {
-              "type": "string",
-              "value": "10 to 15"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "505"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1450"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "371"
-            },
-            "Age": {
-              "type": "string",
-              "value": "16 to 19"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "396"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1268"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "186"
-            },
-            "Age": {
-              "type": "string",
-              "value": "20 to 21"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "202"
-            },
-            "White": {
-              "type": "integer",
-              "value": "742"
-            }
-          }
-        ],
-        "3": [
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "404"
-            },
-            "Age": {
-              "type": "string",
-              "value": "0 to 5"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "127"
-            },
-            "White": {
-              "type": "integer",
-              "value": "2021"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "261"
-            },
-            "Age": {
-              "type": "string",
-              "value": "6 to 9"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "87"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1634"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "372"
-            },
-            "Age": {
-              "type": "string",
-              "value": "10 to 15"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "148"
-            },
-            "White": {
-              "type": "integer",
-              "value": "2755"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "278"
-            },
-            "Age": {
-              "type": "string",
-              "value": "16 to 19"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "140"
-            },
-            "White": {
-              "type": "integer",
-              "value": "2232"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "158"
-            },
-            "Age": {
-              "type": "string",
-              "value": "20 to 21"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "98"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1265"
-            }
-          }
-        ],
-        "4": [
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "784"
-            },
-            "Age": {
-              "type": "string",
-              "value": "0 to 5"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "551"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1388"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "486"
-            },
-            "Age": {
-              "type": "string",
-              "value": "6 to 9"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "391"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1097"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "747"
-            },
-            "Age": {
-              "type": "string",
-              "value": "10 to 15"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "651"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1895"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "528"
-            },
-            "Age": {
-              "type": "string",
-              "value": "16 to 19"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "485"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1270"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "253"
-            },
-            "Age": {
-              "type": "string",
-              "value": "20 to 21"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "225"
-            },
-            "White": {
-              "type": "integer",
-              "value": "562"
-            }
-          }
-        ],
-        "5": [
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "639"
-            },
-            "Age": {
-              "type": "string",
-              "value": "0 to 5"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "164"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1874"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "396"
-            },
-            "Age": {
-              "type": "string",
-              "value": "6 to 9"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "128"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1574"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "601"
-            },
-            "Age": {
-              "type": "string",
-              "value": "10 to 15"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "226"
-            },
-            "White": {
-              "type": "integer",
-              "value": "2678"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "393"
-            },
-            "Age": {
-              "type": "string",
-              "value": "16 to 19"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "182"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1671"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "176"
-            },
-            "Age": {
-              "type": "string",
-              "value": "20 to 21"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "79"
-            },
-            "White": {
-              "type": "integer",
-              "value": "613"
-            }
-          }
-        ],
-        "6": [
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "593"
-            },
-            "Age": {
-              "type": "string",
-              "value": "0 to 5"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "117"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1411"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "375"
-            },
-            "Age": {
-              "type": "string",
-              "value": "6 to 9"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "80"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1137"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "572"
-            },
-            "Age": {
-              "type": "string",
-              "value": "10 to 15"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "146"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1923"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "355"
-            },
-            "Age": {
-              "type": "string",
-              "value": "16 to 19"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "101"
-            },
-            "White": {
-              "type": "integer",
-              "value": "1266"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "158"
-            },
-            "Age": {
-              "type": "string",
-              "value": "20 to 21"
-            },
-            "Black": {
-              "type": "integer",
-              "value": "49"
-            },
-            "White": {
-              "type": "integer",
-              "value": "518"
-            }
-          }
-        ],
         "State": [
           {
+            "Other*": {
+              "type": "integer",
+              "value": "1793"
+            },
             "Hispanic": {
               "type": "integer",
               "value": "3971"
-            },
-            "Age": {
-              "type": "string",
-              "value": "0 to 5"
             },
             "Black": {
               "type": "integer",
@@ -4075,16 +3525,20 @@
             "White": {
               "type": "integer",
               "value": "9772"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "2467"
             },
             "Age": {
               "type": "string",
-              "value": "6 to 9"
+              "value": "0-5"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "1108"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "2467"
             },
             "Black": {
               "type": "integer",
@@ -4093,16 +3547,20 @@
             "White": {
               "type": "integer",
               "value": "7816"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "3687"
             },
             "Age": {
               "type": "string",
-              "value": "10 to 15"
+              "value": "6-9"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "1487"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "3687"
             },
             "Black": {
               "type": "integer",
@@ -4111,16 +3569,20 @@
             "White": {
               "type": "integer",
               "value": "13167"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "2520"
             },
             "Age": {
               "type": "string",
-              "value": "16 to 19"
+              "value": "10-15"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "902"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "2520"
             },
             "Black": {
               "type": "integer",
@@ -4129,16 +3591,20 @@
             "White": {
               "type": "integer",
               "value": "9107"
-            }
-          },
-          {
-            "Hispanic": {
-              "type": "integer",
-              "value": "1230"
             },
             "Age": {
               "type": "string",
-              "value": "20 to 21"
+              "value": "16-19"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "440"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "1230"
             },
             "Black": {
               "type": "integer",
@@ -4147,6 +3613,682 @@
             "White": {
               "type": "integer",
               "value": "4194"
+            },
+            "Age": {
+              "type": "string",
+              "value": "20-21"
+            }
+          }
+        ],
+        "1": [
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "390"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "966"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "486"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1948"
+            },
+            "Age": {
+              "type": "string",
+              "value": "0-5"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "233"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "590"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "347"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1537"
+            },
+            "Age": {
+              "type": "string",
+              "value": "6-9"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "296"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "878"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "592"
+            },
+            "White": {
+              "type": "integer",
+              "value": "2466"
+            },
+            "Age": {
+              "type": "string",
+              "value": "10-15"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "153"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "595"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "433"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1400"
+            },
+            "Age": {
+              "type": "string",
+              "value": "16-19"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "59"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "299"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "192"
+            },
+            "White": {
+              "type": "integer",
+              "value": "494"
+            },
+            "Age": {
+              "type": "string",
+              "value": "20-21"
+            }
+          }
+        ],
+        "3": [
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "310"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "404"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "127"
+            },
+            "White": {
+              "type": "integer",
+              "value": "2021"
+            },
+            "Age": {
+              "type": "string",
+              "value": "0-5"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "195"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "261"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "87"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1634"
+            },
+            "Age": {
+              "type": "string",
+              "value": "6-9"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "282"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "372"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "148"
+            },
+            "White": {
+              "type": "integer",
+              "value": "2755"
+            },
+            "Age": {
+              "type": "string",
+              "value": "10-15"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "211"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "278"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "140"
+            },
+            "White": {
+              "type": "integer",
+              "value": "2232"
+            },
+            "Age": {
+              "type": "string",
+              "value": "16-19"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "131"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "158"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "98"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1265"
+            },
+            "Age": {
+              "type": "string",
+              "value": "20-21"
+            }
+          }
+        ],
+        "2": [
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "249"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "585"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "441"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1130"
+            },
+            "Age": {
+              "type": "string",
+              "value": "0-5"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "147"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "359"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "303"
+            },
+            "White": {
+              "type": "integer",
+              "value": "837"
+            },
+            "Age": {
+              "type": "string",
+              "value": "6-9"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "201"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "517"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "505"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1450"
+            },
+            "Age": {
+              "type": "string",
+              "value": "10-15"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "150"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "371"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "396"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1268"
+            },
+            "Age": {
+              "type": "string",
+              "value": "16-19"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "95"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "186"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "202"
+            },
+            "White": {
+              "type": "integer",
+              "value": "742"
+            },
+            "Age": {
+              "type": "string",
+              "value": "20-21"
+            }
+          }
+        ],
+        "5": [
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "275"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "639"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "164"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1874"
+            },
+            "Age": {
+              "type": "string",
+              "value": "0-5"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "180"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "396"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "128"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1574"
+            },
+            "Age": {
+              "type": "string",
+              "value": "6-9"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "247"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "601"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "226"
+            },
+            "White": {
+              "type": "integer",
+              "value": "2678"
+            },
+            "Age": {
+              "type": "string",
+              "value": "10-15"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "137"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "393"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "182"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1671"
+            },
+            "Age": {
+              "type": "string",
+              "value": "16-19"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "51"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "176"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "79"
+            },
+            "White": {
+              "type": "integer",
+              "value": "613"
+            },
+            "Age": {
+              "type": "string",
+              "value": "20-21"
+            }
+          }
+        ],
+        "4": [
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "341"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "784"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "551"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1388"
+            },
+            "Age": {
+              "type": "string",
+              "value": "0-5"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "209"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "486"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "391"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1097"
+            },
+            "Age": {
+              "type": "string",
+              "value": "6-9"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "272"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "747"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "651"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1895"
+            },
+            "Age": {
+              "type": "string",
+              "value": "10-15"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "157"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "528"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "485"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1270"
+            },
+            "Age": {
+              "type": "string",
+              "value": "16-19"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "71"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "253"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "225"
+            },
+            "White": {
+              "type": "integer",
+              "value": "562"
+            },
+            "Age": {
+              "type": "string",
+              "value": "20-21"
+            }
+          }
+        ],
+        "6": [
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "228"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "593"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "117"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1411"
+            },
+            "Age": {
+              "type": "string",
+              "value": "0-5"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "144"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "375"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "80"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1137"
+            },
+            "Age": {
+              "type": "string",
+              "value": "6-9"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "189"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "572"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "146"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1923"
+            },
+            "Age": {
+              "type": "string",
+              "value": "10-15"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "94"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "355"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "101"
+            },
+            "White": {
+              "type": "integer",
+              "value": "1266"
+            },
+            "Age": {
+              "type": "string",
+              "value": "16-19"
+            }
+          },
+          {
+            "Other*": {
+              "type": "integer",
+              "value": "33"
+            },
+            "Hispanic": {
+              "type": "integer",
+              "value": "158"
+            },
+            "Black": {
+              "type": "integer",
+              "value": "49"
+            },
+            "White": {
+              "type": "integer",
+              "value": "518"
+            },
+            "Age": {
+              "type": "string",
+              "value": "20-21"
             }
           }
         ]
@@ -4524,7 +4666,7 @@
       "width": 6,
       "footnotes": "",
       "grouping": "",
-      "ckan_url" : "http://data.ctdata.org/visualization/educational-need"
+      "ckan_url": "http://data.ctdata.org/visualization/educational-need"
     },
     "data": {
       "records": {
@@ -4678,10 +4820,12 @@
     "config": {
       "source": "CT State Dept of Education",
       "color": "#F67C92",
-      "title": "Substance-Related School Suspensions and Expulsions, 2009",
+      "title": "Substance-Related Sanctions Grades 6-12, 2009",
       "height": 4,
       "width": 6,
-      "footnotes": "",
+      "footnotes": [
+        "Values are a sum of unsuppressed data and include districts with suppressions."
+      ],
       "grouping": ""
     },
     "data": {
@@ -4881,7 +5025,9 @@
       "title": "School Sanctions by Type, 2012-2013",
       "height": 4,
       "width": 6,
-      "footnotes": "",
+      "footnotes": [
+        "Values are a sum of unsuppressed data and include districts with suppressions."
+      ],
       "grouping": ""
     },
     "data": {
@@ -5039,9 +5185,11 @@
       "title": "Percent of All Students Involved in Incidents by Race, 2012-2013",
       "height": 3,
       "width": 6,
-      "footnotes": "",
+      "footnotes": [
+        "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."
+      ],
       "grouping": "",
-      "ckan_url" : "http://data.ctdata.org/visualization/suspension-rate-by-race"
+      "ckan_url": "http://data.ctdata.org/visualization/suspension-rate-by-race"
     },
     "data": {
       "records": {
@@ -5240,7 +5388,10 @@
       "title": "School Incidents by Type",
       "height": 6,
       "width": 6,
-      "footnotes": "",
+      "footnotes": [
+        "Other includes: Drug Use; Violent Crime; Theft; Property Damage; Weapons; and Sexual Behavior.",
+        "Values are a sum of unsuppressed data and include districts with suppressions."
+      ],
       "order": [
         "School Policy Violations",
         "Personally Threatening Behavior",
@@ -5250,176 +5401,178 @@
       ],
       "grouping": ""
     },
-    "data": {"records" : {
-      "State": [
-        {
-          "Physical and Verbal Confrontation": {
-            "type": "integer",
-            "value": "10951"
-          },
-          "School Policy Violations": {
-            "type": "integer",
-            "value": "75995"
-          },
-          "Other": {
-            "type": "integer",
-            "value": "7044"
-          },
-          "Fighting and Battery": {
-            "type": "integer",
-            "value": "12613"
-          },
-          "Personally Threatening Behavior": {
-            "type": "integer",
-            "value": "6743"
+    "data": {
+      "records": {
+        "State": [
+          {
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "10951"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "75995"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "7044"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "12613"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "6743"
+            }
           }
-        }
-      ],
-      "1": [
-        {
-          "Physical and Verbal Confrontation": {
-            "type": "integer",
-            "value": "1971"
-          },
-          "School Policy Violations": {
-            "type": "integer",
-            "value": "15835"
-          },
-          "Other": {
-            "type": "integer",
-            "value": "1451"
-          },
-          "Fighting and Battery": {
-            "type": "integer",
-            "value": "2951"
-          },
-          "Personally Threatening Behavior": {
-            "type": "integer",
-            "value": "1073"
+        ],
+        "1": [
+          {
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1971"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "15835"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "1451"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "2951"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "1073"
+            }
           }
-        }
-      ],
-      "3": [
-        {
-          "Physical and Verbal Confrontation": {
-            "type": "integer",
-            "value": "1608"
-          },
-          "School Policy Violations": {
-            "type": "integer",
-            "value": "8185"
-          },
-          "Other": {
-            "type": "integer",
-            "value": "987"
-          },
-          "Fighting and Battery": {
-            "type": "integer",
-            "value": "1509"
-          },
-          "Personally Threatening Behavior": {
-            "type": "integer",
-            "value": "1138"
+        ],
+        "3": [
+          {
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1608"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "8185"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "987"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "1509"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "1138"
+            }
           }
-        }
-      ],
-      "2": [
-        {
-          "Physical and Verbal Confrontation": {
-            "type": "integer",
-            "value": "1100"
-          },
-          "School Policy Violations": {
-            "type": "integer",
-            "value": "7162"
-          },
-          "Other": {
-            "type": "integer",
-            "value": "813"
-          },
-          "Fighting and Battery": {
-            "type": "integer",
-            "value": "1403"
-          },
-          "Personally Threatening Behavior": {
-            "type": "integer",
-            "value": "622"
+        ],
+        "2": [
+          {
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1100"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "7162"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "813"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "1403"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "622"
+            }
           }
-        }
-      ],
-      "5": [
-        {
-          "Physical and Verbal Confrontation": {
-            "type": "integer",
-            "value": "1682"
-          },
-          "School Policy Violations": {
-            "type": "integer",
-            "value": "16164"
-          },
-          "Other": {
-            "type": "integer",
-            "value": "1008"
-          },
-          "Fighting and Battery": {
-            "type": "integer",
-            "value": "1914"
-          },
-          "Personally Threatening Behavior": {
-            "type": "integer",
-            "value": "1073"
+        ],
+        "5": [
+          {
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1682"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "16164"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "1008"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "1914"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "1073"
+            }
           }
-        }
-      ],
-      "4": [
-        {
-          "Physical and Verbal Confrontation": {
-            "type": "integer",
-            "value": "2783"
-          },
-          "School Policy Violations": {
-            "type": "integer",
-            "value": "16066"
-          },
-          "Other": {
-            "type": "integer",
-            "value": "1781"
-          },
-          "Fighting and Battery": {
-            "type": "integer",
-            "value": "3571"
-          },
-          "Personally Threatening Behavior": {
-            "type": "integer",
-            "value": "1852"
+        ],
+        "4": [
+          {
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "2783"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "16066"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "1781"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "3571"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "1852"
+            }
           }
-        }
-      ],
-      "6": [
-        {
-          "Physical and Verbal Confrontation": {
-            "type": "integer",
-            "value": "1807"
-          },
-          "School Policy Violations": {
-            "type": "integer",
-            "value": "12583"
-          },
-          "Other": {
-            "type": "integer",
-            "value": "1004"
-          },
-          "Fighting and Battery": {
-            "type": "integer",
-            "value": "1265"
-          },
-          "Personally Threatening Behavior": {
-            "type": "integer",
-            "value": "985"
+        ],
+        "6": [
+          {
+            "Physical and Verbal Confrontation": {
+              "type": "integer",
+              "value": "1807"
+            },
+            "School Policy Violations": {
+              "type": "integer",
+              "value": "12583"
+            },
+            "Other": {
+              "type": "integer",
+              "value": "1004"
+            },
+            "Fighting and Battery": {
+              "type": "integer",
+              "value": "1265"
+            },
+            "Personally Threatening Behavior": {
+              "type": "integer",
+              "value": "985"
+            }
           }
-        }
-      ]
-    }},
+        ]
+      }
+    },
     "name": "School Incidents Pie",
     "type": "pie"
   },
@@ -5436,7 +5589,7 @@
         "ECSE - Early Childhood Special Education"
       ],
       "grouping": "",
-      "ckan_url" : "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
+      "ckan_url": "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
     },
     "data": {
       "records": {
@@ -5725,7 +5878,7 @@
         "Values represent the number of families recieving Birth to Three Services out of the total number of births."
       ],
       "grouping": "",
-      "ckan_url" : "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
+      "ckan_url": "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
     },
     "data": {
       "records": {
@@ -6009,7 +6162,7 @@
       "header_offset": false,
       "source": "CT Dept of Children and Families",
       "footnotes": "",
-      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-age"
+      "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age"
     },
     "type": "simpletable",
     "name": "CIP In State Age Table",
@@ -8982,7 +9135,7 @@
       "width": 4,
       "footnotes": "",
       "grouping": "",
-      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-age"
+      "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age"
     },
     "data": {
       "records": {
@@ -9173,7 +9326,7 @@
       ],
       "footnotes": "",
       "grouping": "Type of Placement",
-      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-gender"
+      "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-gender"
     },
     "data": {
       "records": {
@@ -10382,7 +10535,7 @@
       "width": 12,
       "footnotes": "",
       "grouping": "Type of Placement",
-      "ckan_url" : "http://data.ctdata.org/visualization/children-in-placement-by-race-and-ethnicity"
+      "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-race-and-ethnicity"
     },
     "data": {
       "records": {
