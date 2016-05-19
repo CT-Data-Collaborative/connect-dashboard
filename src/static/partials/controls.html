@@ -18,5 +18,9 @@
             <!--  list of sections as buttons, triggers content scroll-->
             <button class="btn btn-sm ctdata-btn" ng-repeat="category in categories" ng-click="scrollContent((category.name|sluggify))">{{ category.name }}</button>
         </div>
+        <div class="settings-section" ng-if="selectedRegion.selected.id!=''">
+            <h5>Download Report:</h5>
+            <a target="_blank" class="btn btn-sm ctdata-btn" download ng-href="/data/pdfs/region-{{selectedRegion.selected.id}}.pdf">{{ selectedRegion.selected.name }} Report</a>
+        </div>
     </div>
 </div>
