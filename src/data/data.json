@@ -4664,7 +4664,9 @@
       "title": "Student Characteristics, 2013-2014",
       "height": 4,
       "width": 6,
-      "footnotes": "",
+      "footnotes": [
+        "Data includes only school districts that do not cross town boundaries."
+      ],
       "grouping": "",
       "ckan_url": "http://data.ctdata.org/visualization/educational-need"
     },
@@ -4824,6 +4826,7 @@
       "height": 4,
       "width": 6,
       "footnotes": [
+        "Data includes only school districts that do not cross town boundaries.",
         "Values are a sum of unsuppressed data and include districts with suppressions."
       ],
       "grouping": ""
@@ -5026,6 +5029,7 @@
       "height": 4,
       "width": 6,
       "footnotes": [
+        "Data includes only school districts that do not cross town boundaries.",
         "Values are a sum of unsuppressed data and include districts with suppressions."
       ],
       "grouping": ""
@@ -5186,6 +5190,7 @@
       "height": 3,
       "width": 6,
       "footnotes": [
+        "Data includes only school districts that do not cross town boundaries.",
         "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."
       ],
       "grouping": "",
@@ -5390,6 +5395,7 @@
       "width": 6,
       "footnotes": [
         "Other includes: Drug Use; Violent Crime; Theft; Property Damage; Weapons; and Sexual Behavior.",
+        "Data includes only school districts that do not cross town boundaries.",
         "Values are a sum of unsuppressed data and include districts with suppressions."
       ],
       "order": [
