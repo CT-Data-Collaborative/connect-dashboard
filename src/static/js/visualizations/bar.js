@@ -55,8 +55,17 @@ var tickFormatters = {
 // get body from jsdom, call chart function
 function barChart() {
     // bar widths
-    var defaultBarWidth = true,
-    barWidth = 40;
+    var defaultBarWidth = true;
+    var barWidth = 40;
+    var tip = d3.tip()
+        .attr("class", "ctdata-tooltip")
+        .offset([-4, 0])
+        .html(function(d) {
+            var key = Object.keys(d)[0];
+            d = d[key];
+            var value = formatters[d.type](d.value);
+            return [key, value].join(": ");
+        })
 
     function chart(selection) {
         var $graphic = this[0][0];
@@ -204,10 +213,9 @@ function barChart() {
                   return "#1EACF1";
                 }
               })
-              .attr("tooltip-append-to-body", true)
-              .attr("tooltip", function(d) {
-                  return d.value;
-              });
+              .call(tip)
+              .on("mouseover", tip.show)
+              .on("mouseout", tip.hide)
 
 
             // if ("source" in config && config.source !== "") {

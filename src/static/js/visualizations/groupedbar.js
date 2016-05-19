@@ -55,8 +55,14 @@ var tickFormatters = {
 // get body from jsdom, call chart function
 function groupedbarChart() {
     // bar widths
-    var defaultBarWidth = true,
-    barWidth = 20;
+    var defaultBarWidth = true;
+    var barWidth = 20;
+    var tip = d3.tip()
+        .attr("class", "ctdata-tooltip")
+        .offset([-4, 0])
+        .html(function(d) {
+            return [d.name, d.label].join(": ");
+        })
 
     function chart(selection) {
         var $graphic = this[0][0];
@@ -237,7 +243,10 @@ function groupedbarChart() {
                             .attr("tooltip-append-to-body", true)
                             .attr("tooltip", function(d) {
                                 return d.value;
-                            });
+                            })
+                            .call(tip)
+                            .on("mouseover", tip.show)
+                            .on("mouseout", tip.hide);
 
 
             // if ("source" in config && config.source !== "") {
