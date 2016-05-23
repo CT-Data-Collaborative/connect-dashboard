@@ -3,6 +3,7 @@
 Data and graphics, interactive dashboard for the CONNECT Project
 
 ### Includes:
+
 - gulp tasks for compiling sass and building angular project file from modularized file structure
 - fixed header and footer
 
