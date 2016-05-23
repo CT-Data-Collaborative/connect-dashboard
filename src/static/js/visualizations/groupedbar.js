@@ -66,46 +66,24 @@ function groupedbarChart() {
 
     function chart(selection) {
         var $graphic = this[0][0];
-        var aspect_height = 12;
-        var aspect_width = 16;
-        var mobile_threshold = 500;
+        var color = d3.scale.category20();
 
-        var margin = {top: 10, right: 10, bottom: 60, left: 50};
-        var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
-        var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
-            // scales
-        var x0 = d3.scale.ordinal()
-                    .rangeRoundBands([0, width], 0.1),
-            x1 = d3.scale.ordinal(),
-            y = d3.scale.linear()
-                    .range([height, 0]),
-            color = d3.scale.category20(),
 
-            // axes
-            xAxis = d3.svg.axis()
-                .scale(x0)
-                .orient("bottom"),
-
-            yAxis = d3.svg.axis()
-                .scale(y)
-                .orient("left")
-                .ticks(8);
-
-            function wrap(text, width) {
-                text.each(function() {
-                    var text = d3.select(this),
-                        words = text.text().split(/\s+/).reverse(),
-                        word,
-                        line = [],
-                        lineNumber = 0,
-                        lineHeight = 1.1, // ems
-                        y = text.attr("y"),
-                        dy = parseFloat(text.attr("dy")),
-                        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-                    while (word = words.pop()) {
-                        line.push(word);
-                        tspan.text(line.join(" "));
-                        if (tspan.node().getComputedTextLength() > width) {
+        function wrap(text, width) {
+            text.each(function () {
+                var text = d3.select(this),
+                    words = text.text().split(/\s+/).reverse(),
+                    word,
+                    line = [],
+                    lineNumber = 0,
+                    lineHeight = 1.1, // ems
+                    y = text.attr("y"),
+                    dy = parseFloat(text.attr("dy")),
+                    tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+                while (word = words.pop()) {
+                    line.push(word);
+                    tspan.text(line.join(" "));
+                    if (tspan.node().getComputedTextLength() > width) {
                         line.pop();
                         tspan.text(line.join(" "));
                         line = [word];
@@ -114,7 +92,39 @@ function groupedbarChart() {
                 }
             });
         }
+
         selection.each(function(dataset) {
+            var aspect_height, aspect_width;
+            if (dataset.config.width > 8) {
+                aspect_height = 8;
+                aspect_width = 18;
+            } else {
+                aspect_height = 10;
+                aspect_width = 12;
+            }
+            var mobile_threshold = 500;
+
+            var margin = {top: 10, right: 10, bottom: 60, left: 50};
+            var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
+            var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
+            // scales
+            var x0 = d3.scale.ordinal()
+                .rangeRoundBands([0, width], 0.1),
+                x1 = d3.scale.ordinal(),
+                y = d3.scale.linear()
+                    .range([height, 0]),
+
+
+            // axes
+                xAxis = d3.svg.axis()
+                    .scale(x0)
+                    .orient("bottom"),
+
+                yAxis = d3.svg.axis()
+                    .scale(y)
+                    .orient("left")
+                    .ticks(8);
+
             var charLimit = Math.round(Math.floor((width + margin.right + margin.left) / 6) / 5) * 5;
             // Should this be a parameter? passed in config?
 
@@ -146,14 +156,14 @@ function groupedbarChart() {
             // container, margined interior container
 
             if ("title" in config && config.title !== "") {
-                var title = d3.select(this).append("h4")
+                var title = d3.select(this).append("h5")
                 .attr("class", "chart-title")
                 .text(config.title);
             }
 
             // legends
             var legend = d3.select(this).append("div")
-                .attr("class", "legend")
+                .attr("class", "legend grouped-bar-legend")
                .append("ul")
                 .attr("class", "list-inline");
 
@@ -197,7 +207,15 @@ function groupedbarChart() {
                 .rangeRoundBands([0, x0.rangeBand()]);
 
             // set y-scale domain, scaling so there is always a y-axis line above the highest value
-            y.domain([0, 1.1*d3.max(data, function(d) { return d3.max(d.values, function(d) { return +d.value; }); })])
+            var paddedMaxData = 1.2 * d3.max(data, function(d) {
+                return d3.max(d.values, function(d) {
+                    return +d.value;
+                });
+            });
+
+            y.domain([0, paddedMaxData]);
+
+            yAxis.scale(y);
 
             // x axis, includes group labels automatically
             var xAxisGroup = barGroup.append("g")

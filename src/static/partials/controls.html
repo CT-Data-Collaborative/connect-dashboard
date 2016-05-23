@@ -16,7 +16,10 @@
         <div class="settings-section">
             <h5>Jump to Section:</h5>
             <!--  list of sections as buttons, triggers content scroll-->
-            <button class="btn btn-sm ctdata-btn" ng-repeat="category in categories" ng-click="scrollContent((category.name|sluggify))">{{ category.name }}</button>
+            <div class="btn-group btn-group-vertical">
+                <button class="btn ctdata-btn btn-sm btn-block" ng-repeat="category in categories" ng-click="scrollContent((category.name|sluggify))">{{ category.name }}</button>
+            </div>
+
         </div>
         <div class="settings-section" ng-if="selectedRegion.selected.id!=''">
             <h5>Download Report:</h5>

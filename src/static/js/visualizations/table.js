@@ -78,7 +78,7 @@ function tableChart() {
             container = container.append("div");
 
             if ("title" in config && config.title !== "") {
-                var title = container.append("h4")
+                var title = container.append("h5")
                     .attr("class", "chart-title")
                     .text(config.title);
             }

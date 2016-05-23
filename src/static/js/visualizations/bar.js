@@ -69,32 +69,7 @@ function barChart() {
 
     function chart(selection) {
         var $graphic = this[0][0];
-        var aspect_height = 10;
-        var aspect_width = 16;
-        var mobile_threshold = 500;
-
-        var margin = {top: 10, right: 10, bottom: 60, left: 50};
-        var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
-        var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
-
-        var x = d3.scale.ordinal()
-          .rangeRoundBands([0, width], 0.1);
-
-        var y = d3.scale.linear()
-          .range([height, 0]);
-
         var color = d3.scale.category20();
-
-        // axes
-        var xAxis = d3.svg.axis()
-            .scale(x)
-            .orient("bottom");
-
-        var yAxis = d3.svg.axis()
-            .scale(y)
-            .orient("left")
-            .ticks(10);
-
         function wrap(text, width) {
           text.each(function() {
             var text = d3.select(this),
@@ -120,6 +95,35 @@ function barChart() {
         }
 
         selection.each(function(dataset) {
+            if (dataset.config.width > 8) {
+                var aspect_height = 8;
+                var aspect_width = 18;
+            } else {
+                var aspect_height = 10;
+                var aspect_width = 12;
+            }
+            var mobile_threshold = 500;
+
+            var margin = {top: 10, right: 10, bottom: 60, left: 50};
+            var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
+            var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
+
+            var x = d3.scale.ordinal()
+                .rangeRoundBands([0, width], 0.1);
+
+            var y = d3.scale.linear()
+                .range([height, 0]);
+
+            // axes
+            var xAxis = d3.svg.axis()
+                .scale(x)
+                .orient("bottom");
+
+            var yAxis = d3.svg.axis()
+                .scale(y)
+                .orient("left")
+                .ticks(10);
+
             var charLimit = Math.round(Math.floor((width + margin.right + margin.left) / 6) / 5) * 5;
             // Should this be a parameter? passed in config?
 
@@ -154,7 +158,7 @@ function barChart() {
 
             // title
             if ("title" in config && config.title !== "") {
-                var title = d3.select(this).append("h4")
+                var title = d3.select(this).append("h5")
                 .attr("class", "chart-title")
                 .text(config.title);
             }

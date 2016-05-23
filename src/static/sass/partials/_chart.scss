@@ -184,3 +184,14 @@ chart {
     border-width: 6px;
     margin-left: -6px;
 }
+
+
+
+.source-block {
+    border-top: 1px solid #7A838B;
+    padding-bottom: .5rem;
+}
+
+.source-block:before {
+    content: 'Source: ';
+}

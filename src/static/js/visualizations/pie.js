@@ -34,7 +34,8 @@ function pieChart() {
         var aspect_width = 16;
         var mobile_threshold = 500;
 
-        var margin = {top : 65, left : 20, bottom : 70, right : 20};
+        //var margin = {top : 65, left : 20, bottom : 70, right : 20};
+        var margin = {top : 20, left : 20, bottom : 20, right : 20};
         var width = $graphic.getBoundingClientRect().width - margin.left - margin.right;
         var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
         
@@ -90,10 +91,33 @@ function pieChart() {
             }
 
             if ("title" in config && config.title !== "") {
-                var title = d3.select(this).append("h4")
+                var title = d3.select(this).append("h5")
                     .classed("chart-title", true)
                     .text(config.title)
             }
+
+            // // Legend
+            var legend = d3.select(this)
+                .append("div")
+                .classed("legend pie-legend", true)
+                //.append("ul")
+                //.classed("list-inline", true)
+                .selectAll("div")
+                .data(data)
+                .enter()
+                .append("div")
+                .classed("legend-entry", true)
+                .each(function(entryData, entryIndex) {
+                    entry = d3.select(this)
+
+                    entry.append("div")
+                        .classed("key", true)
+                        .style("background-color", colors(entryIndex))
+
+                    entry.append("div")
+                        .classed("legend-text", true)
+                        .text(entryData.label)
+                })
 
             // SVG Container
             var svg = d3.select(this).append("svg")
@@ -103,28 +127,15 @@ function pieChart() {
                 .attr("font-weight", 300)
                 .attr("xmlns", "http://www.w3.org/2000/svg");
 
-            // // Legend
-            var legend = d3.select(this)
-                .append("div")
-                .classed("legend", true)
-                .append("ul")
-                .classed("list-inline", true)
-                .selectAll("div.legend-entry")
-                .data(data)
-                .enter()
-                    .append("div")
-                    .classed("legend-entry", true)
-                    .each(function(entryData, entryIndex) {
-                        entry = d3.select(this)
-
-                        entry.append("div")
-                            .classed("key", true)
-                            .style("background-color", colors(entryIndex))
-
-                        entry.append("div")
-                            .classed("legend-text", true)
-                            .text(entryData.label)
-                    })
+            // Debug Container for testing layour
+            //svg.append("rect")
+            //    .attr("height", svg.attr("height"))
+            //    .attr("width", svg.attr("width"))
+            //    .attr("fill", "red")
+            //    .attr("stroke", "red")
+            //    .attr("stroke-width", "1px")
+            //    .attr("fill-opacity", 0);
+            //
 
             var pieGroup = svg.append("g")
                     .attr("width", width)
@@ -162,6 +173,7 @@ function pieChart() {
             //                 var translateY = Math.sin(midAngle) * outerRadius * 0.9;
             //                 return "translate("+translateX+", "+translateY+")";
             //             });
+
             var labelLines = labelGroup.selectAll("line")
                     .data(pie(data))
                     .enter()
@@ -190,7 +202,7 @@ function pieChart() {
                     .data(pie(data))
                     .enter()
                     .append("text")
-                        .text(function(d) {return dataLabel(d.data); })
+                        .text(function(d) {return formatters.integer(dataLabel(d.data)); })
                         .attr("fill", "#202020")
                         // .attr("font-size", "1em")
                         .attr("x", function(d, i) {
