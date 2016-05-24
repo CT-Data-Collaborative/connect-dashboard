@@ -1,10 +1,10 @@
 angular.module('app')
 .controller('DataVizController',
-    ['$scope', '$http', '$log', 'lodash', 'dataProcessor', 'dataProvider',
-    function($scope, $http, $log, lodash, dataProcessor, dataProvider){
+    ['$scope', '$http', '$log', '$q', 'lodash', 'dataConfig', 'dataProvider', 'townList',
+    function($scope, $http, $log, $q, lodash, dataConfig, dataProvider, townList){
         var lo = lodash;
-
-        $scope.data = [];
+        $scope.data = dataConfig;
+        $scope.townCrosswalk = townList;
         $scope.chartObjects = [];
         $scope.regionMapData = {
             "data" : '',
@@ -12,16 +12,17 @@ angular.module('app')
         };
 
         $scope.regions = [
-            {'name' : 'Region 1: Southwest', 'id' : '1'},
-            {'name' : 'Region 2: South Central', 'id' : '2'},
-            {'name' : 'Region 3: Eastern', 'id' : '3'},
-            {'name' : 'Region 4: North Central', 'id' : '4'},
-            {'name' : 'Region 5: Western', 'id' : '5'},
-            {'name' : 'Region 6: Central', 'id' : '6'},
+            {'name' : 'Southwest Region', 'id' : '1'},
+            {'name' : 'South Central Region', 'id' : '2'},
+            {'name' : 'Eastern Region', 'id' : '3'},
+            {'name' : 'North Central Region', 'id' : '4'},
+            {'name' : 'Western Region', 'id' : '5'},
+            {'name' : 'Central Region', 'id' : '6'},
             {'name' : 'Statewide', 'id' : 'State'}
-        ]
+        ];
 
-        $scope.selectedRegion = {'selected' : {'name' : 'Please Select a Region', 'id' : ''}};
+
+        $scope.selectedRegion = {'selected' : {'name' : 'Statewide', 'id' : 'State'}};
 
         $scope.categories = [
             {
@@ -76,12 +77,33 @@ angular.module('app')
         // -----------------------------------------
 
         // -----------------------------------------
+        //  Push data into local config data structure
+        //  - should only happen once
+        // -----------------------------------------
+        $scope.push = function(data) {
+            return $q(function(resolve, reject) {
+                resolve(data.forEach(function(d) {
+                        var toUpdate = lo.find($scope.data, function(o) {
+                            return o.name == d.name;
+                        });
+                        toUpdate.data = d.data;
+                    }));
+            });
+        };
+
+        // -----------------------------------------
         // Data Load
         //  - should only happen once
         // -----------------------------------------
         var dataPromise = dataProvider.loadData();
         dataPromise.then(function(results) {
-            $scope.data = results
+            var updatePromise = $scope.push(results);
+            updatePromise.then(function(r) {
+                $scope.updateData();
+            });
+            // Trigger initial rendering of statewide data
+
+            //$scope.log();
         });
         // -----------------------------------------
         // End Data Load
@@ -91,7 +113,7 @@ angular.module('app')
         // Update Data
         // -----------------------------------------
         $scope.updateData = function() {
-            if ($scope.data.length === 0 || $scope.selectedRegion.selected.id == '') {
+            if (typeof($scope.data[0].data) === 'undefined' || $scope.selectedRegion.selected.id == '') {
                 return
             }
 
@@ -111,13 +133,14 @@ angular.module('app')
 
             $scope.chartObjects = $scope.chartObjects.filter(function(chart) {
                 return ((typeof chart.data.records !== "undefined") && (chart.data.records.length > 0));
-            })
+            });
 
             return;
-        }
+        };
         // -----------------------------------------
         // End Update Data
         // -----------------------------------------
+
 
         // -----------------------------------------
         // Update Region Map

@@ -4,7 +4,8 @@
     </div>
     <div class="card-block" id="content">
         <div class="settings-section category-section row" ng-repeat="category in categories">
-            <h5 id="{{ category.name | sluggify }}">{{ category.name }}</h5>
+            <h3 class="section-title" id="{{ category.name | sluggify }}">{{ category.name }}</h3>
+            <hr class="title-boundary">
             <!--<p>{{ category.notes }}</p>-->
             <div class="chart-container col-xs-12 col-sm-{{chart.config.width}}" ng-repeat="chart in chartObjects | filter:{category: category.name}:true" >
                 <chart data="chart" id="{{chart.name | sluggify}}"></chart>

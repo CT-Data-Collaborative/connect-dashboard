@@ -1,5 +1,88 @@
-.paremeters {
+.parameters {
   .btn-group {
     width: 75%;
+  }
+}
+
+.town-list {
+  max-height: 30vh;
+  overflow-y: auto;
+  list-style-type: none;
+  padding-left: 0;
+  padding: .25rem;
+  border: 1px darkgrey solid;
+  border-radius: 5px;
+
+  li.left {
+    clear: both;
+    float: left;
+    width: 50%;
+    padding-left: .5rem;
+
+  }
+  li.right {
+    float: right;
+    text-align: left;
+    width: 50%;
+  }
+}
+
+.settings-section {
+  .btn {
+    background-color: $ctdata-extra-dark-blue;
+  }
+}
+.settings-section.regions {
+  h5.title {
+    margin-right: .5rem;
+    display: inline-block;
+  }
+  .btn-group {
+    width: 50%;
+    margin-top: -.5rem;
+  }
+  .btn {
+    background-color: $ctdata-extra-dark-blue;
+  }
+  a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+  }
+
+  li:hover {
+    background-color: $ctdata-dark-blue;
+    a {
+      color: white;
+    }
+
+  }
+}
+
+.settings-section.sections {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .btn {
+    background-color: $ctdata-extra-dark-blue;
+  }
+  a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+  }
+
+  li:hover {
+    background-color: $ctdata-dark-blue;
+    a {
+      color: white;
+    }
+
+  }
+}
+
+.settings-section.download {
+  a {
+    color: white;
+    i { color: white;}
   }
 }

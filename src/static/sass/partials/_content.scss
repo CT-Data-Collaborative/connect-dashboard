@@ -1,0 +1,26 @@
+.output div#content {
+  max-height: 75vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .category-section {
+    //border-bottom: 1px solid $extra-light-grey;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.section-title {
+  margin: 0 15px;
+  padding-bottom: .25rem;
+  padding-top: 2rem;
+  font-family: Roboto;
+}
+
+.section-title:first-of-type {
+  padding-top: 0;
+}
+.title-boundary {
+  margin: 0 15px;
+  border-top: 3px solid black;
+  padding-bottom: 15px;
+}

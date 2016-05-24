@@ -14,7 +14,7 @@ function regionmapChart() {
         // var height = Math.ceil((width * aspect_height) / aspect_width) - margin.top - margin.bottom - 6;
 
         selection.each(function(data) {
-            data = data.data;
+            var data = data.data;
 
             // SVG Container
             var svg = d3.select(this).append("svg")

@@ -86,16 +86,6 @@
 }
 
 
-.output div#content {
-    max-height: 75vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-
-    .category-section {
-        border-bottom: 1px solid $extra-light-grey;
-        margin-bottom: 0.5rem;
-    }
-}
 
 /* Pill nav styling */
 li.uib-tab.nav-item {
