@@ -122,7 +122,7 @@ function barChart() {
             var yAxis = d3.svg.axis()
                 .scale(y)
                 .orient("left")
-                .ticks(10);
+                .ticks(5);
 
             var charLimit = Math.round(Math.floor((width + margin.right + margin.left) / 6) / 5) * 5;
             // Should this be a parameter? passed in config?

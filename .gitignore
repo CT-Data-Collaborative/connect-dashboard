@@ -3,3 +3,4 @@ policy.json
 .idea
 .DS_Store
 dist/
+*.sketch
