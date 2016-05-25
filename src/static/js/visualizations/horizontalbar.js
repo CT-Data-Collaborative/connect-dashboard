@@ -66,7 +66,6 @@ function horizontalbarChart() {
         })
 
     function chart(selection) {
-        console.log('horizontal bar');
         var $graphic = this[0][0];
         var color = d3.scale.category20();
         function wrap(text, width) {
@@ -78,7 +77,7 @@ function horizontalbarChart() {
                     lineNumber = 0,
                     lineHeight = 1.1, // ems
                     y = text.attr("y"),
-                    x = text.attr("x");
+                    x = text.attr("x"),
                     dy = parseFloat(text.attr("dy")),
                     tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy/2 + "em");
                 while (word = words.pop()) {
@@ -112,10 +111,9 @@ function horizontalbarChart() {
                 var aspect_height = 8;
                 var aspect_width = 18;
             } else {
-                var aspect_height = 14;
+                var aspect_height = 15;
                 var aspect_width = 12;
             }
-            console.log(aspect_height)
             var mobile_threshold = 500;
 
             var margin = {top: 10, right: 25, bottom: 25, left: 100};
@@ -186,7 +184,12 @@ function horizontalbarChart() {
             svg.append("g")
                 .attr("class", "x axis")
                 .attr("transform", "translate(0," + height + ")")
-                .call(xAxis);
+                .call(xAxis)
+                .call(function(g) {
+                    g.selectAll("g").selectAll("line")
+                        .attr("y0", 0)
+                        .attr("y1", -height)
+                });
 
             svg.append("g")
                 .attr("class", "y axis")
@@ -195,12 +198,9 @@ function horizontalbarChart() {
                 .call(function(g) {
                     g.selectAll("g").selectAll("text")
                         .attr("x", -4);
-                    g.selectAll("g").selectAll("line")
-                        .attr("x1", 0)
-                        .attr("x2", width)
                 })
-                .selectAll(".tick text")
-                .call(wrap, y.rangeBand());
+                .selectAll(".tick text");
+                //.call(wrap, y.rangeBand());
 
             svg.selectAll(".bar")
                 .data(data)
@@ -208,8 +208,8 @@ function horizontalbarChart() {
                 .attr("class", "bar")
                 .attr("y", function(d) {
                     // we need this deal to center the bars
-                    adj = d3.min([y.rangeBand(), barWidth]);
-                    pos = y(Object.keys(d)[0]);
+                    var adj = d3.min([y.rangeBand(), barWidth]);
+                    var pos = y(Object.keys(d)[0]);
                     return pos + (y.rangeBand()/2) - adj/2;
                 })
                 .attr("height", function(d) {

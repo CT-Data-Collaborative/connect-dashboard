@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" ng-app='app'>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>CONNECT Dashboard</title>
@@ -37,41 +37,36 @@
     <script src="js/libs/visualizations/horizontalstackedbar.js"></script>
     <script src="js/libs/visualizations/table.js"></script>
     <script src="js/libs/visualizations/regionmap.js"></script>
-  </head>
-  <body>
-    <div id="wrap">
-      <ng-include src="'partials/header.html'"></ng-include>
-      <div id="main">
+</head>
+<body>
+<div id="wrap">
+    <ng-include src="'partials/header.html'"></ng-include>
+    <div id="main">
         <div id="page-content-wrapper" ng-controller="DataVizController">
-          <div class="container-fluid main-internal">
-            <!--<div class="row hero-row">
-              <div class="col-sm-11 col-md-7 col-md-offset-1 col-lg-7 col-lg-offset-1">
-                <div class="project-logo">
-                  <p class="big">CONNECT</p>
-                  <p class="small">Interactive Dashboard</p>
+            <div class="container-fluid main-internal">
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-3 col-lg-offset-0 col-xl-3 input">
+                        <!-- controls -->
+                        <div ng-include="'partials/controls.html'"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-9 col-lg-offset-0 col-xl-9 output">
+                        <!-- content -->
+                        <div ng-include="'partials/content.html'"></div>
+                    </div>
                 </div>
-              </div>
-            </div>-->
-            <div class="row">
-              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-4 col-lg-offset-0 col-xl-3 input">
-                  <!-- controls -->
-                <div ng-include="'partials/controls.html'"></div>
-              </div>
-              <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-0 col-xl-9 output">
-                <!-- content -->
-                <div ng-include="'partials/content.html'"></div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <ng-include src="'partials/footer.html'"></ng-include>
-    <script src="js/libs/tether.min.js"></script>
-    <script src="js/libs/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-    <script>$(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })</script>
-  </body>
+</div>
+<ng-include src="'partials/footer.html'"></ng-include>
+<div ng-controller="AnalyticsController">
+    <ng-include src="'partials/analytics.html'"></ng-include>
+</div>
+<script src="js/libs/tether.min.js"></script>
+<script src="js/libs/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<script>$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})</script>
+</body>
 </html>

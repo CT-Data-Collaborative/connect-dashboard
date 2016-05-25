@@ -8,7 +8,7 @@ angular.module('app')
                 "header_offset": true,
                 "height": 3,
                 "source": "US Census; Calculations by CONNECT project",
-                "footnotes": ["Pop - 2010 Decennial Census Population.", "Tx - Estimated number of individuals needing treatment for a serious emotional disturbance.", "Life - Estimated number who have experienced a mental health disorder in their lifetime.", "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."]
+                "footnotes": ["Pop - 2010 Decennial Census Population.", "Tx - Estimated number of individuals needing treatment for a serious emotional disturbance (7.1% of population).", "Life - Estimated number who have experienced a mental health disorder in their lifetime (20% of population).", "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."]
             },
             "type": "simpletable",
             "name": "Treatment Table"
@@ -98,7 +98,7 @@ angular.module('app')
             "config": {
                 "source": "CT State Dept of Education",
                 "color": "#7B6888",
-                "title": "Student Involvment in Incidents by Race, 2012-2013",
+                "title": "Involvment in Incidents by Race, 2012-2013",
                 "height": 3,
                 "width": 6,
                 "footnotes": ["Data includes only school districts that do not cross town boundaries.", "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."],
@@ -140,7 +140,7 @@ angular.module('app')
             "config": {
                 "source": "CT Office of Early Childhood",
                 "color": "",
-                "title": "Birth to Three Services, Percent of Birth Cohort, 2012",
+                "title": "Birth to Three Services, % of Birth Cohort, 2012",
                 "height": 5,
                 "width": 6,
                 "footnotes": ["IFSP - Individualized Family Service Plan", "ECSE - Early Childhood Special Education", "Values represent the number of families receiving Birth to Three Services out of the total number of births."],
@@ -210,11 +210,14 @@ angular.module('app')
             "config": {
                 "source": "CT Dept of Public Health",
                 "color": "#F67C92",
-                "title": "Fetal Mortality Rate, 5-Year Aggregation 2007-2011",
+                "title": "Fetal Mortality Rate, 2007-2011",
                 "height": 5,
                 "width": 6,
                 "ckan_url": "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
-                "footnotes": ["Rate per 1000 live births", "Fetal mortality occurs after 20 weeks of gestation and before labor.", "Data is suppressed when number of deaths is less than or equal to 5."],
+                "footnotes": [
+                        "Rate per 1000 live births",
+                        "Fetal mortality occurs after 20 weeks of gestation and before labor.",
+                        "Data is suppressed when number of deaths is less than or equal to 5. Five-year totals are used to minimize suppression."],
                 "grouping": ""
             },
             "name": "Fetal Mortality",
@@ -224,11 +227,14 @@ angular.module('app')
             "config": {
                 "source": "CT Dept of Public Health",
                 "color": "#F67C92",
-                "title": "Infant Mortality Rate, 5-Year Aggregation 2007-2011",
+                "title": "Infant Mortality Rate, 2007-2011",
                 "height": 5,
                 "width": 6,
                 "ckan_url": "http://data.ctdata.org/visualization/fetal-and-infant-mortality---5-year-aggregations-by-town",
-                "footnotes": ["Rate per 1000 live births", "Infant mortality occurs before the first year of age and is a sum of Neonatal (the first 28 days after birth) and Postneonatal (from 28 days up to 1 year) mortality.", "Data is suppressed when number of deaths is less than or equal to 5."],
+                "footnotes": [
+                    "Rate per 1000 live births",
+                    "Infant mortality occurs before the first year of age and is a sum of Neonatal (the first 28 days after birth) and Postneonatal (from 28 days up to 1 year) mortality.",
+                    "Data is suppressed when number of deaths is less than or equal to 5. Five-year totals are used to minimize suppression."],
                 "grouping": ""
             },
             "name": "Infant Mortality",
