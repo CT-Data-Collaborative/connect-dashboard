@@ -18,3478 +18,3145 @@
     "name": "Treatment Table",
     "data": {
       "records": {
-        "1": [
-          [
-            {
-              "type": "string",
-              "value": "0 - 21"
-            },
-            {
-              "type": "string",
-              "value": "0 - 5"
-            },
-            {
-              "type": "string",
-              "value": "6 - 9"
-            },
-            {
-              "type": "string",
-              "value": "10 - 15"
-            },
-            {
-              "type": "string",
-              "value": "16 - 19"
-            },
-            {
-              "type": "string",
-              "value": "20 - 21"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Race"
-            },
-            {
-              "type": "string",
-              "value": "Pop*"
-            },
-            {
-              "type": "string",
-              "value": "Tx*"
-            },
-            {
-              "type": "string",
-              "value": "Life*"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "White"
-            },
-            {
-              "type": "integer",
-              "value": "110484"
-            },
-            {
-              "type": "integer",
-              "value": "7844"
-            },
-            {
-              "type": "integer",
-              "value": "22097"
-            },
-            {
-              "type": "integer",
-              "value": "27439"
-            },
-            {
-              "type": "integer",
-              "value": "1948"
-            },
-            {
-              "type": "integer",
-              "value": "5488"
-            },
-            {
-              "type": "integer",
-              "value": "21644"
-            },
-            {
-              "type": "integer",
-              "value": "1537"
-            },
-            {
-              "type": "integer",
-              "value": "4329"
-            },
-            {
-              "type": "integer",
-              "value": "34728"
-            },
-            {
-              "type": "integer",
-              "value": "2466"
-            },
-            {
-              "type": "integer",
-              "value": "6946"
-            },
-            {
-              "type": "integer",
-              "value": "19720"
-            },
-            {
-              "type": "integer",
-              "value": "1400"
-            },
-            {
-              "type": "integer",
-              "value": "3944"
-            },
-            {
-              "type": "integer",
-              "value": "6953"
-            },
-            {
-              "type": "integer",
-              "value": "494"
-            },
-            {
-              "type": "integer",
-              "value": "1390"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Black"
-            },
-            {
-              "type": "integer",
-              "value": "28872"
-            },
-            {
-              "type": "integer",
-              "value": "2050"
-            },
-            {
-              "type": "integer",
-              "value": "5774"
-            },
-            {
-              "type": "integer",
-              "value": "6852"
-            },
-            {
-              "type": "integer",
-              "value": "486"
-            },
-            {
-              "type": "integer",
-              "value": "1370"
-            },
-            {
-              "type": "integer",
-              "value": "4887"
-            },
-            {
-              "type": "integer",
-              "value": "347"
-            },
-            {
-              "type": "integer",
-              "value": "977"
-            },
-            {
-              "type": "integer",
-              "value": "8336"
-            },
-            {
-              "type": "integer",
-              "value": "592"
-            },
-            {
-              "type": "integer",
-              "value": "1667"
-            },
-            {
-              "type": "integer",
-              "value": "6092"
-            },
-            {
-              "type": "integer",
-              "value": "433"
-            },
-            {
-              "type": "integer",
-              "value": "1218"
-            },
-            {
-              "type": "integer",
-              "value": "2705"
-            },
-            {
-              "type": "integer",
-              "value": "192"
-            },
-            {
-              "type": "integer",
-              "value": "541"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Hispanic"
-            },
-            {
-              "type": "integer",
-              "value": "46879"
-            },
-            {
-              "type": "integer",
-              "value": "3328"
-            },
-            {
-              "type": "integer",
-              "value": "9376"
-            },
-            {
-              "type": "integer",
-              "value": "13612"
-            },
-            {
-              "type": "integer",
-              "value": "966"
-            },
-            {
-              "type": "integer",
-              "value": "2722"
-            },
-            {
-              "type": "integer",
-              "value": "8311"
-            },
-            {
-              "type": "integer",
-              "value": "590"
-            },
-            {
-              "type": "integer",
-              "value": "1662"
-            },
-            {
-              "type": "integer",
-              "value": "12373"
-            },
-            {
-              "type": "integer",
-              "value": "878"
-            },
-            {
-              "type": "integer",
-              "value": "2475"
-            },
-            {
-              "type": "integer",
-              "value": "8374"
-            },
-            {
-              "type": "integer",
-              "value": "595"
-            },
-            {
-              "type": "integer",
-              "value": "1675"
-            },
-            {
-              "type": "integer",
-              "value": "4209"
-            },
-            {
-              "type": "integer",
-              "value": "299"
-            },
-            {
-              "type": "integer",
-              "value": "842"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Other*"
-            },
-            {
-              "type": "integer",
-              "value": "15922"
-            },
-            {
-              "type": "integer",
-              "value": "1130"
-            },
-            {
-              "type": "integer",
-              "value": "3184"
-            },
-            {
-              "type": "integer",
-              "value": "5494"
-            },
-            {
-              "type": "integer",
-              "value": "390"
-            },
-            {
-              "type": "integer",
-              "value": "1099"
-            },
-            {
-              "type": "integer",
-              "value": "3279"
-            },
-            {
-              "type": "integer",
-              "value": "233"
-            },
-            {
-              "type": "integer",
-              "value": "656"
-            },
-            {
-              "type": "integer",
-              "value": "4163"
-            },
-            {
-              "type": "integer",
-              "value": "296"
-            },
-            {
-              "type": "integer",
-              "value": "833"
-            },
-            {
-              "type": "integer",
-              "value": "2153"
-            },
-            {
-              "type": "integer",
-              "value": "153"
-            },
-            {
-              "type": "integer",
-              "value": "431"
-            },
-            {
-              "type": "integer",
-              "value": "833"
-            },
-            {
-              "type": "integer",
-              "value": "59"
-            },
-            {
-              "type": "integer",
-              "value": "167"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Total"
-            },
-            {
-              "type": "integer",
-              "value": "202157"
-            },
-            {
-              "type": "integer",
-              "value": "14353"
-            },
-            {
-              "type": "integer",
-              "value": "40431"
-            },
-            {
-              "type": "integer",
-              "value": "53397"
-            },
-            {
-              "type": "integer",
-              "value": "3791"
-            },
-            {
-              "type": "integer",
-              "value": "10679"
-            },
-            {
-              "type": "integer",
-              "value": "38121"
-            },
-            {
-              "type": "integer",
-              "value": "2707"
-            },
-            {
-              "type": "integer",
-              "value": "7624"
-            },
-            {
-              "type": "integer",
-              "value": "59600"
-            },
-            {
-              "type": "integer",
-              "value": "4232"
-            },
-            {
-              "type": "integer",
-              "value": "11920"
-            },
-            {
-              "type": "integer",
-              "value": "36339"
-            },
-            {
-              "type": "integer",
-              "value": "2580"
-            },
-            {
-              "type": "integer",
-              "value": "7268"
-            },
-            {
-              "type": "integer",
-              "value": "14700"
-            },
-            {
-              "type": "integer",
-              "value": "1043"
-            },
-            {
-              "type": "integer",
-              "value": "2940"
-            }
-          ]
-        ],
-        "2": [
-          [
-            {
-              "type": "string",
-              "value": "0 - 21"
-            },
-            {
-              "type": "string",
-              "value": "0 - 5"
-            },
-            {
-              "type": "string",
-              "value": "6 - 9"
-            },
-            {
-              "type": "string",
-              "value": "10 - 15"
-            },
-            {
-              "type": "string",
-              "value": "16 - 19"
-            },
-            {
-              "type": "string",
-              "value": "20 - 21"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Race"
-            },
-            {
-              "type": "string",
-              "value": "Pop*"
-            },
-            {
-              "type": "string",
-              "value": "Tx*"
-            },
-            {
-              "type": "string",
-              "value": "Life*"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "White"
-            },
-            {
-              "type": "integer",
-              "value": "76429"
-            },
-            {
-              "type": "integer",
-              "value": "5426"
-            },
-            {
-              "type": "integer",
-              "value": "15285"
-            },
-            {
-              "type": "integer",
-              "value": "15911"
-            },
-            {
-              "type": "integer",
-              "value": "1130"
-            },
-            {
-              "type": "integer",
-              "value": "3182"
-            },
-            {
-              "type": "integer",
-              "value": "11787"
-            },
-            {
-              "type": "integer",
-              "value": "837"
-            },
-            {
-              "type": "integer",
-              "value": "2357"
-            },
-            {
-              "type": "integer",
-              "value": "20423"
-            },
-            {
-              "type": "integer",
-              "value": "1450"
-            },
-            {
-              "type": "integer",
-              "value": "4085"
-            },
-            {
-              "type": "integer",
-              "value": "17855"
-            },
-            {
-              "type": "integer",
-              "value": "1268"
-            },
-            {
-              "type": "integer",
-              "value": "3571"
-            },
-            {
-              "type": "integer",
-              "value": "10453"
-            },
-            {
-              "type": "integer",
-              "value": "742"
-            },
-            {
-              "type": "integer",
-              "value": "2091"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Black"
-            },
-            {
-              "type": "integer",
-              "value": "26009"
-            },
-            {
-              "type": "integer",
-              "value": "1847"
-            },
-            {
-              "type": "integer",
-              "value": "5202"
-            },
-            {
-              "type": "integer",
-              "value": "6218"
-            },
-            {
-              "type": "integer",
-              "value": "441"
-            },
-            {
-              "type": "integer",
-              "value": "1243"
-            },
-            {
-              "type": "integer",
-              "value": "4261"
-            },
-            {
-              "type": "integer",
-              "value": "303"
-            },
-            {
-              "type": "integer",
-              "value": "852"
-            },
-            {
-              "type": "integer",
-              "value": "7113"
-            },
-            {
-              "type": "integer",
-              "value": "505"
-            },
-            {
-              "type": "integer",
-              "value": "1423"
-            },
-            {
-              "type": "integer",
-              "value": "5578"
-            },
-            {
-              "type": "integer",
-              "value": "396"
-            },
-            {
-              "type": "integer",
-              "value": "1116"
-            },
-            {
-              "type": "integer",
-              "value": "2839"
-            },
-            {
-              "type": "integer",
-              "value": "202"
-            },
-            {
-              "type": "integer",
-              "value": "568"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Hispanic"
-            },
-            {
-              "type": "integer",
-              "value": "28410"
-            },
-            {
-              "type": "integer",
-              "value": "2017"
-            },
-            {
-              "type": "integer",
-              "value": "5682"
-            },
-            {
-              "type": "integer",
-              "value": "8234"
-            },
-            {
-              "type": "integer",
-              "value": "585"
-            },
-            {
-              "type": "integer",
-              "value": "1647"
-            },
-            {
-              "type": "integer",
-              "value": "5050"
-            },
-            {
-              "type": "integer",
-              "value": "359"
-            },
-            {
-              "type": "integer",
-              "value": "1010"
-            },
-            {
-              "type": "integer",
-              "value": "7276"
-            },
-            {
-              "type": "integer",
-              "value": "517"
-            },
-            {
-              "type": "integer",
-              "value": "1455"
-            },
-            {
-              "type": "integer",
-              "value": "5231"
-            },
-            {
-              "type": "integer",
-              "value": "371"
-            },
-            {
-              "type": "integer",
-              "value": "1046"
-            },
-            {
-              "type": "integer",
-              "value": "2619"
-            },
-            {
-              "type": "integer",
-              "value": "186"
-            },
-            {
-              "type": "integer",
-              "value": "524"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Other*"
-            },
-            {
-              "type": "integer",
-              "value": "11857"
-            },
-            {
-              "type": "integer",
-              "value": "842"
-            },
-            {
-              "type": "integer",
-              "value": "2371"
-            },
-            {
-              "type": "integer",
-              "value": "3514"
-            },
-            {
-              "type": "integer",
-              "value": "249"
-            },
-            {
-              "type": "integer",
-              "value": "703"
-            },
-            {
-              "type": "integer",
-              "value": "2065"
-            },
-            {
-              "type": "integer",
-              "value": "147"
-            },
-            {
-              "type": "integer",
-              "value": "413"
-            },
-            {
-              "type": "integer",
-              "value": "2829"
-            },
-            {
-              "type": "integer",
-              "value": "201"
-            },
-            {
-              "type": "integer",
-              "value": "566"
-            },
-            {
-              "type": "integer",
-              "value": "2111"
-            },
-            {
-              "type": "integer",
-              "value": "150"
-            },
-            {
-              "type": "integer",
-              "value": "422"
-            },
-            {
-              "type": "integer",
-              "value": "1338"
-            },
-            {
-              "type": "integer",
-              "value": "95"
-            },
-            {
-              "type": "integer",
-              "value": "268"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Total"
-            },
-            {
-              "type": "integer",
-              "value": "142705"
-            },
-            {
-              "type": "integer",
-              "value": "10134"
-            },
-            {
-              "type": "integer",
-              "value": "28540"
-            },
-            {
-              "type": "integer",
-              "value": "33877"
-            },
-            {
-              "type": "integer",
-              "value": "2405"
-            },
-            {
-              "type": "integer",
-              "value": "6775"
-            },
-            {
-              "type": "integer",
-              "value": "23163"
-            },
-            {
-              "type": "integer",
-              "value": "1646"
-            },
-            {
-              "type": "integer",
-              "value": "4632"
-            },
-            {
-              "type": "integer",
-              "value": "37641"
-            },
-            {
-              "type": "integer",
-              "value": "2673"
-            },
-            {
-              "type": "integer",
-              "value": "7529"
-            },
-            {
-              "type": "integer",
-              "value": "30775"
-            },
-            {
-              "type": "integer",
-              "value": "2185"
-            },
-            {
-              "type": "integer",
-              "value": "6155"
-            },
-            {
-              "type": "integer",
-              "value": "17249"
-            },
-            {
-              "type": "integer",
-              "value": "1225"
-            },
-            {
-              "type": "integer",
-              "value": "3451"
-            }
-          ]
-        ],
-        "3": [
-          [
-            {
-              "type": "string",
-              "value": "0 - 21"
-            },
-            {
-              "type": "string",
-              "value": "0 - 5"
-            },
-            {
-              "type": "string",
-              "value": "6 - 9"
-            },
-            {
-              "type": "string",
-              "value": "10 - 15"
-            },
-            {
-              "type": "string",
-              "value": "16 - 19"
-            },
-            {
-              "type": "string",
-              "value": "20 - 21"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Race"
-            },
-            {
-              "type": "string",
-              "value": "Pop*"
-            },
-            {
-              "type": "string",
-              "value": "Tx*"
-            },
-            {
-              "type": "string",
-              "value": "Life*"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "White"
-            },
-            {
-              "type": "integer",
-              "value": "139535"
-            },
-            {
-              "type": "integer",
-              "value": "9907"
-            },
-            {
-              "type": "integer",
-              "value": "27907"
-            },
-            {
-              "type": "integer",
-              "value": "28470"
-            },
-            {
-              "type": "integer",
-              "value": "2021"
-            },
-            {
-              "type": "integer",
-              "value": "5694"
-            },
-            {
-              "type": "integer",
-              "value": "23015"
-            },
-            {
-              "type": "integer",
-              "value": "1634"
-            },
-            {
-              "type": "integer",
-              "value": "4603"
-            },
-            {
-              "type": "integer",
-              "value": "38805"
-            },
-            {
-              "type": "integer",
-              "value": "2755"
-            },
-            {
-              "type": "integer",
-              "value": "7761"
-            },
-            {
-              "type": "integer",
-              "value": "31433"
-            },
-            {
-              "type": "integer",
-              "value": "2232"
-            },
-            {
-              "type": "integer",
-              "value": "6287"
-            },
-            {
-              "type": "integer",
-              "value": "17812"
-            },
-            {
-              "type": "integer",
-              "value": "1265"
-            },
-            {
-              "type": "integer",
-              "value": "3562"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Black"
-            },
-            {
-              "type": "integer",
-              "value": "8445"
-            },
-            {
-              "type": "integer",
-              "value": "600"
-            },
-            {
-              "type": "integer",
-              "value": "1689"
-            },
-            {
-              "type": "integer",
-              "value": "1782"
-            },
-            {
-              "type": "integer",
-              "value": "127"
-            },
-            {
-              "type": "integer",
-              "value": "356"
-            },
-            {
-              "type": "integer",
-              "value": "1231"
-            },
-            {
-              "type": "integer",
-              "value": "87"
-            },
-            {
-              "type": "integer",
-              "value": "246"
-            },
-            {
-              "type": "integer",
-              "value": "2084"
-            },
-            {
-              "type": "integer",
-              "value": "148"
-            },
-            {
-              "type": "integer",
-              "value": "417"
-            },
-            {
-              "type": "integer",
-              "value": "1967"
-            },
-            {
-              "type": "integer",
-              "value": "140"
-            },
-            {
-              "type": "integer",
-              "value": "393"
-            },
-            {
-              "type": "integer",
-              "value": "1381"
-            },
-            {
-              "type": "integer",
-              "value": "98"
-            },
-            {
-              "type": "integer",
-              "value": "276"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Hispanic"
-            },
-            {
-              "type": "integer",
-              "value": "20745"
-            },
-            {
-              "type": "integer",
-              "value": "1473"
-            },
-            {
-              "type": "integer",
-              "value": "4149"
-            },
-            {
-              "type": "integer",
-              "value": "5686"
-            },
-            {
-              "type": "integer",
-              "value": "404"
-            },
-            {
-              "type": "integer",
-              "value": "1137"
-            },
-            {
-              "type": "integer",
-              "value": "3677"
-            },
-            {
-              "type": "integer",
-              "value": "261"
-            },
-            {
-              "type": "integer",
-              "value": "735"
-            },
-            {
-              "type": "integer",
-              "value": "5242"
-            },
-            {
-              "type": "integer",
-              "value": "372"
-            },
-            {
-              "type": "integer",
-              "value": "1048"
-            },
-            {
-              "type": "integer",
-              "value": "3921"
-            },
-            {
-              "type": "integer",
-              "value": "278"
-            },
-            {
-              "type": "integer",
-              "value": "784"
-            },
-            {
-              "type": "integer",
-              "value": "2222"
-            },
-            {
-              "type": "integer",
-              "value": "158"
-            },
-            {
-              "type": "integer",
-              "value": "444"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Other*"
-            },
-            {
-              "type": "integer",
-              "value": "15889"
-            },
-            {
-              "type": "integer",
-              "value": "1128"
-            },
-            {
-              "type": "integer",
-              "value": "3178"
-            },
-            {
-              "type": "integer",
-              "value": "4368"
-            },
-            {
-              "type": "integer",
-              "value": "310"
-            },
-            {
-              "type": "integer",
-              "value": "874"
-            },
-            {
-              "type": "integer",
-              "value": "2743"
-            },
-            {
-              "type": "integer",
-              "value": "195"
-            },
-            {
-              "type": "integer",
-              "value": "549"
-            },
-            {
-              "type": "integer",
-              "value": "3967"
-            },
-            {
-              "type": "integer",
-              "value": "282"
-            },
-            {
-              "type": "integer",
-              "value": "793"
-            },
-            {
-              "type": "integer",
-              "value": "2966"
-            },
-            {
-              "type": "integer",
-              "value": "211"
-            },
-            {
-              "type": "integer",
-              "value": "593"
-            },
-            {
-              "type": "integer",
-              "value": "1845"
-            },
-            {
-              "type": "integer",
-              "value": "131"
-            },
-            {
-              "type": "integer",
-              "value": "369"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Total"
-            },
-            {
-              "type": "integer",
-              "value": "184617"
-            },
-            {
-              "type": "integer",
-              "value": "13109"
-            },
-            {
-              "type": "integer",
-              "value": "36923"
-            },
-            {
-              "type": "integer",
-              "value": "40306"
-            },
-            {
-              "type": "integer",
-              "value": "2862"
-            },
-            {
-              "type": "integer",
-              "value": "8061"
-            },
-            {
-              "type": "integer",
-              "value": "30666"
-            },
-            {
-              "type": "integer",
-              "value": "2177"
-            },
-            {
-              "type": "integer",
-              "value": "6133"
-            },
-            {
-              "type": "integer",
-              "value": "50098"
-            },
-            {
-              "type": "integer",
-              "value": "3557"
-            },
-            {
-              "type": "integer",
-              "value": "10020"
-            },
-            {
-              "type": "integer",
-              "value": "40287"
-            },
-            {
-              "type": "integer",
-              "value": "2861"
-            },
-            {
-              "type": "integer",
-              "value": "8057"
-            },
-            {
-              "type": "integer",
-              "value": "23260"
-            },
-            {
-              "type": "integer",
-              "value": "1652"
-            },
-            {
-              "type": "integer",
-              "value": "4652"
-            }
-          ]
-        ],
-        "4": [
-          [
-            {
-              "type": "string",
-              "value": "0 - 21"
-            },
-            {
-              "type": "string",
-              "value": "0 - 5"
-            },
-            {
-              "type": "string",
-              "value": "6 - 9"
-            },
-            {
-              "type": "string",
-              "value": "10 - 15"
-            },
-            {
-              "type": "string",
-              "value": "16 - 19"
-            },
-            {
-              "type": "string",
-              "value": "20 - 21"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Race"
-            },
-            {
-              "type": "string",
-              "value": "Pop*"
-            },
-            {
-              "type": "string",
-              "value": "Tx*"
-            },
-            {
-              "type": "string",
-              "value": "Life*"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "White"
-            },
-            {
-              "type": "integer",
-              "value": "87485"
-            },
-            {
-              "type": "integer",
-              "value": "6211"
-            },
-            {
-              "type": "integer",
-              "value": "17497"
-            },
-            {
-              "type": "integer",
-              "value": "19543"
-            },
-            {
-              "type": "integer",
-              "value": "1388"
-            },
-            {
-              "type": "integer",
-              "value": "3909"
-            },
-            {
-              "type": "integer",
-              "value": "15453"
-            },
-            {
-              "type": "integer",
-              "value": "1097"
-            },
-            {
-              "type": "integer",
-              "value": "3091"
-            },
-            {
-              "type": "integer",
-              "value": "26687"
-            },
-            {
-              "type": "integer",
-              "value": "1895"
-            },
-            {
-              "type": "integer",
-              "value": "5337"
-            },
-            {
-              "type": "integer",
-              "value": "17888"
-            },
-            {
-              "type": "integer",
-              "value": "1270"
-            },
-            {
-              "type": "integer",
-              "value": "3578"
-            },
-            {
-              "type": "integer",
-              "value": "7914"
-            },
-            {
-              "type": "integer",
-              "value": "562"
-            },
-            {
-              "type": "integer",
-              "value": "1583"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Black"
-            },
-            {
-              "type": "integer",
-              "value": "32430"
-            },
-            {
-              "type": "integer",
-              "value": "2303"
-            },
-            {
-              "type": "integer",
-              "value": "6486"
-            },
-            {
-              "type": "integer",
-              "value": "7758"
-            },
-            {
-              "type": "integer",
-              "value": "551"
-            },
-            {
-              "type": "integer",
-              "value": "1552"
-            },
-            {
-              "type": "integer",
-              "value": "5514"
-            },
-            {
-              "type": "integer",
-              "value": "391"
-            },
-            {
-              "type": "integer",
-              "value": "1103"
-            },
-            {
-              "type": "integer",
-              "value": "9166"
-            },
-            {
-              "type": "integer",
-              "value": "651"
-            },
-            {
-              "type": "integer",
-              "value": "1833"
-            },
-            {
-              "type": "integer",
-              "value": "6825"
-            },
-            {
-              "type": "integer",
-              "value": "485"
-            },
-            {
-              "type": "integer",
-              "value": "1365"
-            },
-            {
-              "type": "integer",
-              "value": "3167"
-            },
-            {
-              "type": "integer",
-              "value": "225"
-            },
-            {
-              "type": "integer",
-              "value": "633"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Hispanic"
-            },
-            {
-              "type": "integer",
-              "value": "39415"
-            },
-            {
-              "type": "integer",
-              "value": "2798"
-            },
-            {
-              "type": "integer",
-              "value": "7883"
-            },
-            {
-              "type": "integer",
-              "value": "11045"
-            },
-            {
-              "type": "integer",
-              "value": "784"
-            },
-            {
-              "type": "integer",
-              "value": "2209"
-            },
-            {
-              "type": "integer",
-              "value": "6844"
-            },
-            {
-              "type": "integer",
-              "value": "486"
-            },
-            {
-              "type": "integer",
-              "value": "1369"
-            },
-            {
-              "type": "integer",
-              "value": "10522"
-            },
-            {
-              "type": "integer",
-              "value": "747"
-            },
-            {
-              "type": "integer",
-              "value": "2104"
-            },
-            {
-              "type": "integer",
-              "value": "7438"
-            },
-            {
-              "type": "integer",
-              "value": "528"
-            },
-            {
-              "type": "integer",
-              "value": "1488"
-            },
-            {
-              "type": "integer",
-              "value": "3566"
-            },
-            {
-              "type": "integer",
-              "value": "253"
-            },
-            {
-              "type": "integer",
-              "value": "713"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Other*"
-            },
-            {
-              "type": "integer",
-              "value": "14783"
-            },
-            {
-              "type": "integer",
-              "value": "1050"
-            },
-            {
-              "type": "integer",
-              "value": "2957"
-            },
-            {
-              "type": "integer",
-              "value": "4808"
-            },
-            {
-              "type": "integer",
-              "value": "341"
-            },
-            {
-              "type": "integer",
-              "value": "962"
-            },
-            {
-              "type": "integer",
-              "value": "2942"
-            },
-            {
-              "type": "integer",
-              "value": "209"
-            },
-            {
-              "type": "integer",
-              "value": "588"
-            },
-            {
-              "type": "integer",
-              "value": "3827"
-            },
-            {
-              "type": "integer",
-              "value": "272"
-            },
-            {
-              "type": "integer",
-              "value": "765"
-            },
-            {
-              "type": "integer",
-              "value": "2206"
-            },
-            {
-              "type": "integer",
-              "value": "157"
-            },
-            {
-              "type": "integer",
-              "value": "441"
-            },
-            {
-              "type": "integer",
-              "value": "1000"
-            },
-            {
-              "type": "integer",
-              "value": "71"
-            },
-            {
-              "type": "integer",
-              "value": "200"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Total"
-            },
-            {
-              "type": "integer",
-              "value": "174113"
-            },
-            {
-              "type": "integer",
-              "value": "12361"
-            },
-            {
-              "type": "integer",
-              "value": "34823"
-            },
-            {
-              "type": "integer",
-              "value": "43154"
-            },
-            {
-              "type": "integer",
-              "value": "3064"
-            },
-            {
-              "type": "integer",
-              "value": "8631"
-            },
-            {
-              "type": "integer",
-              "value": "30753"
-            },
-            {
-              "type": "integer",
-              "value": "2183"
-            },
-            {
-              "type": "integer",
-              "value": "6151"
-            },
-            {
-              "type": "integer",
-              "value": "50202"
-            },
-            {
-              "type": "integer",
-              "value": "3564"
-            },
-            {
-              "type": "integer",
-              "value": "10040"
-            },
-            {
-              "type": "integer",
-              "value": "34357"
-            },
-            {
-              "type": "integer",
-              "value": "2439"
-            },
-            {
-              "type": "integer",
-              "value": "6871"
-            },
-            {
-              "type": "integer",
-              "value": "15647"
-            },
-            {
-              "type": "integer",
-              "value": "1111"
-            },
-            {
-              "type": "integer",
-              "value": "3129"
-            }
-          ]
-        ],
-        "5": [
-          [
-            {
-              "type": "string",
-              "value": "0 - 21"
-            },
-            {
-              "type": "string",
-              "value": "0 - 5"
-            },
-            {
-              "type": "string",
-              "value": "6 - 9"
-            },
-            {
-              "type": "string",
-              "value": "10 - 15"
-            },
-            {
-              "type": "string",
-              "value": "16 - 19"
-            },
-            {
-              "type": "string",
-              "value": "20 - 21"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Race"
-            },
-            {
-              "type": "string",
-              "value": "Pop*"
-            },
-            {
-              "type": "string",
-              "value": "Tx*"
-            },
-            {
-              "type": "string",
-              "value": "Life*"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "White"
-            },
-            {
-              "type": "integer",
-              "value": "118443"
-            },
-            {
-              "type": "integer",
-              "value": "8409"
-            },
-            {
-              "type": "integer",
-              "value": "23689"
-            },
-            {
-              "type": "integer",
-              "value": "26388"
-            },
-            {
-              "type": "integer",
-              "value": "1874"
-            },
-            {
-              "type": "integer",
-              "value": "5278"
-            },
-            {
-              "type": "integer",
-              "value": "22165"
-            },
-            {
-              "type": "integer",
-              "value": "1574"
-            },
-            {
-              "type": "integer",
-              "value": "4433"
-            },
-            {
-              "type": "integer",
-              "value": "37714"
-            },
-            {
-              "type": "integer",
-              "value": "2678"
-            },
-            {
-              "type": "integer",
-              "value": "7543"
-            },
-            {
-              "type": "integer",
-              "value": "23541"
-            },
-            {
-              "type": "integer",
-              "value": "1671"
-            },
-            {
-              "type": "integer",
-              "value": "4708"
-            },
-            {
-              "type": "integer",
-              "value": "8635"
-            },
-            {
-              "type": "integer",
-              "value": "613"
-            },
-            {
-              "type": "integer",
-              "value": "1727"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Black"
-            },
-            {
-              "type": "integer",
-              "value": "10966"
-            },
-            {
-              "type": "integer",
-              "value": "779"
-            },
-            {
-              "type": "integer",
-              "value": "2193"
-            },
-            {
-              "type": "integer",
-              "value": "2309"
-            },
-            {
-              "type": "integer",
-              "value": "164"
-            },
-            {
-              "type": "integer",
-              "value": "462"
-            },
-            {
-              "type": "integer",
-              "value": "1806"
-            },
-            {
-              "type": "integer",
-              "value": "128"
-            },
-            {
-              "type": "integer",
-              "value": "361"
-            },
-            {
-              "type": "integer",
-              "value": "3178"
-            },
-            {
-              "type": "integer",
-              "value": "226"
-            },
-            {
-              "type": "integer",
-              "value": "636"
-            },
-            {
-              "type": "integer",
-              "value": "2559"
-            },
-            {
-              "type": "integer",
-              "value": "182"
-            },
-            {
-              "type": "integer",
-              "value": "512"
-            },
-            {
-              "type": "integer",
-              "value": "1114"
-            },
-            {
-              "type": "integer",
-              "value": "79"
-            },
-            {
-              "type": "integer",
-              "value": "223"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Hispanic"
-            },
-            {
-              "type": "integer",
-              "value": "31049"
-            },
-            {
-              "type": "integer",
-              "value": "2205"
-            },
-            {
-              "type": "integer",
-              "value": "6210"
-            },
-            {
-              "type": "integer",
-              "value": "9000"
-            },
-            {
-              "type": "integer",
-              "value": "639"
-            },
-            {
-              "type": "integer",
-              "value": "1800"
-            },
-            {
-              "type": "integer",
-              "value": "5582"
-            },
-            {
-              "type": "integer",
-              "value": "396"
-            },
-            {
-              "type": "integer",
-              "value": "1116"
-            },
-            {
-              "type": "integer",
-              "value": "8462"
-            },
-            {
-              "type": "integer",
-              "value": "601"
-            },
-            {
-              "type": "integer",
-              "value": "1692"
-            },
-            {
-              "type": "integer",
-              "value": "5530"
-            },
-            {
-              "type": "integer",
-              "value": "393"
-            },
-            {
-              "type": "integer",
-              "value": "1106"
-            },
-            {
-              "type": "integer",
-              "value": "2475"
-            },
-            {
-              "type": "integer",
-              "value": "176"
-            },
-            {
-              "type": "integer",
-              "value": "495"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Other*"
-            },
-            {
-              "type": "integer",
-              "value": "12537"
-            },
-            {
-              "type": "integer",
-              "value": "890"
-            },
-            {
-              "type": "integer",
-              "value": "2507"
-            },
-            {
-              "type": "integer",
-              "value": "3872"
-            },
-            {
-              "type": "integer",
-              "value": "275"
-            },
-            {
-              "type": "integer",
-              "value": "774"
-            },
-            {
-              "type": "integer",
-              "value": "2535"
-            },
-            {
-              "type": "integer",
-              "value": "180"
-            },
-            {
-              "type": "integer",
-              "value": "507"
-            },
-            {
-              "type": "integer",
-              "value": "3475"
-            },
-            {
-              "type": "integer",
-              "value": "247"
-            },
-            {
-              "type": "integer",
-              "value": "695"
-            },
-            {
-              "type": "integer",
-              "value": "1935"
-            },
-            {
-              "type": "integer",
-              "value": "137"
-            },
-            {
-              "type": "integer",
-              "value": "387"
-            },
-            {
-              "type": "integer",
-              "value": "720"
-            },
-            {
-              "type": "integer",
-              "value": "51"
-            },
-            {
-              "type": "integer",
-              "value": "144"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Total"
-            },
-            {
-              "type": "integer",
-              "value": "172995"
-            },
-            {
-              "type": "integer",
-              "value": "12282"
-            },
-            {
-              "type": "integer",
-              "value": "34599"
-            },
-            {
-              "type": "integer",
-              "value": "41569"
-            },
-            {
-              "type": "integer",
-              "value": "2951"
-            },
-            {
-              "type": "integer",
-              "value": "8314"
-            },
-            {
-              "type": "integer",
-              "value": "32088"
-            },
-            {
-              "type": "integer",
-              "value": "2278"
-            },
-            {
-              "type": "integer",
-              "value": "6418"
-            },
-            {
-              "type": "integer",
-              "value": "52829"
-            },
-            {
-              "type": "integer",
-              "value": "3751"
-            },
-            {
-              "type": "integer",
-              "value": "10566"
-            },
-            {
-              "type": "integer",
-              "value": "33565"
-            },
-            {
-              "type": "integer",
-              "value": "2383"
-            },
-            {
-              "type": "integer",
-              "value": "6713"
-            },
-            {
-              "type": "integer",
-              "value": "12944"
-            },
-            {
-              "type": "integer",
-              "value": "919"
-            },
-            {
-              "type": "integer",
-              "value": "2589"
-            }
-          ]
-        ],
-        "6": [
-          [
-            {
-              "type": "string",
-              "value": "0 - 21"
-            },
-            {
-              "type": "string",
-              "value": "0 - 5"
-            },
-            {
-              "type": "string",
-              "value": "6 - 9"
-            },
-            {
-              "type": "string",
-              "value": "10 - 15"
-            },
-            {
-              "type": "string",
-              "value": "16 - 19"
-            },
-            {
-              "type": "string",
-              "value": "20 - 21"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Race"
-            },
-            {
-              "type": "string",
-              "value": "Pop*"
-            },
-            {
-              "type": "string",
-              "value": "Tx*"
-            },
-            {
-              "type": "string",
-              "value": "Life*"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "White"
-            },
-            {
-              "type": "integer",
-              "value": "88076"
-            },
-            {
-              "type": "integer",
-              "value": "6253"
-            },
-            {
-              "type": "integer",
-              "value": "17615"
-            },
-            {
-              "type": "integer",
-              "value": "19867"
-            },
-            {
-              "type": "integer",
-              "value": "1411"
-            },
-            {
-              "type": "integer",
-              "value": "3971"
-            },
-            {
-              "type": "integer",
-              "value": "16014"
-            },
-            {
-              "type": "integer",
-              "value": "1137"
-            },
-            {
-              "type": "integer",
-              "value": "3203"
-            },
-            {
-              "type": "integer",
-              "value": "27080"
-            },
-            {
-              "type": "integer",
-              "value": "1923"
-            },
-            {
-              "type": "integer",
-              "value": "5416"
-            },
-            {
-              "type": "integer",
-              "value": "17824"
-            },
-            {
-              "type": "integer",
-              "value": "1266"
-            },
-            {
-              "type": "integer",
-              "value": "3565"
-            },
-            {
-              "type": "integer",
-              "value": "7291"
-            },
-            {
-              "type": "integer",
-              "value": "518"
-            },
-            {
-              "type": "integer",
-              "value": "1458"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Black"
-            },
-            {
-              "type": "integer",
-              "value": "6916"
-            },
-            {
-              "type": "integer",
-              "value": "491"
-            },
-            {
-              "type": "integer",
-              "value": "1383"
-            },
-            {
-              "type": "integer",
-              "value": "1648"
-            },
-            {
-              "type": "integer",
-              "value": "117"
-            },
-            {
-              "type": "integer",
-              "value": "330"
-            },
-            {
-              "type": "integer",
-              "value": "1122"
-            },
-            {
-              "type": "integer",
-              "value": "80"
-            },
-            {
-              "type": "integer",
-              "value": "224"
-            },
-            {
-              "type": "integer",
-              "value": "2045"
-            },
-            {
-              "type": "integer",
-              "value": "146"
-            },
-            {
-              "type": "integer",
-              "value": "409"
-            },
-            {
-              "type": "integer",
-              "value": "1416"
-            },
-            {
-              "type": "integer",
-              "value": "101"
-            },
-            {
-              "type": "integer",
-              "value": "283"
-            },
-            {
-              "type": "integer",
-              "value": "685"
-            },
-            {
-              "type": "integer",
-              "value": "49"
-            },
-            {
-              "type": "integer",
-              "value": "137"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Hispanic"
-            },
-            {
-              "type": "integer",
-              "value": "28915"
-            },
-            {
-              "type": "integer",
-              "value": "2053"
-            },
-            {
-              "type": "integer",
-              "value": "5783"
-            },
-            {
-              "type": "integer",
-              "value": "8352"
-            },
-            {
-              "type": "integer",
-              "value": "593"
-            },
-            {
-              "type": "integer",
-              "value": "1670"
-            },
-            {
-              "type": "integer",
-              "value": "5287"
-            },
-            {
-              "type": "integer",
-              "value": "375"
-            },
-            {
-              "type": "integer",
-              "value": "1057"
-            },
-            {
-              "type": "integer",
-              "value": "8058"
-            },
-            {
-              "type": "integer",
-              "value": "572"
-            },
-            {
-              "type": "integer",
-              "value": "1612"
-            },
-            {
-              "type": "integer",
-              "value": "4998"
-            },
-            {
-              "type": "integer",
-              "value": "355"
-            },
-            {
-              "type": "integer",
-              "value": "1000"
-            },
-            {
-              "type": "integer",
-              "value": "2220"
-            },
-            {
-              "type": "integer",
-              "value": "158"
-            },
-            {
-              "type": "integer",
-              "value": "444"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Other*"
-            },
-            {
-              "type": "integer",
-              "value": "9689"
-            },
-            {
-              "type": "integer",
-              "value": "688"
-            },
-            {
-              "type": "integer",
-              "value": "1938"
-            },
-            {
-              "type": "integer",
-              "value": "3206"
-            },
-            {
-              "type": "integer",
-              "value": "228"
-            },
-            {
-              "type": "integer",
-              "value": "641"
-            },
-            {
-              "type": "integer",
-              "value": "2035"
-            },
-            {
-              "type": "integer",
-              "value": "144"
-            },
-            {
-              "type": "integer",
-              "value": "407"
-            },
-            {
-              "type": "integer",
-              "value": "2660"
-            },
-            {
-              "type": "integer",
-              "value": "189"
-            },
-            {
-              "type": "integer",
-              "value": "532"
-            },
-            {
-              "type": "integer",
-              "value": "1325"
-            },
-            {
-              "type": "integer",
-              "value": "94"
-            },
-            {
-              "type": "integer",
-              "value": "265"
-            },
-            {
-              "type": "integer",
-              "value": "463"
-            },
-            {
-              "type": "integer",
-              "value": "33"
-            },
-            {
-              "type": "integer",
-              "value": "93"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Total"
-            },
-            {
-              "type": "integer",
-              "value": "133596"
-            },
-            {
-              "type": "integer",
-              "value": "9487"
-            },
-            {
-              "type": "integer",
-              "value": "26719"
-            },
-            {
-              "type": "integer",
-              "value": "33073"
-            },
-            {
-              "type": "integer",
-              "value": "2348"
-            },
-            {
-              "type": "integer",
-              "value": "6615"
-            },
-            {
-              "type": "integer",
-              "value": "24458"
-            },
-            {
-              "type": "integer",
-              "value": "1737"
-            },
-            {
-              "type": "integer",
-              "value": "4892"
-            },
-            {
-              "type": "integer",
-              "value": "39843"
-            },
-            {
-              "type": "integer",
-              "value": "2830"
-            },
-            {
-              "type": "integer",
-              "value": "7969"
-            },
-            {
-              "type": "integer",
-              "value": "25563"
-            },
-            {
-              "type": "integer",
-              "value": "1815"
-            },
-            {
-              "type": "integer",
-              "value": "5113"
-            },
-            {
-              "type": "integer",
-              "value": "10659"
-            },
-            {
-              "type": "integer",
-              "value": "757"
-            },
-            {
-              "type": "integer",
-              "value": "2132"
-            }
-          ]
-        ],
-        "State": [
-          [
-            {
-              "type": "string",
-              "value": "0 - 21"
-            },
-            {
-              "type": "string",
-              "value": "0 - 5"
-            },
-            {
-              "type": "string",
-              "value": "6 - 9"
-            },
-            {
-              "type": "string",
-              "value": "10 - 15"
-            },
-            {
-              "type": "string",
-              "value": "16 - 19"
-            },
-            {
-              "type": "string",
-              "value": "20 - 21"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Race"
-            },
-            {
-              "type": "string",
-              "value": "Pop*"
-            },
-            {
-              "type": "string",
-              "value": "Tx*"
-            },
-            {
-              "type": "string",
-              "value": "Life*"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            },
-            {
-              "type": "string",
-              "value": "Pop"
-            },
-            {
-              "type": "string",
-              "value": "Tx"
-            },
-            {
-              "type": "string",
-              "value": "Life"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "White"
-            },
-            {
-              "type": "integer",
-              "value": "620452"
-            },
-            {
-              "type": "integer",
-              "value": "44050"
-            },
-            {
-              "type": "integer",
-              "value": "124090"
-            },
-            {
-              "type": "integer",
-              "value": "137618"
-            },
-            {
-              "type": "integer",
-              "value": "9772"
-            },
-            {
-              "type": "integer",
-              "value": "27522"
-            },
-            {
-              "type": "integer",
-              "value": "110078"
-            },
-            {
-              "type": "integer",
-              "value": "7816"
-            },
-            {
-              "type": "integer",
-              "value": "22016"
-            },
-            {
-              "type": "integer",
-              "value": "185437"
-            },
-            {
-              "type": "integer",
-              "value": "13167"
-            },
-            {
-              "type": "integer",
-              "value": "37088"
-            },
-            {
-              "type": "integer",
-              "value": "128261"
-            },
-            {
-              "type": "integer",
-              "value": "9107"
-            },
-            {
-              "type": "integer",
-              "value": "25653"
-            },
-            {
-              "type": "integer",
-              "value": "59058"
-            },
-            {
-              "type": "integer",
-              "value": "4194"
-            },
-            {
-              "type": "integer",
-              "value": "11811"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Black"
-            },
-            {
-              "type": "integer",
-              "value": "113638"
-            },
-            {
-              "type": "integer",
-              "value": "8070"
-            },
-            {
-              "type": "integer",
-              "value": "22727"
-            },
-            {
-              "type": "integer",
-              "value": "26567"
-            },
-            {
-              "type": "integer",
-              "value": "1886"
-            },
-            {
-              "type": "integer",
-              "value": "5313"
-            },
-            {
-              "type": "integer",
-              "value": "18821"
-            },
-            {
-              "type": "integer",
-              "value": "1336"
-            },
-            {
-              "type": "integer",
-              "value": "3763"
-            },
-            {
-              "type": "integer",
-              "value": "31922"
-            },
-            {
-              "type": "integer",
-              "value": "2268"
-            },
-            {
-              "type": "integer",
-              "value": "6385"
-            },
-            {
-              "type": "integer",
-              "value": "24437"
-            },
-            {
-              "type": "integer",
-              "value": "1737"
-            },
-            {
-              "type": "integer",
-              "value": "4887"
-            },
-            {
-              "type": "integer",
-              "value": "11891"
-            },
-            {
-              "type": "integer",
-              "value": "845"
-            },
-            {
-              "type": "integer",
-              "value": "2378"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Hispanic"
-            },
-            {
-              "type": "integer",
-              "value": "195413"
-            },
-            {
-              "type": "integer",
-              "value": "13874"
-            },
-            {
-              "type": "integer",
-              "value": "39083"
-            },
-            {
-              "type": "integer",
-              "value": "55929"
-            },
-            {
-              "type": "integer",
-              "value": "3971"
-            },
-            {
-              "type": "integer",
-              "value": "11185"
-            },
-            {
-              "type": "integer",
-              "value": "34751"
-            },
-            {
-              "type": "integer",
-              "value": "2467"
-            },
-            {
-              "type": "integer",
-              "value": "6949"
-            },
-            {
-              "type": "integer",
-              "value": "51933"
-            },
-            {
-              "type": "integer",
-              "value": "3687"
-            },
-            {
-              "type": "integer",
-              "value": "10386"
-            },
-            {
-              "type": "integer",
-              "value": "35492"
-            },
-            {
-              "type": "integer",
-              "value": "2520"
-            },
-            {
-              "type": "integer",
-              "value": "7099"
-            },
-            {
-              "type": "integer",
-              "value": "17311"
-            },
-            {
-              "type": "integer",
-              "value": "1230"
-            },
-            {
-              "type": "integer",
-              "value": "3462"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Other*"
-            },
-            {
-              "type": "integer",
-              "value": "80677"
-            },
-            {
-              "type": "integer",
-              "value": "5728"
-            },
-            {
-              "type": "integer",
-              "value": "16135"
-            },
-            {
-              "type": "integer",
-              "value": "25262"
-            },
-            {
-              "type": "integer",
-              "value": "1793"
-            },
-            {
-              "type": "integer",
-              "value": "5053"
-            },
-            {
-              "type": "integer",
-              "value": "15599"
-            },
-            {
-              "type": "integer",
-              "value": "1108"
-            },
-            {
-              "type": "integer",
-              "value": "3120"
-            },
-            {
-              "type": "integer",
-              "value": "20921"
-            },
-            {
-              "type": "integer",
-              "value": "1487"
-            },
-            {
-              "type": "integer",
-              "value": "4184"
-            },
-            {
-              "type": "integer",
-              "value": "12696"
-            },
-            {
-              "type": "integer",
-              "value": "902"
-            },
-            {
-              "type": "integer",
-              "value": "2539"
-            },
-            {
-              "type": "integer",
-              "value": "6199"
-            },
-            {
-              "type": "integer",
-              "value": "440"
-            },
-            {
-              "type": "integer",
-              "value": "1241"
-            }
-          ],
-          [
-            {
-              "type": "string",
-              "value": "Total"
-            },
-            {
-              "type": "integer",
-              "value": "1010183"
-            },
-            {
-              "type": "integer",
-              "value": "71726"
-            },
-            {
-              "type": "integer",
-              "value": "202035"
-            },
-            {
-              "type": "integer",
-              "value": "245376"
-            },
-            {
-              "type": "integer",
-              "value": "17421"
-            },
-            {
-              "type": "integer",
-              "value": "49075"
-            },
-            {
-              "type": "integer",
-              "value": "179249"
-            },
-            {
-              "type": "integer",
-              "value": "12728"
-            },
-            {
-              "type": "integer",
-              "value": "35850"
-            },
-            {
-              "type": "integer",
-              "value": "290213"
-            },
-            {
-              "type": "integer",
-              "value": "20607"
-            },
-            {
-              "type": "integer",
-              "value": "58044"
-            },
-            {
-              "type": "integer",
-              "value": "200886"
-            },
-            {
-              "type": "integer",
-              "value": "14263"
-            },
-            {
-              "type": "integer",
-              "value": "40177"
-            },
-            {
-              "type": "integer",
-              "value": "94459"
-            },
-            {
-              "type": "integer",
-              "value": "6707"
-            },
-            {
-              "type": "integer",
-              "value": "18893"
-            }
-          ]
-        ]
+        "1": [{
+          "key": "0 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "110484"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "28872"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "46879"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "15922"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "202157"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "7844"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "2050"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "3328"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "1130"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "14353"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "22097"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "5774"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "9376"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "3184"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "40431"
+            }]
+          }]
+        }, {
+          "key": "0 - 5",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "27439"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6852"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "13612"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "5494"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "53397"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1948"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "486"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "966"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "390"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "3791"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "5488"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1370"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2722"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "1099"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "10679"
+            }]
+          }]
+        }, {
+          "key": "6 - 9",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "21644"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "4887"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8311"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "3279"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "38121"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1537"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "347"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "590"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "233"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2707"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "4329"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "977"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1662"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "656"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7624"
+            }]
+          }]
+        }, {
+          "key": "10 - 15",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "34728"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "8336"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "12373"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "4163"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "59600"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2466"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "592"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "878"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "296"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "4232"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "6946"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1667"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2475"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "833"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "11920"
+            }]
+          }]
+        }, {
+          "key": "16 - 19",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "19720"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6092"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8374"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "36339"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1400"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "433"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "595"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2580"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "3944"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1218"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1675"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "431"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7268"
+            }]
+          }]
+        }, {
+          "key": "20 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "6953"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "2705"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "4209"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "833"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "14700"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "494"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "192"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "299"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "59"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "1044"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "1391"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "541"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "842"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "167"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "2940"
+            }]
+          }]
+        }],
+        "2": [{
+          "key": "0 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "110484"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "28872"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "46879"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "15922"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "202157"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "7844"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "2050"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "3328"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "1130"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "14353"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "22097"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "5774"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "9376"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "3184"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "40431"
+            }]
+          }]
+        }, {
+          "key": "0 - 5",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "27439"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6852"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "13612"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "5494"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "53397"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1948"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "486"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "966"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "390"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "3791"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "5488"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1370"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2722"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "1099"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "10679"
+            }]
+          }]
+        }, {
+          "key": "6 - 9",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "21644"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "4887"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8311"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "3279"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "38121"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1537"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "347"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "590"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "233"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2707"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "4329"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "977"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1662"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "656"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7624"
+            }]
+          }]
+        }, {
+          "key": "10 - 15",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "34728"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "8336"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "12373"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "4163"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "59600"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2466"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "592"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "878"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "296"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "4232"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "6946"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1667"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2475"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "833"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "11920"
+            }]
+          }]
+        }, {
+          "key": "16 - 19",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "19720"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6092"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8374"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "36339"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1400"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "433"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "595"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2580"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "3944"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1218"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1675"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "431"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7268"
+            }]
+          }]
+        }, {
+          "key": "20 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "6953"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "2705"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "4209"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "833"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "14700"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "494"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "192"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "299"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "59"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "1044"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "1391"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "541"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "842"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "167"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "2940"
+            }]
+          }]
+        }],
+        "3": [],
+        "4": [{
+          "key": "0 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "110484"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "28872"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "46879"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "15922"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "202157"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "7844"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "2050"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "3328"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "1130"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "14353"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "22097"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "5774"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "9376"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "3184"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "40431"
+            }]
+          }]
+        }, {
+          "key": "0 - 5",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "27439"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6852"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "13612"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "5494"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "53397"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1948"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "486"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "966"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "390"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "3791"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "5488"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1370"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2722"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "1099"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "10679"
+            }]
+          }]
+        }, {
+          "key": "6 - 9",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "21644"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "4887"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8311"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "3279"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "38121"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1537"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "347"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "590"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "233"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2707"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "4329"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "977"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1662"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "656"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7624"
+            }]
+          }]
+        }, {
+          "key": "10 - 15",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "34728"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "8336"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "12373"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "4163"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "59600"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2466"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "592"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "878"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "296"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "4232"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "6946"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1667"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2475"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "833"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "11920"
+            }]
+          }]
+        }, {
+          "key": "16 - 19",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "19720"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6092"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8374"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "36339"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1400"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "433"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "595"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2580"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "3944"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1218"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1675"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "431"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7268"
+            }]
+          }]
+        }, {
+          "key": "20 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "6953"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "2705"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "4209"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "833"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "14700"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "494"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "192"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "299"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "59"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "1044"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "1391"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "541"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "842"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "167"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "2940"
+            }]
+          }]
+        }],
+        "5": [{
+          "key": "0 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "110484"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "28872"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "46879"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "15922"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "202157"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "7844"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "2050"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "3328"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "1130"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "14353"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "22097"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "5774"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "9376"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "3184"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "40431"
+            }]
+          }]
+        }, {
+          "key": "0 - 5",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "27439"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6852"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "13612"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "5494"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "53397"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1948"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "486"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "966"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "390"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "3791"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "5488"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1370"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2722"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "1099"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "10679"
+            }]
+          }]
+        }, {
+          "key": "6 - 9",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "21644"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "4887"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8311"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "3279"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "38121"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1537"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "347"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "590"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "233"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2707"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "4329"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "977"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1662"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "656"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7624"
+            }]
+          }]
+        }, {
+          "key": "10 - 15",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "34728"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "8336"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "12373"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "4163"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "59600"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2466"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "592"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "878"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "296"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "4232"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "6946"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1667"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2475"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "833"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "11920"
+            }]
+          }]
+        }, {
+          "key": "16 - 19",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "19720"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6092"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8374"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "36339"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1400"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "433"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "595"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2580"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "3944"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1218"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1675"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "431"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7268"
+            }]
+          }]
+        }, {
+          "key": "20 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "6953"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "2705"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "4209"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "833"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "14700"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "494"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "192"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "299"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "59"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "1044"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "1391"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "541"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "842"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "167"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "2940"
+            }]
+          }]
+        }],
+        "6": [{
+          "key": "0 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "110484"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "28872"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "46879"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "15922"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "202157"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "7844"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "2050"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "3328"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "1130"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "14353"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "22097"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "5774"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "9376"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "3184"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "40431"
+            }]
+          }]
+        }, {
+          "key": "0 - 5",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "27439"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6852"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "13612"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "5494"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "53397"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1948"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "486"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "966"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "390"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "3791"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "5488"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1370"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2722"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "1099"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "10679"
+            }]
+          }]
+        }, {
+          "key": "6 - 9",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "21644"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "4887"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8311"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "3279"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "38121"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1537"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "347"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "590"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "233"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2707"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "4329"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "977"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1662"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "656"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7624"
+            }]
+          }]
+        }, {
+          "key": "10 - 15",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "34728"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "8336"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "12373"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "4163"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "59600"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2466"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "592"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "878"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "296"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "4232"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "6946"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1667"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2475"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "833"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "11920"
+            }]
+          }]
+        }, {
+          "key": "16 - 19",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "19720"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6092"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8374"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "36339"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1400"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "433"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "595"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2580"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "3944"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1218"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1675"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "431"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7268"
+            }]
+          }]
+        }, {
+          "key": "20 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "6953"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "2705"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "4209"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "833"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "14700"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "494"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "192"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "299"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "59"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "1044"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "1391"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "541"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "842"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "167"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "2940"
+            }]
+          }]
+        }],
+        "State": [{
+          "key": "0 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "110484"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "28872"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "46879"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "15922"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "202157"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "7844"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "2050"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "3328"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "1130"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "14353"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "22097"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "5774"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "9376"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "3184"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "40431"
+            }]
+          }]
+        }, {
+          "key": "0 - 5",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "27439"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6852"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "13612"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "5494"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "53397"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1948"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "486"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "966"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "390"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "3791"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "5488"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1370"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2722"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "1099"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "10679"
+            }]
+          }]
+        }, {
+          "key": "6 - 9",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "21644"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "4887"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8311"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "3279"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "38121"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1537"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "347"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "590"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "233"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2707"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "4329"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "977"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1662"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "656"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7624"
+            }]
+          }]
+        }, {
+          "key": "10 - 15",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "34728"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "8336"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "12373"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "4163"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "59600"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2466"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "592"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "878"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "296"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "4232"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "6946"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1667"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "2475"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "833"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "11920"
+            }]
+          }]
+        }, {
+          "key": "16 - 19",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "19720"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "6092"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "8374"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "36339"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1400"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "433"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "595"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "153"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2580"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "3944"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1218"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1675"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "431"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "7268"
+            }]
+          }]
+        }, {
+          "key": "20 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "6953"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "2705"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "4209"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "833"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "14700"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "494"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "192"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "299"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "59"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "1044"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "1391"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "541"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "842"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "167"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "2940"
+            }]
+          }]
+        }]
       }
     }
   },
@@ -3510,7 +3177,7 @@
       "records": {
         "State": [
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "1793"
             },
@@ -3532,7 +3199,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "1108"
             },
@@ -3554,7 +3221,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "1487"
             },
@@ -3576,7 +3243,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "902"
             },
@@ -3598,7 +3265,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "440"
             },
@@ -3622,7 +3289,7 @@
         ],
         "1": [
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "390"
             },
@@ -3644,7 +3311,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "233"
             },
@@ -3666,7 +3333,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "296"
             },
@@ -3688,7 +3355,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "153"
             },
@@ -3710,7 +3377,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "59"
             },
@@ -3734,7 +3401,7 @@
         ],
         "3": [
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "310"
             },
@@ -3756,7 +3423,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "195"
             },
@@ -3778,7 +3445,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "282"
             },
@@ -3800,7 +3467,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "211"
             },
@@ -3822,7 +3489,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "131"
             },
@@ -3846,7 +3513,7 @@
         ],
         "2": [
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "249"
             },
@@ -3868,7 +3535,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "147"
             },
@@ -3890,7 +3557,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "201"
             },
@@ -3912,7 +3579,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "150"
             },
@@ -3934,7 +3601,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "95"
             },
@@ -3958,7 +3625,7 @@
         ],
         "5": [
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "275"
             },
@@ -3980,7 +3647,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "180"
             },
@@ -4002,7 +3669,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "247"
             },
@@ -4024,7 +3691,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "137"
             },
@@ -4046,7 +3713,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "51"
             },
@@ -4070,7 +3737,7 @@
         ],
         "4": [
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "341"
             },
@@ -4092,7 +3759,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "209"
             },
@@ -4114,7 +3781,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "272"
             },
@@ -4136,7 +3803,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "157"
             },
@@ -4158,7 +3825,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "71"
             },
@@ -4182,7 +3849,7 @@
         ],
         "6": [
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "228"
             },
@@ -4204,7 +3871,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "144"
             },
@@ -4226,7 +3893,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "189"
             },
@@ -4248,7 +3915,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "94"
             },
@@ -4270,7 +3937,7 @@
             }
           },
           {
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "33"
             },
@@ -4525,7 +4192,7 @@
               "type": "integer",
               "value": "44050"
             },
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "5728"
             }
@@ -4545,7 +4212,7 @@
               "type": "integer",
               "value": "7844"
             },
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "1130"
             }
@@ -4565,7 +4232,7 @@
               "type": "integer",
               "value": "9907"
             },
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "1128"
             }
@@ -4585,7 +4252,7 @@
               "type": "integer",
               "value": "5426"
             },
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "842"
             }
@@ -4605,7 +4272,7 @@
               "type": "integer",
               "value": "8409"
             },
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "890"
             }
@@ -4625,7 +4292,7 @@
               "type": "integer",
               "value": "6211"
             },
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "1050"
             }
@@ -4645,7 +4312,7 @@
               "type": "integer",
               "value": "6253"
             },
-            "Other*": {
+            "Other": {
               "type": "integer",
               "value": "688"
             }

@@ -10,7 +10,7 @@ angular.module('app')
                 "source": "US Census; Calculations by CONNECT project",
                 "footnotes": ["Pop - 2010 Decennial Census Population.", "Tx - Estimated number of individuals needing treatment for a serious emotional disturbance (7.1% of population).", "Life - Estimated number who have experienced a mental health disorder in their lifetime (20% of population).", "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."]
             },
-            "type": "simpletable",
+            "type": "verticaltable",
             "name": "Treatment Table"
         }, {
             "category": "Behavioral Health",

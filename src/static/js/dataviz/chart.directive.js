@@ -8,6 +8,7 @@ angular.module('app')
         "horizontalstackedbar": horizontalstackedbarChart(),
         "table" : tableChart(),
         "simpletable" : simpletableChart(),
+        "verticaltable": verticalTable(),
         "pie" : pieChart(),
         "regionmap" : regionmapChart()
     };
