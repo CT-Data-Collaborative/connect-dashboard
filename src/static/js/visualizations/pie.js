@@ -65,6 +65,11 @@ function pieChart() {
                 return o.value > 0
             });
 
+            var total = 0;
+            data.forEach(function(d) {
+                total += +d.value;
+            });
+
             // build accessors
             var label = function(d) { return d.label; }
                 dataLabel = function(d) {
@@ -93,7 +98,14 @@ function pieChart() {
             if ("title" in config && config.title !== "") {
                 var title = d3.select(this).append("h5")
                     .classed("chart-title", true)
-                    .text(config.title)
+                    .text(function () {
+                        if (config.calculate_total) {
+                            return config.title + " (n = " + formatters.integer(total) + ")";
+                        } else {
+                            return config.title
+                        }
+
+                    })
             }
 
             // // Legend

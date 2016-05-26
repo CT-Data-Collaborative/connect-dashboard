@@ -9,7 +9,7 @@ angular.module('app')
                 "header_offset": true,
                 "height": 3,
                 "source": "US Census; Calculations by CONNECT project",
-                "footnotes": ["Pop - 2010 Decennial Census Population.", "Tx - Estimated number of individuals needing treatment for a serious emotional disturbance (7.1% of population).", "Life - Estimated number who have experienced a mental health disorder in their lifetime (20% of population).", "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."]
+                "footnotes": ["Pop - Population: Number of children in CT according to 2010 Decennial Census.", "Tx - Estimated number of individuals needing treatment for a serious emotional disturbance (7.1% of population).", "Life - Estimated number who have experienced a mental health disorder in their lifetime (20% of population).", "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."]
             },
             "type": "verticaltable",
             "name": "Treatment Table"
@@ -22,7 +22,8 @@ angular.module('app')
                 "height": 3,
                 "width": 12,
                 "footnotes": ["Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."],
-                "grouping": "Age"
+                "grouping": "Age",
+                "calculate_total": false
             },
             "name": "Treatment Chart",
             "type": "groupedbar"
@@ -36,7 +37,8 @@ angular.module('app')
                 "width": 6,
                 "footnotes": "",
                 "order": ["0 - 5", "6 - 9", "10 - 15", "16 - 19", "20 - 21"],
-                "grouping": ""
+                "grouping": "",
+                "calculate_total": true
             },
             "name": "Treatment Age Pie",
             "type": "pie"
@@ -49,8 +51,9 @@ angular.module('app')
                 "height": 5,
                 "width": 6,
                 "footnotes": ["Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."],
-                "order": ["White", "Black", "Hispanic", "Other"],
-                "grouping": ""
+                "order": ["Black", "Hispanic", "Other", "White"],
+                "grouping": "",
+                "calculate_total": true
             },
             "name": "Treatment Race Pie",
             "type": "pie"
@@ -64,7 +67,8 @@ angular.module('app')
                 "width": 6,
                 "footnotes": ["Data includes only school districts that do not cross town boundaries."],
                 "grouping": "",
-                "ckan_url": "http://data.ctdata.org/visualization/educational-need"
+                "ckan_url": "http://data.ctdata.org/visualization/educational-need",
+                "calculate_total": false
             },
             "name": "Student Characteristics",
             "type": "bar"
@@ -77,7 +81,8 @@ angular.module('app')
                 "height": 4,
                 "width": 6,
                 "footnotes": ["Data includes only school districts that do not cross town boundaries.", "Values are a sum of unsuppressed data and include districts with suppressions."],
-                "grouping": ""
+                "grouping": "",
+                "calculate_total": true
             },
             "name": "Sanctions by Substance",
             "type": "bar"
@@ -90,7 +95,8 @@ angular.module('app')
                 "height": 4,
                 "width": 6,
                 "footnotes": ["Data includes only school districts that do not cross town boundaries.", "Values are a sum of unsuppressed data and include districts with suppressions."],
-                "grouping": ""
+                "grouping": "",
+                "calculate_total": true
             },
             "name": "Sanctions by Type",
             "type": "bar"
@@ -99,12 +105,14 @@ angular.module('app')
             "config": {
                 "source": "CT State Dept of Education",
                 "color": "#7B6888",
-                "title": "Involvment in Incidents by Race, 2012-2013",
+                "title": "Involvement in Incidents by Race, 2012-2013",
                 "height": 3,
                 "width": 6,
                 "footnotes": ["Data includes only school districts that do not cross town boundaries.", "Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."],
                 "grouping": "",
-                "ckan_url": "http://data.ctdata.org/visualization/suspension-rate-by-race"
+                "order": ["Black", "Hispanic", "Other", "White"],
+                "ckan_url": "http://data.ctdata.org/visualization/suspension-rate-by-race",
+                "calculate_total": false
             },
             "name": "Percent Incidents by Race",
             "type": "bar"
@@ -118,7 +126,8 @@ angular.module('app')
                 "width": 8,
                 "footnotes": ["Other includes: Drug Use; Violent Crime; Theft; Property Damage; Weapons; and Sexual Behavior.", "Data includes only school districts that do not cross town boundaries.", "Values are a sum of unsuppressed data and include districts with suppressions."],
                 "order": ["School Policy Violations", "Personally Threatening Behavior", "Physical and Verbal Confrontation", "Fighting and Battery", "Other"],
-                "grouping": ""
+                "grouping": "",
+                "calculate_total": true
             },
             "name": "School Incidents Pie",
             "type": "pie"
@@ -132,7 +141,8 @@ angular.module('app')
                 "width": 6,
                 "footnotes": ["IFSP - Individualized Family Service Plan", "ECSE - Early Childhood Special Education"],
                 "grouping": "",
-                "ckan_url": "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
+                "ckan_url": "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data",
+                "calculate_total": true
             },
             "name": "B23 Number",
             "type": "bar"
@@ -146,7 +156,8 @@ angular.module('app')
                 "width": 6,
                 "footnotes": ["IFSP - Individualized Family Service Plan", "ECSE - Early Childhood Special Education", "Values represent the number of families receiving Birth to Three Services out of the total number of births."],
                 "grouping": "",
-                "ckan_url": "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data"
+                "ckan_url": "http://data.ctdata.org/visualization/birth-to-three-birth-cohort-data",
+                "calculate_total": false
             },
             "name": "B23 Percent",
             "type": "bar"
@@ -159,7 +170,8 @@ angular.module('app')
                 "header_offset": false,
                 "source": "CT Dept of Children and Families",
                 "footnotes": "",
-                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age"
+                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age",
+                "calculate_total": false
             },
             "type": "simpletable",
             "name": "CIP In State Age Table"
@@ -173,7 +185,8 @@ angular.module('app')
                 "width": 8,
                 "footnotes": "",
                 "grouping": "",
-                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age"
+                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age",
+                "calculate_total": true
             },
             "name": "CIP Out of State Pie",
             "type": "pie"
@@ -188,7 +201,8 @@ angular.module('app')
                 "colors": ["#1f77b4", "#ff7f0e"],
                 "footnotes": "",
                 "grouping": "Type of Placement",
-                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-gender"
+                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-gender",
+                "calculate_total": false
             },
             "name": "In State Placement by Gender",
             "type": "stackedbar"
@@ -202,7 +216,8 @@ angular.module('app')
                 "width": 12,
                 "footnotes": "",
                 "grouping": "Type of Placement",
-                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-race-and-ethnicity"
+                "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-race-and-ethnicity",
+                "calculate_total": false
             },
             "name": "In State Placement by Race",
             "type": "stackedbar"
@@ -219,7 +234,8 @@ angular.module('app')
                         "Rate per 1000 live births",
                         "Fetal mortality occurs after 20 weeks of gestation and before labor.",
                         "Data is suppressed when number of deaths is less than or equal to 5. Five-year totals are used to minimize suppression."],
-                "grouping": ""
+                "grouping": "",
+                "calculate_total": false
             },
             "name": "Fetal Mortality",
             "type": "bar"
@@ -236,7 +252,8 @@ angular.module('app')
                     "Rate per 1000 live births",
                     "Infant mortality occurs before the first year of age and is a sum of Neonatal (the first 28 days after birth) and Postneonatal (from 28 days up to 1 year) mortality.",
                     "Data is suppressed when number of deaths is less than or equal to 5. Five-year totals are used to minimize suppression."],
-                "grouping": ""
+                "grouping": "",
+                "calculate_total": false
             },
             "name": "Infant Mortality",
             "type": "bar"

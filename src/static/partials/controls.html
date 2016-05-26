@@ -42,7 +42,7 @@
         </div>
         <div class="settings-section download" ng-if="selectedRegion.selected.id!=''">
             <h5>Download Report:</h5>
-            <a target="_blank" class="btn btn-sm ctdata-btn" download ng-href="/data/pdfs/region-{{selectedRegion.selected.id}}.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {{ selectedRegion.selected.name }} Report</a>
+            <a target="_blank" class="btn btn-sm ctdata-btn" download ng-href="/data/pdfs/{{selectedRegion.selected.name | sluggify}}_connect_report.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {{ selectedRegion.selected.name }} Report</a>
         </div>
     </div>
 </div>

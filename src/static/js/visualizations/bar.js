@@ -136,6 +136,14 @@ function barChart() {
               var metadata = config.metadata;
             }
 
+            if (config.calculate_total) {
+                var total = 0;
+                data.forEach(function(d) {
+                    var key = Object.keys(d)[0]
+                    total += +d[key].value;
+                });
+            }
+
             x.domain(data.map(function(d) { return Object.keys(d)[0]}));
 
             var maxVal = d3.max(data, function(d) {
@@ -160,7 +168,13 @@ function barChart() {
             if ("title" in config && config.title !== "") {
                 var title = d3.select(this).append("h5")
                 .attr("class", "chart-title")
-                .text(config.title);
+                .text(function() {
+                    if (config.calculate_total) {
+                        return config.title + " (n = " + formatters.integer(total) + ")";
+                    } else {
+                        return config.title
+                    }
+                });
             }
 
             // end title

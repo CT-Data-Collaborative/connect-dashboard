@@ -163,13 +163,25 @@ function horizontalbarChart() {
 
             xAxis.tickFormat(tickFormatters[getTickType(data[0])]);
 
+            if (config.calculate_total) {
+                var total = 0;
+                data.forEach(function(d) {
+                    var key = Object.keys(d)[0]
+                    total += +d[key].value;
+                });
+            }
             // title
             if ("title" in config && config.title !== "") {
                 var title = d3.select(this).append("h5")
                     .attr("class", "chart-title")
-                    .text(config.title);
+                    .text(function() {
+                        if (config.calculate_total) {
+                            return config.title + " (n = " + formatters.integer(total) + ")";
+                        } else {
+                            return config.title
+                        }
+                    });
             }
-
             // end title
 
             // main render
