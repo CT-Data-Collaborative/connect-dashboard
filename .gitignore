@@ -4,3 +4,4 @@ policy.json
 .DS_Store
 dist/
 *.sketch
+*.xlsx
