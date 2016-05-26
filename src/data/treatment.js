@@ -21,28 +21,30 @@ Object.keys(files).forEach(function(k) {
 });
 
 
-var csvdata;
 
-fs.readFile('treatment.csv', 'utf8', function(err, data) { csvdata = d3.csv.parse(data);});
-treatment['State'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(csvdata)
 
-fs.readFile('treatment_sw.csv', 'utf8', function(err, data) { csvdata = d3.csv.parse(data);});
-treatment['1'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(csvdata)
+fs.readFile('treatment_state.csv', 'utf8', function(err, data) { statedata = d3.csv.parse(data);});
+var statenested = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(statedata);
+treatment['State'] = statenested;
 
-fs.readFile('treatment_sc.csv', 'utf8', function(err, data) { csvdata = d3.csv.parse(data);});
-treatment['2'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(csvdata)
+fs.readFile('treatment_sw.csv', 'utf8', function(err, data) { swdata = d3.csv.parse(data);});
+treatment['1'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(swdata);
 
-fs.readFile('treatment_east.csv', 'utf8', function(err, data) { csvdata = d3.csv.parse(data);});
-treatment['2'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(csvdata)
+fs.readFile('treatment_sc.csv', 'utf8', function(err, data) { scdata = d3.csv.parse(data);});
 
-fs.readFile('treatment_nc.csv', 'utf8', function(err, data) { csvdata = d3.csv.parse(data);});
-treatment['4'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(csvdata)
+treatment['2'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(scdata);
 
-fs.readFile('treatment_west.csv', 'utf8', function(err, data) { csvdata = d3.csv.parse(data);});
-treatment['5'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(csvdata)
+fs.readFile('treatment_east.csv', 'utf8', function(err, data) { eastdata = d3.csv.parse(data);});
+treatment['3'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(eastdata);
 
-fs.readFile('treatment_central.csv', 'utf8', function(err, data) { csvdata = d3.csv.parse(data);});
-treatment['6'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(csvdata)
+fs.readFile('treatment_nc.csv', 'utf8', function(err, data) { ncdata = d3.csv.parse(data);});
+treatment['4'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(ncdata);
+
+fs.readFile('treatment_west.csv', 'utf8', function(err, data) { westdata = d3.csv.parse(data);});
+treatment['5'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(westdata);
+
+fs.readFile('treatment_central.csv', 'utf8', function(err, data) { centraldata = d3.csv.parse(data);});
+treatment['6'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(centraldata);
 
 
 

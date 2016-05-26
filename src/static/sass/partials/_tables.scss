@@ -242,3 +242,32 @@ div.ctdata-list-table {
         }
     }
 }
+
+.ctdata-verticaltable {
+    tr:hover {
+       td.group-label {
+           background-color: white;
+       }
+    }
+    .group-label {
+        padding-left: 1rem;
+        font-weight: bold;
+    }
+    thead > tr {
+        th.col-name {
+            text-align: left;
+        }
+        th.col-name.val {
+            text-align: right;
+        }
+    }
+    tbody {
+        border-bottom: solid 1px black;
+        tr {
+            td:last-of-type {
+                font-weight: bold;
+            }
+        }
+    }
+
+}

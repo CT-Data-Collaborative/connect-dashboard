@@ -100,39 +100,39 @@ chart {
         }
 
     }
-    &#treatment_table {
-        th {
-            text-align: center;
-        }
-
-        /* Bold the second row, add bottom border */
-        tbody tr:first-child {
-            border-bottom: 1px solid $extra-light-grey;
-    
-            > td {
-                font-weight: $heavy;
-            }
-        }
-
-        /* Bold the word "Total" in last row, add top border */
-        tbody tr:last-child {
-            border-top: 1px solid $extra-light-grey;
-
-            > td:first-child {
-                font-weight: $heavy;
-            }
-        }
-
-        /* Every td except the first */
-        td:nth-child(n+2) {
-            border-left: 1px solid $extra-light-grey;
-        }
-
-        /* Every third td (counting from second td on) */
-        td:nth-child(3n+2) {
-            border-left: 1px solid $dark-grey;
-        }
-    }
+    //&#treatment_table {
+    //    th {
+    //        text-align: center;
+    //    }
+    //
+    //    /* Bold the second row, add bottom border */
+    //    tbody tr:first-child {
+    //        border-bottom: 1px solid $extra-light-grey;
+    //
+    //        > td {
+    //            font-weight: $heavy;
+    //        }
+    //    }
+    //
+    //    /* Bold the word "Total" in last row, add top border */
+    //    tbody tr:last-child {
+    //        border-top: 1px solid $extra-light-grey;
+    //
+    //        > td:first-child {
+    //            font-weight: $heavy;
+    //        }
+    //    }
+    //
+    //    /* Every td except the first */
+    //    td:nth-child(n+2) {
+    //        border-left: 1px solid $extra-light-grey;
+    //    }
+    //
+    //    /* Every third td (counting from second td on) */
+    //    td:nth-child(3n+2) {
+    //        border-left: 1px solid $dark-grey;
+    //    }
+    //}
     &#cip_in_state_age_table {
         /* Bold word "Total" in last row, add top border */
         tr:last-child {

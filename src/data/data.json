@@ -549,27 +549,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "110484"
+              "Value": "76429"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "28872"
+              "Value": "26009"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "46879"
+              "Value": "28410"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "15922"
+              "Value": "11857"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "202157"
+              "Value": "142705"
             }]
           }, {
             "key": "Tx",
@@ -577,27 +577,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "7844"
+              "Value": "5426"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "2050"
+              "Value": "1847"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "3328"
+              "Value": "2017"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "1130"
+              "Value": "842"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "14353"
+              "Value": "10132"
             }]
           }, {
             "key": "Life",
@@ -605,27 +605,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "22097"
+              "Value": "15286"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "5774"
+              "Value": "5202"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "9376"
+              "Value": "5682"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "3184"
+              "Value": "2371"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "40431"
+              "Value": "28541"
             }]
           }]
         }, {
@@ -636,27 +636,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Pop",
-              "Value": "27439"
+              "Value": "15911"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6852"
+              "Value": "6218"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "13612"
+              "Value": "8234"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "5494"
+              "Value": "3514"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "53397"
+              "Value": "33877"
             }]
           }, {
             "key": "Tx",
@@ -664,27 +664,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1948"
+              "Value": "1130"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "486"
+              "Value": "441"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "966"
+              "Value": "585"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "390"
+              "Value": "249"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "3791"
+              "Value": "2405"
             }]
           }, {
             "key": "Life",
@@ -692,27 +692,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Life",
-              "Value": "5488"
+              "Value": "3182"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1370"
+              "Value": "1244"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2722"
+              "Value": "1647"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Life",
-              "Value": "1099"
+              "Value": "703"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Life",
-              "Value": "10679"
+              "Value": "6775"
             }]
           }]
         }, {
@@ -723,27 +723,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Pop",
-              "Value": "21644"
+              "Value": "11787"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "4887"
+              "Value": "4261"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8311"
+              "Value": "5050"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "3279"
+              "Value": "2065"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "38121"
+              "Value": "23163"
             }]
           }, {
             "key": "Tx",
@@ -751,27 +751,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1537"
+              "Value": "837"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "347"
+              "Value": "303"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "590"
+              "Value": "359"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "233"
+              "Value": "147"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2707"
+              "Value": "1645"
             }]
           }, {
             "key": "Life",
@@ -779,27 +779,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Life",
-              "Value": "4329"
+              "Value": "2357"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Life",
-              "Value": "977"
+              "Value": "852"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1662"
+              "Value": "1010"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Life",
-              "Value": "656"
+              "Value": "413"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7624"
+              "Value": "4633"
             }]
           }]
         }, {
@@ -810,27 +810,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Pop",
-              "Value": "34728"
+              "Value": "20423"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "8336"
+              "Value": "7113"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "12373"
+              "Value": "7276"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "4163"
+              "Value": "2829"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "59600"
+              "Value": "37641"
             }]
           }, {
             "key": "Tx",
@@ -838,27 +838,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Tx",
-              "Value": "2466"
+              "Value": "1450"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "592"
+              "Value": "505"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "878"
+              "Value": "517"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "296"
+              "Value": "201"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "4232"
+              "Value": "2673"
             }]
           }, {
             "key": "Life",
@@ -866,27 +866,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Life",
-              "Value": "6946"
+              "Value": "4085"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1667"
+              "Value": "1423"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2475"
+              "Value": "1455"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Life",
-              "Value": "833"
+              "Value": "566"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Life",
-              "Value": "11920"
+              "Value": "7528"
             }]
           }]
         }, {
@@ -897,27 +897,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Pop",
-              "Value": "19720"
+              "Value": "17855"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6092"
+              "Value": "5578"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8374"
+              "Value": "5231"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "2153"
+              "Value": "2111"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "36339"
+              "Value": "30775"
             }]
           }, {
             "key": "Tx",
@@ -925,27 +925,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1400"
+              "Value": "1268"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "433"
+              "Value": "396"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "595"
+              "Value": "371"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "153"
+              "Value": "150"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2580"
+              "Value": "2185"
             }]
           }, {
             "key": "Life",
@@ -953,27 +953,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Life",
-              "Value": "3944"
+              "Value": "3571"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1218"
+              "Value": "1116"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1675"
+              "Value": "1046"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Life",
-              "Value": "431"
+              "Value": "422"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7268"
+              "Value": "6155"
             }]
           }]
         }, {
@@ -984,27 +984,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "6953"
+              "Value": "10453"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "2705"
+              "Value": "2839"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "4209"
+              "Value": "2619"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "833"
+              "Value": "1338"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "14700"
+              "Value": "17249"
             }]
           }, {
             "key": "Tx",
@@ -1012,27 +1012,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "494"
+              "Value": "742"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "192"
+              "Value": "202"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "299"
+              "Value": "186"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "59"
+              "Value": "95"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "1044"
+              "Value": "1225"
             }]
           }, {
             "key": "Life",
@@ -1040,31 +1040,553 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "1391"
+              "Value": "2091"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "541"
+              "Value": "568"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "842"
+              "Value": "524"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "167"
+              "Value": "268"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "2940"
+              "Value": "3450"
             }]
           }]
         }],
-        "3": [],
+        "3": [{
+          "key": "0 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "139535"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "8445"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "20745"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "15889"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "184617"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "9906.985"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "599.595"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "1472.895"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "1128.119"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "13107.807"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "27907"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "1689"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "4149"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "3177.8"
+            }, {
+              "Group": "0 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "36923.4"
+            }]
+          }]
+        }, {
+          "key": "0 - 5",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "28470"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "1782"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "5686"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "4368"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "40306"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2021.37"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "126.522"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "403.706"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "310.128"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2861.726"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "0 - 5",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "5694"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "356.4"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1137.2"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "873.6"
+            }, {
+              "Group": "0 - 5",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "8061.2"
+            }]
+          }]
+        }, {
+          "key": "6 - 9",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "23015"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "1231"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "3677"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2743"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "30666"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1634.065"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "87.401"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "261.067"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "194.753"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2177.286"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "6 - 9",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "4603"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "246.2"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "735.4"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "548.6"
+            }, {
+              "Group": "6 - 9",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "6133.2"
+            }]
+          }]
+        }, {
+          "key": "10 - 15",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "38805"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "2084"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "5242"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "3967"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "50098"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2755.155"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "147.964"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "372.182"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "281.657"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "3556.958"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "10 - 15",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "7761"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "416.8"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "1048.4"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "793.4"
+            }, {
+              "Group": "10 - 15",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "10019.6"
+            }]
+          }]
+        }, {
+          "key": "16 - 19",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "31433"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "1967"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "3921"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "2966"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "40287"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "2231.743"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "139.657"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "278.391"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "210.586"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "2860.377"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "16 - 19",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "6286.6"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "393.4"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "784.2"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "593.2"
+            }, {
+              "Group": "16 - 19",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "8057.4"
+            }]
+          }]
+        }, {
+          "key": "20 - 21",
+          "values": [{
+            "key": "Pop",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Pop",
+              "Value": "17812"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Pop",
+              "Value": "1381"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Pop",
+              "Value": "2222"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Pop",
+              "Value": "1845"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Pop",
+              "Value": "23260"
+            }]
+          }, {
+            "key": "Tx",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Tx",
+              "Value": "1264.652"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Tx",
+              "Value": "98.051"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Tx",
+              "Value": "157.762"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Tx",
+              "Value": "130.995"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Tx",
+              "Value": "1651.46"
+            }]
+          }, {
+            "key": "Life",
+            "values": [{
+              "Group": "20 - 21",
+              "Race": "White",
+              "Label": "Life",
+              "Value": "3562.4"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Black",
+              "Label": "Life",
+              "Value": "276.2"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Hispanic",
+              "Label": "Life",
+              "Value": "444.4"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Other",
+              "Label": "Life",
+              "Value": "369"
+            }, {
+              "Group": "20 - 21",
+              "Race": "Total",
+              "Label": "Life",
+              "Value": "4652"
+            }]
+          }]
+        }],
         "4": [{
           "key": "0 - 21",
           "values": [{
@@ -1073,27 +1595,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "110484"
+              "Value": "87485"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "28872"
+              "Value": "32430"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "46879"
+              "Value": "39415"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "15922"
+              "Value": "14783"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "202157"
+              "Value": "174113"
             }]
           }, {
             "key": "Tx",
@@ -1101,27 +1623,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "7844"
+              "Value": "6211"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "2050"
+              "Value": "2303"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "3328"
+              "Value": "2798"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "1130"
+              "Value": "1050"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "14353"
+              "Value": "12362"
             }]
           }, {
             "key": "Life",
@@ -1129,27 +1651,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "22097"
+              "Value": "17497"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "5774"
+              "Value": "6486"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "9376"
+              "Value": "7883"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "3184"
+              "Value": "2957"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "40431"
+              "Value": "34823"
             }]
           }]
         }, {
@@ -1160,27 +1682,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Pop",
-              "Value": "27439"
+              "Value": "19543"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6852"
+              "Value": "7758"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "13612"
+              "Value": "11045"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "5494"
+              "Value": "4808"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "53397"
+              "Value": "43154"
             }]
           }, {
             "key": "Tx",
@@ -1188,27 +1710,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1948"
+              "Value": "1388"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "486"
+              "Value": "551"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "966"
+              "Value": "784"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "390"
+              "Value": "341"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "3791"
+              "Value": "3064"
             }]
           }, {
             "key": "Life",
@@ -1216,114 +1738,114 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Life",
-              "Value": "5488"
+              "Value": "3909"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1370"
+              "Value": "1552"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2722"
+              "Value": "2209"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Life",
-              "Value": "1099"
+              "Value": "962"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Life",
-              "Value": "10679"
+              "Value": "8631"
             }]
           }]
         }, {
-          "key": "6 - 9",
+          "key": "0 - 6",
           "values": [{
             "key": "Pop",
             "values": [{
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "White",
               "Label": "Pop",
-              "Value": "21644"
+              "Value": "15453"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "4887"
+              "Value": "5514"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8311"
+              "Value": "6844"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "3279"
+              "Value": "2942"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "38121"
+              "Value": "30753"
             }]
           }, {
             "key": "Tx",
             "values": [{
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1537"
+              "Value": "1097"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "347"
+              "Value": "391"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "590"
+              "Value": "486"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "233"
+              "Value": "209"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2707"
+              "Value": "2183"
             }]
           }, {
             "key": "Life",
             "values": [{
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "White",
               "Label": "Life",
-              "Value": "4329"
+              "Value": "3091"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Black",
               "Label": "Life",
-              "Value": "977"
+              "Value": "1103"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1662"
+              "Value": "1369"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Other",
               "Label": "Life",
-              "Value": "656"
+              "Value": "588"
             }, {
-              "Group": "6 - 9",
+              "Group": "0 - 6",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7624"
+              "Value": "6151"
             }]
           }]
         }, {
@@ -1334,27 +1856,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Pop",
-              "Value": "34728"
+              "Value": "26687"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "8336"
+              "Value": "9166"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "12373"
+              "Value": "10522"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "4163"
+              "Value": "3827"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "59600"
+              "Value": "50202"
             }]
           }, {
             "key": "Tx",
@@ -1362,27 +1884,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Tx",
-              "Value": "2466"
+              "Value": "1895"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "592"
+              "Value": "651"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "878"
+              "Value": "747"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "296"
+              "Value": "272"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "4232"
+              "Value": "3564"
             }]
           }, {
             "key": "Life",
@@ -1390,27 +1912,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Life",
-              "Value": "6946"
+              "Value": "5337"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1667"
+              "Value": "1833"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2475"
+              "Value": "2104"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Life",
-              "Value": "833"
+              "Value": "765"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Life",
-              "Value": "11920"
+              "Value": "10040"
             }]
           }]
         }, {
@@ -1421,27 +1943,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Pop",
-              "Value": "19720"
+              "Value": "17888"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6092"
+              "Value": "6825"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8374"
+              "Value": "7438"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "2153"
+              "Value": "2206"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "36339"
+              "Value": "34357"
             }]
           }, {
             "key": "Tx",
@@ -1449,27 +1971,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1400"
+              "Value": "1270"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "433"
+              "Value": "485"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "595"
+              "Value": "528"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "153"
+              "Value": "157"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2580"
+              "Value": "2439"
             }]
           }, {
             "key": "Life",
@@ -1477,27 +1999,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Life",
-              "Value": "3944"
+              "Value": "3578"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1218"
+              "Value": "1365"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1675"
+              "Value": "1488"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Life",
-              "Value": "431"
+              "Value": "441"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7268"
+              "Value": "6871"
             }]
           }]
         }, {
@@ -1508,27 +2030,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "6953"
+              "Value": "7914"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "2705"
+              "Value": "3167"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "4209"
+              "Value": "3566"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "833"
+              "Value": "1000"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "14700"
+              "Value": "15647"
             }]
           }, {
             "key": "Tx",
@@ -1536,27 +2058,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "494"
+              "Value": "562"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "192"
+              "Value": "225"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "299"
+              "Value": "253"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "59"
+              "Value": "71"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "1044"
+              "Value": "1111"
             }]
           }, {
             "key": "Life",
@@ -1564,27 +2086,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "1391"
+              "Value": "1583"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "541"
+              "Value": "633"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "842"
+              "Value": "713"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "167"
+              "Value": "200"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "2940"
+              "Value": "3129"
             }]
           }]
         }],
@@ -1596,27 +2118,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "110484"
+              "Value": "118443"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "28872"
+              "Value": "10966"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "46879"
+              "Value": "31049"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "15922"
+              "Value": "12537"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "202157"
+              "Value": "172995"
             }]
           }, {
             "key": "Tx",
@@ -1624,27 +2146,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "7844"
+              "Value": "8409"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "2050"
+              "Value": "779"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "3328"
+              "Value": "2204"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "1130"
+              "Value": "890"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "14353"
+              "Value": "12283"
             }]
           }, {
             "key": "Life",
@@ -1652,27 +2174,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "22097"
+              "Value": "23689"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "5774"
+              "Value": "2193"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "9376"
+              "Value": "6210"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "3184"
+              "Value": "2507"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "40431"
+              "Value": "34599"
             }]
           }]
         }, {
@@ -1683,27 +2205,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Pop",
-              "Value": "27439"
+              "Value": "26388"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6852"
+              "Value": "2309"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "13612"
+              "Value": "9000"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "5494"
+              "Value": "3872"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "53397"
+              "Value": "41569"
             }]
           }, {
             "key": "Tx",
@@ -1711,27 +2233,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1948"
+              "Value": "1874"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "486"
+              "Value": "164"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "966"
+              "Value": "639"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "390"
+              "Value": "275"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "3791"
+              "Value": "2951"
             }]
           }, {
             "key": "Life",
@@ -1739,27 +2261,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Life",
-              "Value": "5488"
+              "Value": "5278"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1370"
+              "Value": "462"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2722"
+              "Value": "1800"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Life",
-              "Value": "1099"
+              "Value": "774"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Life",
-              "Value": "10679"
+              "Value": "8314"
             }]
           }]
         }, {
@@ -1770,27 +2292,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Pop",
-              "Value": "21644"
+              "Value": "22165"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "4887"
+              "Value": "1806"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8311"
+              "Value": "5582"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "3279"
+              "Value": "2535"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "38121"
+              "Value": "32088"
             }]
           }, {
             "key": "Tx",
@@ -1798,27 +2320,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1537"
+              "Value": "1574"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "347"
+              "Value": "128"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "590"
+              "Value": "396"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "233"
+              "Value": "180"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2707"
+              "Value": "2278"
             }]
           }, {
             "key": "Life",
@@ -1826,27 +2348,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Life",
-              "Value": "4329"
+              "Value": "4433"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Life",
-              "Value": "977"
+              "Value": "361"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1662"
+              "Value": "1116"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Life",
-              "Value": "656"
+              "Value": "507"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7624"
+              "Value": "6418"
             }]
           }]
         }, {
@@ -1857,27 +2379,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Pop",
-              "Value": "34728"
+              "Value": "37714"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "8336"
+              "Value": "3178"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "12373"
+              "Value": "8462"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "4163"
+              "Value": "3475"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "59600"
+              "Value": "52829"
             }]
           }, {
             "key": "Tx",
@@ -1885,27 +2407,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Tx",
-              "Value": "2466"
+              "Value": "2678"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "592"
+              "Value": "226"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "878"
+              "Value": "601"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "296"
+              "Value": "247"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "4232"
+              "Value": "3751"
             }]
           }, {
             "key": "Life",
@@ -1913,27 +2435,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Life",
-              "Value": "6946"
+              "Value": "7543"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1667"
+              "Value": "636"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2475"
+              "Value": "1692"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Life",
-              "Value": "833"
+              "Value": "695"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Life",
-              "Value": "11920"
+              "Value": "10566"
             }]
           }]
         }, {
@@ -1944,27 +2466,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Pop",
-              "Value": "19720"
+              "Value": "23541"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6092"
+              "Value": "2559"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8374"
+              "Value": "5530"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "2153"
+              "Value": "1935"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "36339"
+              "Value": "33565"
             }]
           }, {
             "key": "Tx",
@@ -1972,27 +2494,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1400"
+              "Value": "1671"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "433"
+              "Value": "182"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "595"
+              "Value": "393"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "153"
+              "Value": "137"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2580"
+              "Value": "2383"
             }]
           }, {
             "key": "Life",
@@ -2000,27 +2522,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Life",
-              "Value": "3944"
+              "Value": "4708"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1218"
+              "Value": "512"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1675"
+              "Value": "1106"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Life",
-              "Value": "431"
+              "Value": "387"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7268"
+              "Value": "6713"
             }]
           }]
         }, {
@@ -2031,27 +2553,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "6953"
+              "Value": "8635"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "2705"
+              "Value": "1114"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "4209"
+              "Value": "2475"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "833"
+              "Value": "720"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "14700"
+              "Value": "12944"
             }]
           }, {
             "key": "Tx",
@@ -2059,27 +2581,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "494"
+              "Value": "613"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "192"
+              "Value": "79"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "299"
+              "Value": "176"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "59"
+              "Value": "51"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "1044"
+              "Value": "919"
             }]
           }, {
             "key": "Life",
@@ -2087,27 +2609,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "1391"
+              "Value": "1727"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "541"
+              "Value": "223"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "842"
+              "Value": "495"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "167"
+              "Value": "144"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "2940"
+              "Value": "2589"
             }]
           }]
         }],
@@ -2119,27 +2641,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "110484"
+              "Value": "88076"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "28872"
+              "Value": "6916"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "46879"
+              "Value": "28915"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "15922"
+              "Value": "9689"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "202157"
+              "Value": "133596"
             }]
           }, {
             "key": "Tx",
@@ -2147,27 +2669,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "7844"
+              "Value": "6253"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "2050"
+              "Value": "491"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "3328"
+              "Value": "2053"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "1130"
+              "Value": "688"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "14353"
+              "Value": "9485"
             }]
           }, {
             "key": "Life",
@@ -2175,27 +2697,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "22097"
+              "Value": "17615"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "5774"
+              "Value": "1383"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "9376"
+              "Value": "5783"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "3184"
+              "Value": "1938"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "40431"
+              "Value": "26719"
             }]
           }]
         }, {
@@ -2206,27 +2728,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Pop",
-              "Value": "27439"
+              "Value": "19867"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6852"
+              "Value": "1648"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "13612"
+              "Value": "8352"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "5494"
+              "Value": "3206"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "53397"
+              "Value": "33073"
             }]
           }, {
             "key": "Tx",
@@ -2234,27 +2756,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1948"
+              "Value": "1411"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "486"
+              "Value": "117"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "966"
+              "Value": "593"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "390"
+              "Value": "228"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "3791"
+              "Value": "2348"
             }]
           }, {
             "key": "Life",
@@ -2262,27 +2784,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Life",
-              "Value": "5488"
+              "Value": "3973"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1370"
+              "Value": "330"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2722"
+              "Value": "1670"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Life",
-              "Value": "1099"
+              "Value": "641"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Life",
-              "Value": "10679"
+              "Value": "6615"
             }]
           }]
         }, {
@@ -2293,27 +2815,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Pop",
-              "Value": "21644"
+              "Value": "16014"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "4887"
+              "Value": "1122"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8311"
+              "Value": "5287"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "3279"
+              "Value": "2035"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "38121"
+              "Value": "24458"
             }]
           }, {
             "key": "Tx",
@@ -2321,27 +2843,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1537"
+              "Value": "1137"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "347"
+              "Value": "80"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "590"
+              "Value": "375"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "233"
+              "Value": "144"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2707"
+              "Value": "1737"
             }]
           }, {
             "key": "Life",
@@ -2349,27 +2871,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Life",
-              "Value": "4329"
+              "Value": "3203"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Life",
-              "Value": "977"
+              "Value": "224"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1662"
+              "Value": "1057"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Life",
-              "Value": "656"
+              "Value": "407"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7624"
+              "Value": "4892"
             }]
           }]
         }, {
@@ -2380,27 +2902,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Pop",
-              "Value": "34728"
+              "Value": "27080"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "8336"
+              "Value": "2045"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "12373"
+              "Value": "8058"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "4163"
+              "Value": "2660"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "59600"
+              "Value": "39843"
             }]
           }, {
             "key": "Tx",
@@ -2408,27 +2930,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Tx",
-              "Value": "2466"
+              "Value": "1923"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "592"
+              "Value": "145"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "878"
+              "Value": "572"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "296"
+              "Value": "189"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "4232"
+              "Value": "2829"
             }]
           }, {
             "key": "Life",
@@ -2436,27 +2958,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Life",
-              "Value": "6946"
+              "Value": "5416"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1667"
+              "Value": "409"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2475"
+              "Value": "1612"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Life",
-              "Value": "833"
+              "Value": "532"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Life",
-              "Value": "11920"
+              "Value": "7969"
             }]
           }]
         }, {
@@ -2467,27 +2989,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Pop",
-              "Value": "19720"
+              "Value": "17824"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6092"
+              "Value": "1416"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8374"
+              "Value": "4998"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "2153"
+              "Value": "1325"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "36339"
+              "Value": "25563"
             }]
           }, {
             "key": "Tx",
@@ -2495,27 +3017,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1400"
+              "Value": "1266"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "433"
+              "Value": "101"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "595"
+              "Value": "355"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "153"
+              "Value": "94"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2580"
+              "Value": "1815"
             }]
           }, {
             "key": "Life",
@@ -2523,27 +3045,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Life",
-              "Value": "3944"
+              "Value": "3565"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1218"
+              "Value": "283"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1675"
+              "Value": "1000"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Life",
-              "Value": "431"
+              "Value": "265"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7268"
+              "Value": "5113"
             }]
           }]
         }, {
@@ -2554,27 +3076,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "6953"
+              "Value": "7291"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "2705"
+              "Value": "685"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "4209"
+              "Value": "2220"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "833"
+              "Value": "463"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "14700"
+              "Value": "10659"
             }]
           }, {
             "key": "Tx",
@@ -2582,27 +3104,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "494"
+              "Value": "518"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "192"
+              "Value": "49"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "299"
+              "Value": "158"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "59"
+              "Value": "33"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "1044"
+              "Value": "757"
             }]
           }, {
             "key": "Life",
@@ -2610,27 +3132,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "1391"
+              "Value": "1458"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "541"
+              "Value": "137"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "842"
+              "Value": "444"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "167"
+              "Value": "93"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "2940"
+              "Value": "2132"
             }]
           }]
         }],
@@ -2642,27 +3164,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "110484"
+              "Value": "620452"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "28872"
+              "Value": "113638"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "46879"
+              "Value": "195413"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "15922"
+              "Value": "80677"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "202157"
+              "Value": "1010183"
             }]
           }, {
             "key": "Tx",
@@ -2670,27 +3192,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "7844"
+              "Value": "44052"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "2050"
+              "Value": "8068"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "3328"
+              "Value": "13874"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "1130"
+              "Value": "5728"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "14353"
+              "Value": "71723"
             }]
           }, {
             "key": "Life",
@@ -2698,27 +3220,27 @@
               "Group": "0 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "22097"
+              "Value": "124090"
             }, {
               "Group": "0 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "5774"
+              "Value": "22728"
             }, {
               "Group": "0 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "9376"
+              "Value": "39083"
             }, {
               "Group": "0 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "3184"
+              "Value": "16135"
             }, {
               "Group": "0 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "40431"
+              "Value": "202037"
             }]
           }]
         }, {
@@ -2729,27 +3251,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Pop",
-              "Value": "27439"
+              "Value": "137618"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6852"
+              "Value": "26567"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "13612"
+              "Value": "55929"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "5494"
+              "Value": "25262"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "53397"
+              "Value": "245376"
             }]
           }, {
             "key": "Tx",
@@ -2757,27 +3279,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1948"
+              "Value": "9771"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "486"
+              "Value": "1886"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "966"
+              "Value": "3971"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "390"
+              "Value": "1794"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "3791"
+              "Value": "17422"
             }]
           }, {
             "key": "Life",
@@ -2785,27 +3307,27 @@
               "Group": "0 - 5",
               "Race": "White",
               "Label": "Life",
-              "Value": "5488"
+              "Value": "27524"
             }, {
               "Group": "0 - 5",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1370"
+              "Value": "5313"
             }, {
               "Group": "0 - 5",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2722"
+              "Value": "11186"
             }, {
               "Group": "0 - 5",
               "Race": "Other",
               "Label": "Life",
-              "Value": "1099"
+              "Value": "5052"
             }, {
               "Group": "0 - 5",
               "Race": "Total",
               "Label": "Life",
-              "Value": "10679"
+              "Value": "49075"
             }]
           }]
         }, {
@@ -2816,27 +3338,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Pop",
-              "Value": "21644"
+              "Value": "110078"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "4887"
+              "Value": "18821"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8311"
+              "Value": "34751"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "3279"
+              "Value": "15599"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "38121"
+              "Value": "179249"
             }]
           }, {
             "key": "Tx",
@@ -2844,27 +3366,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1537"
+              "Value": "7816"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "347"
+              "Value": "1336"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "590"
+              "Value": "2467"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "233"
+              "Value": "1108"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2707"
+              "Value": "12727"
             }]
           }, {
             "key": "Life",
@@ -2872,27 +3394,27 @@
               "Group": "6 - 9",
               "Race": "White",
               "Label": "Life",
-              "Value": "4329"
+              "Value": "22016"
             }, {
               "Group": "6 - 9",
               "Race": "Black",
               "Label": "Life",
-              "Value": "977"
+              "Value": "3764"
             }, {
               "Group": "6 - 9",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1662"
+              "Value": "6950"
             }, {
               "Group": "6 - 9",
               "Race": "Other",
               "Label": "Life",
-              "Value": "656"
+              "Value": "3120"
             }, {
               "Group": "6 - 9",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7624"
+              "Value": "35850"
             }]
           }]
         }, {
@@ -2903,27 +3425,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Pop",
-              "Value": "34728"
+              "Value": "185457"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "8336"
+              "Value": "31922"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "12373"
+              "Value": "51933"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "4163"
+              "Value": "20921"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "59600"
+              "Value": "290213"
             }]
           }, {
             "key": "Tx",
@@ -2931,27 +3453,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Tx",
-              "Value": "2466"
+              "Value": "13167"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "592"
+              "Value": "2266"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "878"
+              "Value": "3687"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "296"
+              "Value": "1485"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "4232"
+              "Value": "20605"
             }]
           }, {
             "key": "Life",
@@ -2959,27 +3481,27 @@
               "Group": "10 - 15",
               "Race": "White",
               "Label": "Life",
-              "Value": "6946"
+              "Value": "37091"
             }, {
               "Group": "10 - 15",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1667"
+              "Value": "6384"
             }, {
               "Group": "10 - 15",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "2475"
+              "Value": "10387"
             }, {
               "Group": "10 - 15",
               "Race": "Other",
               "Label": "Life",
-              "Value": "833"
+              "Value": "4184"
             }, {
               "Group": "10 - 15",
               "Race": "Total",
               "Label": "Life",
-              "Value": "11920"
+              "Value": "58043"
             }]
           }]
         }, {
@@ -2990,27 +3512,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Pop",
-              "Value": "19720"
+              "Value": "128261"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "6092"
+              "Value": "24437"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "8374"
+              "Value": "35492"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "2153"
+              "Value": "12696"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "36339"
+              "Value": "200886"
             }]
           }, {
             "key": "Tx",
@@ -3018,27 +3540,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Tx",
-              "Value": "1400"
+              "Value": "9107"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "433"
+              "Value": "1735"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "595"
+              "Value": "2520"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "153"
+              "Value": "901"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "2580"
+              "Value": "14263"
             }]
           }, {
             "key": "Life",
@@ -3046,27 +3568,27 @@
               "Group": "16 - 19",
               "Race": "White",
               "Label": "Life",
-              "Value": "3944"
+              "Value": "25652"
             }, {
               "Group": "16 - 19",
               "Race": "Black",
               "Label": "Life",
-              "Value": "1218"
+              "Value": "4887"
             }, {
               "Group": "16 - 19",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "1675"
+              "Value": "7098"
             }, {
               "Group": "16 - 19",
               "Race": "Other",
               "Label": "Life",
-              "Value": "431"
+              "Value": "2539"
             }, {
               "Group": "16 - 19",
               "Race": "Total",
               "Label": "Life",
-              "Value": "7268"
+              "Value": "40177"
             }]
           }]
         }, {
@@ -3077,27 +3599,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "6953"
+              "Value": "29058"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Pop",
-              "Value": "2705"
+              "Value": "11891"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Pop",
-              "Value": "4209"
+              "Value": "17311"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Pop",
-              "Value": "833"
+              "Value": "6199"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Pop",
-              "Value": "14700"
+              "Value": "94459"
             }]
           }, {
             "key": "Tx",
@@ -3105,27 +3627,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "494"
+              "Value": "2063"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Tx",
-              "Value": "192"
+              "Value": "844"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Tx",
-              "Value": "299"
+              "Value": "1229"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Tx",
-              "Value": "59"
+              "Value": "440"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Tx",
-              "Value": "1044"
+              "Value": "6707"
             }]
           }, {
             "key": "Life",
@@ -3133,27 +3655,27 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "1391"
+              "Value": "5812"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
               "Label": "Life",
-              "Value": "541"
+              "Value": "2378"
             }, {
               "Group": "20 - 21",
               "Race": "Hispanic",
               "Label": "Life",
-              "Value": "842"
+              "Value": "3462"
             }, {
               "Group": "20 - 21",
               "Race": "Other",
               "Label": "Life",
-              "Value": "167"
+              "Value": "1240"
             }, {
               "Group": "20 - 21",
               "Race": "Total",
               "Label": "Life",
-              "Value": "2940"
+              "Value": "18892"
             }]
           }]
         }]

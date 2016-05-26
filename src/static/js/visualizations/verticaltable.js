@@ -30,7 +30,6 @@ function verticalTable() {
             var colspan = null;
 
             var data = dataset['data']['records'];
-            console.log(dataset);
             var config = dataset['config'];
 
             // outermost container
@@ -49,73 +48,67 @@ function verticalTable() {
 
             // Table
             var table = container.append("table")
-                .attr("class", "ctdata-table ctdata-table-wide ctdata-simpletable");
+                .attr("class", "ctdata-table ctdata-table-wide ctdata-verticaltable");
+
+            // Calculate rowspan
+            var outerRowspan = data[0].values.length;
+            var outerValues = data.map(function(v) { return v.key});
+            // Gather headers
+            var headerVar = config.header;
+            var headers = data[0].values[0].values.map(function(v) { return {label: v[headerVar], class: 'val'}});
+
+            // Determine header row padding
+            if (config.header_offset) {
+                headers.unshift({label: 'Age Group', class:''} ,{label: "Label", class: ''})
+            } else {
+                headers.unshift("")
+            }
 
             // thead element
-            var thead = table.append("thead"),
-                headerData = data.shift();
-
-            // determine colspan of header
-            // Calculate colspan
-            // if header cells < data cells, per row.
-            var noblankColumns = headerData.filter(function(col) { return col.id !== "" & col.id !== "_id"})
-
-            if (noblankColumns.length < data[0].length-1 && noblankColumns.length > 0) {
-                colspan = Math.floor((data[0].length)/(noblankColumns.length))
-                colspan = (colspan > 1 ? colspan : null)
-            }
-
-            // populate header - simpletable assumes row 1 is header cells
-            tr = thead.append("tr");
-
-            if (config.header_offset) {
-                headerData.unshift({
-                    "type" : "string",
-                    "value" : (config.header_offset === true ? "" : config.header_offset)
-                });
-            }
+            var thead = table.append("thead");
+            var tr = thead.append("tr");
 
             tr.selectAll("th")
-                .data(headerData)
+                .data(headers)
                 .enter()
                 .append("th")
-                .attr("class", "col-name")
-                .text(function(d) {
-                    return formatters[d.type](d.value);
+                .attr("class", function(d) {
+                    return "col-name " + d.class;
                 })
-                .attr("colspan", function(d, i) {
-                    if (config.header_offset && i === 0) {
-                        return 1;
-                    } else {
-                        return colspan
-                    }
+                .text(function(d) {
+                    return d.label;
                 });
 
+
             // tbody element
-            var tbody = table.append("tbody");
+            //var tbody = table.append("tbody");
 
-            // populate body
-            var rows = tbody.selectAll("tr")
-                .data(data)
-                .enter()
-                .append("tr")
-                .datum(function(d) {return d;});
+            var groups = table.selectAll("tbody")
+                .data(data).enter()
+                .append("tbody");
 
-            rows.each(function(rowData) {
-                d3.select(this).selectAll("td")
-                    .data(rowData)
-                    .enter()
-                    .append("td")
-                    .attr("class", function(d, i) {
-                        if (i === 0) {
-                            return "name";
-                        } else {
-                            return "value";
-                        }
-                    })
-                    .text(function(d) { return formatters[d.type](d.value); })
-            })
-
+            groups.each(function(groupData){
+                var group = this;
+                var outerLabel = groupData.key;
+                var values = groupData.values;
+                values.forEach(function(value, index) {
+                    var tr = d3.select(group).append("tr");
+                    if (index == 0) {
+                        tr.append("td")
+                            .attr("rowspan", outerRowspan)
+                            .attr("class", "group-label")
+                            .text(outerLabel);
+                    }
+                    tr.append("td")
+                        .attr("class", "row-label")
+                        .text(value.key);
+                    value.values.forEach(function(v) {
+                        tr.append("td")
+                            .attr("class", "value")
+                            .text(formatters.integer(v.Value))
+                    });
+                });
+            });
         });
     }
 

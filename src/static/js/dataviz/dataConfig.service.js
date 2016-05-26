@@ -3,6 +3,7 @@ angular.module('app')
         var config = [{
             "category": "Behavioral Health",
             "config": {
+                "header": 'Race',
                 "width": 12,
                 "title": "Potential Treatment Needs by Age and Race",
                 "header_offset": true,
