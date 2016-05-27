@@ -7,7 +7,11 @@
             <h3 class="section-title" id="{{ category.name | sluggify }}">{{ category.name }}</h3>
             <hr class="title-boundary">
             <!--<p>{{ category.notes }}</p>-->
-            <div class="chart-container col-xs-12 col-sm-{{chart.config.width}}" ng-repeat="chart in chartObjects | filter:{category: category.name}:true" >
+            <div class="col-xs-12" ng-if="categoryChartCount[category.name] == 0">
+                <h4>Coming Soon</h4>
+                <p>Email <a href="mailto:info@ctdata.org">us</a> to request data you'd like to see in this section.</p>
+            </div>
+            <div class="chart-container col-xs-12 col-sm-{{chart.config.width}}" ng-repeat="chart in chartObjects | filter:{category: category.name}:true">
                 <chart data="chart" id="{{chart.name | sluggify}}"></chart>
                 <div ng-if="chart.config.source&&chart.config.source!=''" class="source-block">
                     {{ chart.config.source }}

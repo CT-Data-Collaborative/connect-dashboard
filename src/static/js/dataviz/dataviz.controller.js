@@ -55,6 +55,11 @@ angular.module('app')
             }
         ];
 
+        $scope.categoryChartCount = {};
+        $scope.categories.forEach(function(c) {
+            $scope.categoryChartCount[c.name] = 0;
+        });
+
         // -----------------------------------------
         // Scroll to selection
         // -----------------------------------------
@@ -113,6 +118,10 @@ angular.module('app')
         // Update Data
         // -----------------------------------------
         $scope.updateData = function() {
+            $scope.categories.forEach(function(c) {
+                $scope.categoryChartCount[c.name] = 0;
+            });
+
             if (typeof($scope.data[0].data) === 'undefined' || $scope.selectedRegion.selected.id == '') {
                 return
             }
@@ -135,6 +144,9 @@ angular.module('app')
                 return ((typeof chart.data.records !== "undefined") && (chart.data.records.length > 0));
             });
 
+            $scope.chartObjects.forEach(function(c) {
+                $scope.categoryChartCount[c.category] += 1;
+            })
             return;
         };
         // -----------------------------------------
@@ -165,6 +177,7 @@ angular.module('app')
         }, function() {
             $scope.updateData();
             $scope.updateRegionMap();
+            console.log($scope.categoryChartCount)
         }, true);
         // -----------------------------------------
         // End of Watch function on selected Region
