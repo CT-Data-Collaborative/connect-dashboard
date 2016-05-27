@@ -1,5 +1,42 @@
 var d3 = require('d3');
 
+// Helper Functions
+var regionlookup = {
+    'State': 'State',
+    'Central': '6',
+    'East': '3',
+    'South West': '1',
+    'South Central': '2',
+    'North Central': '4',
+    'West': '5'
+}
+
+var sortLookup = {
+    '0 - 5': 0,
+    '6 - 9': 1,
+    '10 - 15': 2,
+    '16 - 19': 3,
+    '20 - 21': 4
+}
+
+var racesortLookup = {
+    'Black': 0,
+    'Hispanic': 1,
+    'White': 2,
+    'Other': 3,
+    'Age': 4
+}
+
+var sorter = function(a, b) {
+    return sortLookup[a.Group] - sortLookup[b.Group]
+}
+
+var raceSort = function(a, b) {
+    return racesortLookup[Object.keys(a)[0]] - racesortLookup[Object.keys(b)[0]]
+}
+
+
+
 var files = {
     'State': 'treatment.csv',
     '1': 'treatment_sw.csv',
@@ -51,39 +88,6 @@ JSON.stringify(treatment)
 
 
 var d3 = require('d3');
-var regionlookup = {
-    'State': 'State',
-    'Central': '6',
-    'East': '3',
-    'South West': '1',
-    'South Central': '2',
-    'North Central': '4',
-    'West': '5'
-}
-
-var sortLookup = {
-    '0 - 5': 0,
-    '6 - 9': 1,
-    '10 - 15': 2,
-    '16 - 19': 3,
-    '20 - 21': 4
-}
-
-var racesortLookup = {
-    'Black': 0,
-    'Hispanic': 1,
-    'White': 2,
-    'Other': 3,
-    'Age': 4
-}
-
-var sorter = function(a, b) {
-    return sortLookup[a.Group] - sortLookup[b.Group]
-}
-
-var raceSort = function(a, b) {
-    return racesortLookup[Object.keys(a)[0]] - racesortLookup[Object.keys(b)[0]]
-}
 
 fs.readFile('treatment_all.csv', 'utf8', function(err, data) { alldata = d3.csv.parse(data);});
 var dataFiltered = alldata.filter(function (d) { return d.Label == 'Tx'});

@@ -61,7 +61,7 @@ angular.module('app')
             "category": "Education",
             "config": {
                 "source": "CT State Dept of Education",
-                "color": "#5B771C",
+                "color": "#1EACF1",
                 "title": "Student Characteristics, 2013-2014",
                 "height": 4,
                 "width": 6,
@@ -76,7 +76,7 @@ angular.module('app')
             "category": "Education",
             "config": {
                 "source": "CT State Dept of Education",
-                "color": "#F67C92",
+                "color": "#1EACF1",
                 "title": "Substance-Related Sanctions Grades 6-12, 2009",
                 "height": 4,
                 "width": 6,
@@ -90,7 +90,7 @@ angular.module('app')
             "category": "Education",
             "config": {
                 "source": "CT State Dept of Education",
-                "color": "#A05D56",
+                "color": "#1EACF1",
                 "title": "School Sanctions by Type, 2012-2013",
                 "height": 4,
                 "width": 6,
@@ -104,7 +104,7 @@ angular.module('app')
             "category": "Education",
             "config": {
                 "source": "CT State Dept of Education",
-                "color": "#7B6888",
+                "color": "#1EACF1",
                 "title": "Involvement in Incidents by Race, 2012-2013",
                 "height": 3,
                 "width": 6,
@@ -225,7 +225,7 @@ angular.module('app')
             "category": "Health",
             "config": {
                 "source": "CT Dept of Public Health",
-                "color": "#F67C92",
+                "color": "#1EACF1",
                 "title": "Fetal Mortality Rate, 2007-2011",
                 "height": 5,
                 "width": 6,
@@ -243,7 +243,7 @@ angular.module('app')
             "category": "Health",
             "config": {
                 "source": "CT Dept of Public Health",
-                "color": "#F67C92",
+                "color": "#1EACF1",
                 "title": "Infant Mortality Rate, 2007-2011",
                 "height": 5,
                 "width": 6,
