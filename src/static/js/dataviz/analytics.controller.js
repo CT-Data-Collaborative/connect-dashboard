@@ -3,5 +3,5 @@
  */
 angular.module('app')
     .controller('AnalyticsController',function($scope) {
-       $scope.analytics = false;
+       $scope.analytics = true;
     });

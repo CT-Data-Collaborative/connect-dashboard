@@ -3599,7 +3599,7 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Pop",
-              "Value": "29058"
+              "Value": "59058"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
@@ -3627,7 +3627,7 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Tx",
-              "Value": "2063"
+              "Value": "4193"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
@@ -3655,7 +3655,7 @@
               "Group": "20 - 21",
               "Race": "White",
               "Label": "Life",
-              "Value": "5812"
+              "Value": "11811"
             }, {
               "Group": "20 - 21",
               "Race": "Black",
@@ -4432,7 +4432,7 @@
           },
           "White": {
             "type": "integer",
-            "value": "2063"
+            "value": "4193"
           },
           "Hispanic": {
             "type": "integer",
@@ -4615,7 +4615,7 @@
           },
           "20 - 21": {
             "type": "integer",
-            "value": 4576
+            "value": 6706
           }
         }]
       }
@@ -4643,7 +4643,7 @@
       "grouping": ""
     },
     "data": {
-      "records":{
+      "records": {
         "1": [{
           "White": {
             "type": "integer",
@@ -4759,7 +4759,7 @@
           },
           "White": {
             "type": "integer",
-            "value": 41924
+            "value": 44054
           },
           "Other": {
             "type": "integer",

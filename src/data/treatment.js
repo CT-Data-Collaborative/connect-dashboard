@@ -31,7 +31,6 @@ fs.readFile('treatment_sw.csv', 'utf8', function(err, data) { swdata = d3.csv.pa
 treatment['1'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(swdata);
 
 fs.readFile('treatment_sc.csv', 'utf8', function(err, data) { scdata = d3.csv.parse(data);});
-
 treatment['2'] = d3.nest().key(function (d) {return d.Group;}).key(function(d) { return d.Label}).entries(scdata);
 
 fs.readFile('treatment_east.csv', 'utf8', function(err, data) { eastdata = d3.csv.parse(data);});

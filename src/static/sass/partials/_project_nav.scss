@@ -58,8 +58,9 @@
 .connect-logo {
   max-height: 2.5rem;
 }
+
 @media screen and (max-width: 400px) {
-  .navbar-header {
+   .navbar-header {
     .logo-circle {
       width: .75rem;
       height: .75rem;
@@ -68,5 +69,11 @@
     .logo-link:after {
       content: "Created by CTData";
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .connect-logo {
+    max-height: .5rem;
   }
 }
