@@ -1,0 +1,170 @@
+{
+    "1": [
+        {
+            "0 - 5": {
+                "type": "integer",
+                "value": 3790
+            },
+            "10 - 15": {
+                "type": "integer",
+                "value": 4232
+            },
+            "16 - 19": {
+                "type": "integer",
+                "value": 2581
+            },
+            "20 - 21": {
+                "type": "integer",
+                "value": 1044
+            },
+            "6 - 9": {
+                "type": "integer",
+                "value": 2707
+            }
+        }
+    ],
+    "2": [
+        {
+            "0 - 5": {
+                "type": "integer",
+                "value": 2405
+            },
+            "10 - 15": {
+                "type": "integer",
+                "value": 2673
+            },
+            "16 - 19": {
+                "type": "integer",
+                "value": 2185
+            },
+            "20 - 21": {
+                "type": "integer",
+                "value": 1225
+            },
+            "6 - 9": {
+                "type": "integer",
+                "value": 1646
+            }
+        }
+    ],
+    "3": [
+        {
+            "0 - 5": {
+                "type": "integer",
+                "value": 2862
+            },
+            "10 - 15": {
+                "type": "integer",
+                "value": 3557
+            },
+            "16 - 19": {
+                "type": "integer",
+                "value": 2861
+            },
+            "20 - 21": {
+                "type": "integer",
+                "value": 1652
+            },
+            "6 - 9": {
+                "type": "integer",
+                "value": 2177
+            }
+        }
+    ],
+    "4": [
+        {
+            "0 - 5": {
+                "type": "integer",
+                "value": 3064
+            },
+            "0 - 6": {
+                "type": "integer",
+                "value": 2183
+            },
+            "10 - 15": {
+                "type": "integer",
+                "value": 3565
+            },
+            "16 - 19": {
+                "type": "integer",
+                "value": 2440
+            },
+            "20 - 21": {
+                "type": "integer",
+                "value": 1111
+            }
+        }
+    ],
+    "5": [
+        {
+            "0 - 5": {
+                "type": "integer",
+                "value": 2952
+            },
+            "10 - 15": {
+                "type": "integer",
+                "value": 3752
+            },
+            "16 - 19": {
+                "type": "integer",
+                "value": 2383
+            },
+            "20 - 21": {
+                "type": "integer",
+                "value": 919
+            },
+            "6 - 9": {
+                "type": "integer",
+                "value": 2278
+            }
+        }
+    ],
+    "6": [
+        {
+            "0 - 5": {
+                "type": "integer",
+                "value": 2349
+            },
+            "10 - 15": {
+                "type": "integer",
+                "value": 2829
+            },
+            "16 - 19": {
+                "type": "integer",
+                "value": 1816
+            },
+            "20 - 21": {
+                "type": "integer",
+                "value": 758
+            },
+            "6 - 9": {
+                "type": "integer",
+                "value": 1736
+            }
+        }
+    ],
+    "State": [
+        {
+            "0 - 5": {
+                "type": "integer",
+                "value": 17422
+            },
+            "10 - 15": {
+                "type": "integer",
+                "value": 20605
+            },
+            "16 - 19": {
+                "type": "integer",
+                "value": 14263
+            },
+            "20 - 21": {
+                "type": "integer",
+                "value": 6706
+            },
+            "6 - 9": {
+                "type": "integer",
+                "value": 12727
+            }
+        }
+    ]
+}

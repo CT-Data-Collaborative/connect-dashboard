@@ -1,0 +1,786 @@
+{
+    "1": [
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 5"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "486"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "966"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "390"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1948"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "10 - 15"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "592"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "878"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "296"
+            },
+            "White": {
+                "type": "integer",
+                "value": "2466"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "16 - 19"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "433"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "595"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "153"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1400"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "20 - 21"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "192"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "299"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "59"
+            },
+            "White": {
+                "type": "integer",
+                "value": "494"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "6 - 9"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "347"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "590"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "233"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1537"
+            }
+        }
+    ],
+    "2": [
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 5"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "441"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "585"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "249"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1130"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "10 - 15"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "505"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "517"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "201"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1450"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "16 - 19"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "396"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "371"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "150"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1268"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "20 - 21"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "202"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "186"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "95"
+            },
+            "White": {
+                "type": "integer",
+                "value": "742"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "6 - 9"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "303"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "359"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "147"
+            },
+            "White": {
+                "type": "integer",
+                "value": "837"
+            }
+        }
+    ],
+    "3": [
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 5"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "127"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "404"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "310"
+            },
+            "White": {
+                "type": "integer",
+                "value": "2021"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "10 - 15"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "148"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "372"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "282"
+            },
+            "White": {
+                "type": "integer",
+                "value": "2755"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "16 - 19"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "140"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "278"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "211"
+            },
+            "White": {
+                "type": "integer",
+                "value": "2232"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "20 - 21"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "98"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "158"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "131"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1265"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "6 - 9"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "87"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "261"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "195"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1634"
+            }
+        }
+    ],
+    "4": [
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 5"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "551"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "784"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "341"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1388"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 6"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "391"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "486"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "209"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1097"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "10 - 15"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "651"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "747"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "272"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1895"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "16 - 19"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "485"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "528"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "157"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1270"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "20 - 21"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "225"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "253"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "71"
+            },
+            "White": {
+                "type": "integer",
+                "value": "562"
+            }
+        }
+    ],
+    "5": [
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 5"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "164"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "639"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "275"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1874"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "10 - 15"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "226"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "601"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "247"
+            },
+            "White": {
+                "type": "integer",
+                "value": "2678"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "16 - 19"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "182"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "393"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "137"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1671"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "20 - 21"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "79"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "176"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "51"
+            },
+            "White": {
+                "type": "integer",
+                "value": "613"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "6 - 9"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "128"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "396"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "180"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1574"
+            }
+        }
+    ],
+    "6": [
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 5"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "117"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "593"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "228"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1411"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "10 - 15"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "145"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "572"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "189"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1923"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "16 - 19"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "101"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "355"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "94"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1266"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "20 - 21"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "49"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "158"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "33"
+            },
+            "White": {
+                "type": "integer",
+                "value": "518"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "6 - 9"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "80"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "375"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "144"
+            },
+            "White": {
+                "type": "integer",
+                "value": "1137"
+            }
+        }
+    ],
+    "State": [
+        {
+            "Age": {
+                "type": "string",
+                "value": "0 - 5"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "1886"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "3971"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "1794"
+            },
+            "White": {
+                "type": "integer",
+                "value": "9771"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "10 - 15"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "2266"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "3687"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "1485"
+            },
+            "White": {
+                "type": "integer",
+                "value": "13167"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "16 - 19"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "1735"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "2520"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "901"
+            },
+            "White": {
+                "type": "integer",
+                "value": "9107"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "20 - 21"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "844"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "1229"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "440"
+            },
+            "White": {
+                "type": "integer",
+                "value": "4193"
+            }
+        },
+        {
+            "Age": {
+                "type": "string",
+                "value": "6 - 9"
+            },
+            "Black": {
+                "type": "integer",
+                "value": "1336"
+            },
+            "Hispanic": {
+                "type": "integer",
+                "value": "2467"
+            },
+            "Other": {
+                "type": "integer",
+                "value": "1108"
+            },
+            "White": {
+                "type": "integer",
+                "value": "7816"
+            }
+        }
+    ]
+}
