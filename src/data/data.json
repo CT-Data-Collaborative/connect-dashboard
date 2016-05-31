@@ -3685,7 +3685,7 @@
   {
     "category": "Behavioral Health",
     "config": {
-      "source": "US Census; Calcuations by CT Dept of Children and Families",
+      "source": "US Census; Calculations by CT Dept of Children and Families",
       "color": "",
       "title": "Number of Children in Need of Treatment: By Age Group and Race, 2010",
       "height": 3,
@@ -4447,7 +4447,7 @@
   {
     "category": "Behavioral Health",
     "config": {
-      "source": "US Census; Calcuations by CT Dept of Children and Families",
+      "source": "US Census; Calculations by CT Dept of Children and Families",
       "color": "",
       "title": "Children in Need of Treatment by Age",
       "height": 5,
@@ -4626,7 +4626,7 @@
   {
     "category": "Behavioral Health",
     "config": {
-      "source": "US Census; Calcuations by CT Dept of Children and Families",
+      "source": "US Census; Calculations by CT Dept of Children and Families",
       "color": "",
       "title": "Children in Need of Treatment by Race",
       "height": 5,
