@@ -257,6 +257,99 @@ angular.module('app')
             },
             "name": "Infant Mortality",
             "type": "bar"
+        },{
+            "category": "Demographics",
+            "config": {
+                "title": "Popluation by Age",
+                "color": "",
+                "height": 5,
+                "source": "US Census; 2010 Decennial Census table PCT3",
+                "width": 6,
+                "footnotes": "",
+                "order": [
+                    "0 to 9 years",
+                    "10 to 19 years",
+                    "20 to 29 years",
+                    "30 to 44 years",
+                    "45 to 64 years",
+                    "65+ years"
+                ],
+                "grouping": ""
+            },
+            "name": "Population Age Pie",
+            "type": "pie"
+        },{
+            "category": "Demographics",
+            "config": {
+                "width": 6,
+                "color": "",
+                "ckan_url": "",
+                "title": "Population by Race",
+                "height": 5,
+                "source": "US Census, 2010 Decennial Census Table PCT3",
+                "footnotes": [
+                    "Black, White, and Other races are specifically those Not of Hispanic Origin",
+                    "Other race includes Asian, American Indian, Pacific Islander, and Multiracial persons."
+                ],
+                "order": [
+                    "White",
+                    "Black",
+                    "Hispanic",
+                    "Other"
+                ],
+                "grouping": ""
+            },
+            "name": "Population Race Bar",
+            "type": "bar"
+        },{
+            "category": "Demographics",
+            "config": {
+                "width": 12,
+                "title": "Population by Age and Race",
+                "header_offset": false,
+                "height": 5,
+                "source": "US Census, 2010 Decennial Census Table PCT3",
+                "footnotes": [
+                    "Black, White, and Other races are specifically those Not of Hispanic Origin",
+                    "Other race includes Asian, American Indian, Pacific Islander, and Multiracial persons."
+                ]
+            },
+            "type": "simpletable",
+            "name": "Population Age Race Table",
+        },{
+            "category": "Juvenile Justice",
+            "config": {
+                "title": "Juvenile Arrests by Age, Rate per 100,000 Persons",
+                "color": "",
+                "height": 5,
+                "source": "Connecticut Uniform Crime Report; US Census",
+                "width": 6,
+                "footnotes": [
+                    "Rates calculated using 2010-2014 ACS 5-Year population data, table B01001."
+                ],
+                "order": [
+                    "0 to 9 years",
+                    "10 to 14 years",
+                    "15 to 17 years"
+                ],
+                "grouping": ""
+            },
+            "name": "Juvenile Arrest Rate",
+            "type": "bar"
+        },{
+            "category": "Juvenile Justice",
+            "config": {
+                "title": "Juvenile Arrests by Age, selected Crimes",
+                "color": "",
+                "ckan_url": "http://data.ctdata.org/visualization/juvenile-arrests",
+                "height": 5,
+                "source": "Connecticut Uniform Crime Report",
+                "footnotes": "",
+                "width": 6,
+                "grouping": "Crime"
+            },
+            "name": "Juvenile Arrests",
+            "type": "stackedbar"
         }];
         return config;
     }]);
