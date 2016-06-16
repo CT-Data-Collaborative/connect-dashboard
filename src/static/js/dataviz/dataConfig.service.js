@@ -263,9 +263,11 @@ angular.module('app')
                 "title": "Popluation by Age",
                 "color": "",
                 "height": 5,
-                "source": "US Census; 2010 Decennial Census table PCT3",
+                "source": "US Census",
                 "width": 6,
-                "footnotes": "",
+                "footnotes": [
+                    "2010 Decennial Census Table PCT3"
+                ],
                 "order": [
                     "0 to 9 years",
                     "10 to 19 years",
@@ -286,8 +288,9 @@ angular.module('app')
                 "ckan_url": "",
                 "title": "Population by Race",
                 "height": 5,
-                "source": "US Census, 2010 Decennial Census Table PCT3",
+                "source": "US Census",
                 "footnotes": [
+                    "2010 Decennial Census Table PCT3",
                     "Black, White, and Other races are specifically those Not of Hispanic Origin",
                     "Other race includes Asian, American Indian, Pacific Islander, and Multiracial persons."
                 ],
@@ -308,8 +311,9 @@ angular.module('app')
                 "title": "Population by Age and Race",
                 "header_offset": false,
                 "height": 5,
-                "source": "US Census, 2010 Decennial Census Table PCT3",
+                "source": "US Census",
                 "footnotes": [
+                    "2010 Decennial Census Table PCT3",
                     "Black, White, and Other races are specifically those Not of Hispanic Origin",
                     "Other race includes Asian, American Indian, Pacific Islander, and Multiracial persons."
                 ]
