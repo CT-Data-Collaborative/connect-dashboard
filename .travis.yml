@@ -1,19 +1,19 @@
 language: node_js
 before_script:
-  - npm install -g gulp
+- npm install -g gulp
 script: gulp
 branches:
   only:
-    - master
+  - master
 deploy:
   skip_cleanup: true
   provider: s3
   local_dir: dist
   access_key_id: AKIAISC4OB2CVWUR7WYQ
-  secret_access_key:
-    secure: Qv5VfelbGByiblzfpxezThPGvFQIfgvXmTnp1tLfKeQ4DEs97Olg2p+7yXxcHpqm64IoyCTbyi+EHgH99ryqoqUyv0i5dmfsGcpktrYn/VD/faZzWoVdGDjy2sog4AOcI+LWHf7ZKSbtqaM/kmfBzonvdOPhtHv/CtgtiiMTOCLKgr5hZnoBA2K2iNys0wO9soOJfjkMAEOuhXuy5igfNZcPjnXoWizPJToiom4HZRiM14aajUaDYFJ3dDIfhGX1ChTT6iYqDSbm3Tg410aMTlDX9TqEZ4wVwdxJnzmcEET1SqyYk3x3SEtjHXZXZH4VvFKkMlTzu3GSB5l1XToBRo/tUvGlyGymQb+hJFtucC36XnNRznNyi2fbXCOdu/M0N6uDPEOgx2xMO4ByWe17Bx9naqrZmlPw+lxRSHqMvX5u+SGbJjJ3c2pN/oW0j+XK+vml49QkX4ZhMcOE9BO/DOZwBEkw2xZOQc1uFBtQ1sNMo6Cioj6QZCzlfBhGcAC3apfYIAHkJj31gi1ZfvRrvpC7NoEBwfW8bmqKdt1v691xKtLppv8AhBD1rRN7sWlbsnX7COWoyxUiciyW1xRT88+7iPtA3BnME9IZ65S7Q73TFIbs6zQfDowGlK+ifOCaaQVtcmUfkRL2nWtfFUoWIk1eipYeuWrY2JtcQpwXKAQ=
   bucket: connect.ctdata.org
   acl: public_read
   on:
     repo: CT-Data-Collaborative/connect-dashboard
     branch: master
+  secret_access_key:
+    secure: hIJ3Vke1sNbh3zR5Ys2ZAvhDuhp52Keup1K1Y2j1m3J5bl3Z3qAr9fELVAc37s+hAUqMwmen6Yi580QZwJZOwg8v8kFpT6Pu6HGDaC0no2KV3mpt7HNRPGiooeeCthd0Mz87AZUtiIIjrWfcJRwmvsc34FH3WXqL+4ZGwsfnKZ4uyw8HY5fkFxk6YJQRXSZvNYbiKb7g3lk4UYoe+dJo8vBW2Ag1B7uoShX/vWGvbhTYCTAJIIe5wbjGcuDxFjowV2PVt+ODUiktoDz3o4DwK03uFvyVfjxmAH22rexoLE39sxBKT+nL+3/IJgDOtJ5UkQpoxr7cQSs0CKUQLij7DUjK4rLpjxjdZsKivLU0nxaL8W9fx4KdxOVeV24qU+HX7VYhw9oDeX1ZICEa8CHIeqG2DRKosqTgkuxwSAaapNQ5jtHTqVaa+rHWbLihoTOtkOsyDPJVVSf+Iku/xlQ0ZV++c9KcCZ801GbRBvF9VKBzZeEBYLTrEdFx1sIVBq8SKmXRebrF9bGdwEmyHX1jvEhXr5s3XY89kdkZRZ6fsZWrupkhxw/XtCrD8cq9qeEkvBATYF2H4JiJ07ULXg4x7LpIM25FnxN78+tGCvg49Wl5nDIZogzyQNzRxjgPvkO2f+1gNqYtM+bzM4ZkrYL1LAZC7Txt20Pj98HygOPcpJ4=
