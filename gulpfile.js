@@ -17,6 +17,7 @@ gulp.task('js_dependencies', function() {
         'node_modules/ng-lodash/build/ng-lodash.min.js',
         'node_modules/tether/dist/js/tether.min.js',
         'node_modules/jquery/dist/jquery.min.js',
+        'src/local_libs/widget.dist.js',
         'src/static/js/**/visualizations/*.js'
     ]).pipe(gulp.dest('dist/js/libs'));
 });
