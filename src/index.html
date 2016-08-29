@@ -25,6 +25,11 @@
     <script src="js/libs/ui-bootstrap-tpls.js"></script>
     <script src="js/libs/ng-lodash.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/libs/widget.dist.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        var element = document.getElementById('feedback');
+        new FeedbackWidget('http://54.85.253.90:5000/feedback/', element,'connect');
+    </script>
     <!-- Town GeoJSON -->
     <script src="data/town.geojson"></script>
     <!-- Viz scripts -->
