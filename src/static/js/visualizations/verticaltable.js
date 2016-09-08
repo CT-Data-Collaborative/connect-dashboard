@@ -31,7 +31,7 @@ function verticalTable() {
 
             var data = dataset['data']['records'];
             var config = dataset['config'];
-
+            console.log(data);
             // outermost container
             var container = d3.select(this).append("div")
                 .attr("class", "table_container")

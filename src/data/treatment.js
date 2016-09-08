@@ -24,6 +24,15 @@ var sortLookup = {
     '20 - 21': 4
 };
 
+var ageLookup = {
+    '0 - 5': 0,
+    '6 - 9': 1,
+    '10 - 15': 2,
+    '16 - 19': 3,
+    '20 - 21': 4,
+    '0 - 21': 5
+};
+
 var racesortLookup = {
     'Black': 0,
     'Hispanic': 1,
@@ -32,6 +41,22 @@ var racesortLookup = {
     'Age': 4
 };
 
+var racesortLookup2 = {
+    'White': 1,
+    'Black': 2,
+    'Hispanic': 3,
+    'Other': 3,
+    'Total': 4
+};
+
+var sortByRace = function(a, b) {
+    return racesortLookup2[a.Race] - racesortLookup2[b.Race];
+};
+
+
+var sortByAge = function(a, b) {
+    return ageLookup[a] - ageLookup[b];
+}
 var sorter = function(a, b) {
     return sortLookup[a.Group] - sortLookup[b.Group]
 };
@@ -55,13 +80,18 @@ function parseCSV(filename) {
     return d3.csv.parse(fs.readFileSync(filename, 'utf8'))
 }
 
+
 function prepTreatmentTableData(filename) {
     var data = parseCSV(filename);
-    return d3.nest()
+    var nested = d3.nest()
         .key(function(d) {return regionLookup[d.Region]})
-        .key(function(d) { return d.Group })
+        .key(function(d) { return d.Group }).sortKeys(sortByAge)
         .key(function(d) { return d.Label})
+        .sortValues(sortByRace)
         .entries(data);
+    var final = {};
+    nested.forEach(function(d) { final[d.key] = d.values })
+    return final;
 }
 
 function prepTreatmentSubCharts(data) {

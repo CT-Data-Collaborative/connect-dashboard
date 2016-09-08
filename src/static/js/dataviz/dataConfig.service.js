@@ -4,6 +4,7 @@ angular.module('app')
             "category": "Behavioral Health",
             "config": {
                 "header": 'Race',
+                "order": ['White', 'Black', 'Hispanic', 'Other', 'Total'],
                 "width": 12,
                 "title": "Potential Treatment Needs by Age and Race",
                 "header_offset": true,
