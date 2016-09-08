@@ -1,6 +1,9 @@
 <div class="card">
     <div class="card-header">
-        <h3>{{ selectedRegion.selected.name }}</h3>
+        <h3>
+            <button type="button" class="pull-left visible-sm visible-xs toggle fa fa-bars fa-inverse" ng-click="$parent.offcanvas =! $parent.offcanvas"></button>
+            {{ selectedRegion.selected.name }}
+        </h3>
     </div>
     <div class="card-block" id="content">
         <div class="settings-section category-section row" ng-repeat="category in categories">

@@ -4,6 +4,9 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    // Set height at 96 to allow for better control at small screens
+    height: 89vh;
+    overflow-y: scroll;
 }
 
 .main-internal {
@@ -11,7 +14,7 @@
     overflow-y: scroll;
     overflow-x: hidden;
     // margin-top: -1rem;
-    padding-top: 1rem;
+    //padding-top: 1rem;
     padding-bottom: 2rem;
     background: white;
 }

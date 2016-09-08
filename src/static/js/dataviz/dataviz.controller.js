@@ -3,6 +3,7 @@ angular.module('app')
     ['$scope', '$http', '$log', '$q', 'lodash', 'dataConfig', 'dataProvider', 'townList',
     function($scope, $http, $log, $q, lodash, dataConfig, dataProvider, townList){
         var lo = lodash;
+        $scope.offcanvas = false;
         $scope.data = dataConfig;
         $scope.townCrosswalk = townList;
         $scope.chartObjects = [];
