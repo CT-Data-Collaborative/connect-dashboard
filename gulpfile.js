@@ -42,6 +42,10 @@ gulp.task('sass', function() {
      .pipe(gulp.dest('./dist/css'));
 });
 
+gulp.task('pdfs', function() {
+    gulp.src('../connect-pdf-scripts/pdfs/*.pdf')
+        .pipe(gulp.dest('./src/data/pdfs'))
+});
 
 gulp.task('serve', ['build'], function () {
   // will server on localhost:8080 or 0.0.0.0:8080

@@ -7976,7 +7976,7 @@
       "title": "Children in Placement, In State by Age SFY 2014",
       "header_offset": false,
       "height": 6,
-      "source": "CT Dept of Children and Families",
+      "source": "CT Dept of Children and Families, accessed via data.ct.gov",
       "footnotes": ""
     },
     "type": "simpletable",
@@ -10947,7 +10947,7 @@
       "color": "",
       "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age",
       "height": 5,
-      "source": "CT Dept of Children and Families",
+      "source": "CT Dept of Children and Families, accessed via data.ct.gov",
       "footnotes": "",
       "width": 4,
       "grouping": ""
@@ -11134,7 +11134,7 @@
       "color": "",
       "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-gender",
       "height": 5,
-      "source": "CT Dept of Children and Families",
+      "source": "CT Dept of Children and Families, accessed via data.ct.gov",
       "colors": [
         "#1f77b4",
         "#ff7f0e"
@@ -12347,7 +12347,7 @@
       "color": "",
       "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-race-and-ethnicity",
       "height": 5,
-      "source": "CT Dept of Children and Families",
+      "source": "CT Dept of Children and Families, accessed via data.ct.gov",
       "footnotes": "",
       "width": 12,
       "grouping": "Type of Placement"
