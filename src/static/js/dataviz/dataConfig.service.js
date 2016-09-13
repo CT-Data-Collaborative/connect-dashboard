@@ -169,7 +169,7 @@ angular.module('app')
                 "width": 10,
                 "title": "Children in Placement, In State by Age SFY 2014",
                 "header_offset": false,
-                "source": "CT Dept of Children and Families",
+                "source": "CT Dept of Children and Families, accessed via data.ct.gov",
                 "footnotes": "",
                 "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age",
                 "calculate_total": false
@@ -179,7 +179,7 @@ angular.module('app')
         }, {
             "category": "Child Welfare",
             "config": {
-                "source": "CT Dept of Children and Families",
+                "source": "CT Dept of Children and Families, accessed via data.ct.gov",
                 "color": "",
                 "title": "Children in Placement, Out of State, SFY 2014",
                 "height": 5,
@@ -194,7 +194,7 @@ angular.module('app')
         }, {
             "category": "Child Welfare",
             "config": {
-                "source": "CT Dept of Children and Families",
+                "source": "CT Dept of Children and Families, accessed via data.ct.gov",
                 "color": "",
                 "title": "Children in Placement by Gender, In-State SFY 2014",
                 "height": 5,
@@ -210,7 +210,7 @@ angular.module('app')
         }, {
             "category": "Child Welfare",
             "config": {
-                "source": "CT Dept of Children and Families",
+                "source": "CT Dept of Children and Families, accessed via data.ct.gov",
                 "color": "",
                 "title": "Children in Placement by Race, In-State SFY 2014",
                 "height": 5,
