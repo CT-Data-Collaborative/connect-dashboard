@@ -63,7 +63,5 @@ gulp.task('build', ['js', 'js_dependencies', 'css_dependencies', 'sass'], functi
     gulp.src(['src/static/partials/*.html']).pipe(gulp.dest('dist/partials'));
 });
 
-gulp.task('default', function() {
-    gulp.run('build');
-});
+gulp.task('default', ['serve']);
 
