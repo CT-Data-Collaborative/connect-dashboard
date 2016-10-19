@@ -41,9 +41,6 @@ angular.module('app')
                     x.rangeRoundBands([0, chart.width()]);
                 })
                 .mixout('barLabels')
-                /*.groups(function(groups) {
-                    groups.key('Race');
-                }) */             
                 .y(function(y) {
                     y.key('Value');
                 })
