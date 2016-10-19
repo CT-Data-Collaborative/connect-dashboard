@@ -12,6 +12,7 @@ gulp.task('js_dependencies', function() {
         'node_modules/angular-animate/angular-animate.min.js',
         'node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js',
         'node_modules/d3/d3.min.js',
+        'node_modules/d4/d4.min.js',
         'node_modules/d3-tip/index.js',
         'node_modules/d3-jetpack/d3-jetpack.js',
         'node_modules/ng-lodash/build/ng-lodash.min.js',
@@ -31,9 +32,10 @@ gulp.task('css_dependencies', function() {
 
 gulp.task('js', function() {
     gulp.src(['src/static/js/**/module.js', 'src/static/js/**/dataviz/*.js'])
-     .pipe(sourcemaps.init())
-      .pipe(concat('app.js'))
-     .pipe(gulp.dest('./dist/js/'))
+    .pipe(sourcemaps.init())
+    .pipe(concat('app.js'))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./dist/js/'))
 });
 
 gulp.task('sass', function() {
@@ -57,7 +59,7 @@ gulp.task('serve', ['build'], function () {
 
 gulp.task('build', ['js', 'js_dependencies', 'css_dependencies', 'sass'], function() {
     gulp.src('src/static/images/logo.svg').pipe(gulp.dest('dist/images/'));
-    gulp.src(['src/data/*.json', 'src/data/*.geojson']).pipe(gulp.dest('dist/data/'));
+    gulp.src(['src/data/*.json', 'src/data/*.geojson', 'src/data/treatment_all.csv']).pipe(gulp.dest('dist/data/'));
     gulp.src(['src/data/pdfs/*']).pipe(gulp.dest('dist/data/pdfs'));
     gulp.src(['src/index.html']).pipe(gulp.dest('dist/'));
     gulp.src(['src/static/partials/*.html']).pipe(gulp.dest('dist/partials'));
