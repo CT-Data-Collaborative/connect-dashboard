@@ -73,7 +73,6 @@ angular.module('app')
                     return d.Label === 'Tx' && d.Group !== '0 - 21' && d.Race !== 'Total';
                 });
                 drawGroupedColumnGraphic();
-                window.onresize = drawGroupedColumnGraphic;
             });
 
             function addLegend(chart, keys) {
