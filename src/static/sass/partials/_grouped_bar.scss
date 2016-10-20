@@ -30,18 +30,23 @@
     fill:#d7d7be;
 }
 
-.series0 {
+.key {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.key.series0 {
     background-color:#F7AEF8;
 }
-.series1 {
+.key.series1 {
     background-color:#B388EB;
 }
-.series2 {
+.key.series2 {
     background-color:#8093F1;
 }
-.series3 {
+.key.series3 {
     background-color:#72DDF7;
 }
-.series4 {
+.key.series4 {
     background-color:#d7d7be;
 }
