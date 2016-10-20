@@ -8,7 +8,7 @@
     <div class="card-block" id="content">
         <div class="reusable-charts" ng-controller="ReusableChartsController as vm">
             <div class="bar-chart" ctd-bar-chart data="vm.treatmentBarChartData"></div>
-            <div class="donut-chart" ctd-donut-chart></div>
+            <div class="donut-chart" ctd-donut-chart data="vm.treatmentDonutChartData"></div>
         </div>
         <div class="settings-section category-section row" ng-repeat="category in categories">
             <h3 class="section-title" id="{{ category.name | sluggify }}">{{ category.name }}</h3>

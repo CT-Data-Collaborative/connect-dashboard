@@ -4,24 +4,24 @@
 angular.module('app')
 .directive('ctdDonutChart', function(libraries) {
     return {
+        scope: {
+            data: '='
+        },
         template: '<div id="donut"></div',
         link: function(scope, elem) {
-            libraries.d3.csv('./data/treatment_all.csv', function(results) {
-                var formattedResults = results.filter(function(d) {
-                    return d.Race === 'Total' && d.Label === 'Tx' && d.Region === 'State' && d.Group !== '0 - 21';
-                }).map(function(obj) {
-                    return {
-                        value: obj.Value,
-                        type: obj.Group
-                    };
-                });
+            let data;
 
-                var pie = libraries.d3.layout.pie()
-                .sort(null)
-                .value(function(d) {
-                    return d.value;
-                });
-                draw(pie(formattedResults));
+            let unbindWatcher = scope.$watch('data', function(newValue) {
+                data = scope.data;
+                if(!!data) {
+                    var pie = libraries.d3.layout.pie()
+                    .sort(null)
+                    .value(function(d) {
+                        return d.value;
+                    });
+                    draw(pie(data));
+                    unbindWatcher();
+                }
             });
 
             var chart = libraries.d4.charts.donut()

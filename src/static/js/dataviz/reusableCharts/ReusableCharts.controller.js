@@ -13,6 +13,13 @@ angular.module('app')
             return d;
         });
     });
+
+    libraries.d3.csv('./data/treatment_all.csv', function(results) {
+        vm.treatmentDonutChartData = results
+        .filter(d => d.Race === 'Total' && d.Label === 'Tx' && d.Region === 'State' && d.Group !== '0 - 21')
+        .map(obj => {return {value: obj.Value, type: obj.Group}});
+    });
+
 });
 
 })();
