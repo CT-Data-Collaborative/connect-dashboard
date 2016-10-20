@@ -5,6 +5,7 @@ var sourcemaps = require('gulp-sourcemaps')
 var uglify = require('gulp-uglify')
 var ngAnnotate = require('gulp-ng-annotate')
 var connect = require('gulp-connect')
+const babel = require('gulp-babel');
 
 gulp.task('js_dependencies', function() {
     gulp.src([
@@ -33,6 +34,9 @@ gulp.task('css_dependencies', function() {
 gulp.task('js', function() {
     gulp.src(['src/static/js/**/module.js', 'src/static/js/**/dataviz/**/*.js'])
     .pipe(sourcemaps.init())
+    .pipe(babel({
+        presets: ['es2015']
+    }))
     .pipe(concat('app.js'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./dist/js/'))
