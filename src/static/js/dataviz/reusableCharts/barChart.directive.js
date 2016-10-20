@@ -4,9 +4,12 @@
 angular.module('app')
 .directive('barChart', function(reusableCharts, libraries) {
     return {
+        scope: {
+            data: '='
+        },
         templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
-            var data = [];
+            let data;
             scope.currentRegion = {'name' : 'Statewide', 'id' : 'State'};
             scope.regions = reusableCharts.regions;
 
@@ -14,6 +17,14 @@ angular.module('app')
                 scope.currentRegion = newRegion;
                 drawGroupedColumnGraphic();
             }
+
+            let unbindWatcher = scope.$watch('data', function(newValue) {
+                data = scope.data;
+                if(!!data) {
+                    drawGroupedColumnGraphic();
+                    unbindWatcher();
+                }
+            });
 
             function drawGroupedColumnGraphic(x) {
                 d3.select("#example").selectAll(".d4").remove();
@@ -59,16 +70,7 @@ angular.module('app')
                 libraries.d3.keys(parsedData.data[0].values.forEach(function(obj) { keyList.push(obj.Race); }));
                 addLegend(builtChart, keyList);
             }
-            libraries.d3.csv('./data/treatment_all.csv', function(result) {
-                data = result;
-                data.forEach(function(d) {
-                    d.Value = +d.Value;
-                });
-                data = data.filter(function(d) {
-                    return d.Label === 'Tx' && d.Group !== '0 - 21' && d.Race !== 'Total';
-                });
-                drawGroupedColumnGraphic();
-            });
+            
 
             /* Should probably be its own directive */
             function addLegend(chart, keys) {
