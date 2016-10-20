@@ -2,12 +2,13 @@
 'use strict';
 
 angular.module('app')
-.directive('barChart', function($timeout, libraries) {
+.directive('barChart', function(reusableCharts, libraries) {
     return {
         templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
             var data = [];
             scope.currentRegion = {'name' : 'Statewide', 'id' : 'State'};
+            scope.regions = reusableCharts.regions;
 
             scope.update = function(newRegion) {
                 scope.currentRegion = newRegion;
@@ -93,15 +94,7 @@ angular.module('app')
                     });
             }
 
-            scope.regions = [
-                {'name' : 'Southwest Region', 'id' : 'South West'},
-                {'name' : 'South Central Region', 'id' : 'South Central'},
-                {'name' : 'Eastern Region', 'id' : 'East'},
-                {'name' : 'North Central Region', 'id' : 'North Central'},
-                {'name' : 'Western Region', 'id' : 'West'},
-                {'name' : 'Central Region', 'id' : 'Central'},
-                {'name' : 'Statewide', 'id' : 'State'}
-            ];
+            
 
 
             function sortByAge(a, b) {
