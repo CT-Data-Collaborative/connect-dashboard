@@ -31,7 +31,7 @@ gulp.task('css_dependencies', function() {
 });
 
 gulp.task('js', function() {
-    gulp.src(['src/static/js/**/module.js', 'src/static/js/**/dataviz/*.js'])
+    gulp.src(['src/static/js/**/module.js', 'src/static/js/**/dataviz/**/*.js'])
     .pipe(sourcemaps.init())
     .pipe(concat('app.js'))
     .pipe(sourcemaps.write())
