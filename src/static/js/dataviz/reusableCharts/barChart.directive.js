@@ -36,7 +36,7 @@ angular.module('app')
                     .x('Group')
                     .y('Value')
                     .value('Value')(filteredData);
-                parsedData.data.sort(sortByAge);
+                parsedData.data.sort(reusableCharts.sortByAge);
 
                 var chart = libraries.d4.charts.groupedColumn();
 
@@ -94,21 +94,6 @@ angular.module('app')
                     .text(function(d) {
                         return d;
                     });
-            }
-
-            
-
-
-            function sortByAge(a, b) {
-                var ageLookup = {
-                    '0 - 5': 0,
-                    '6 - 9': 1,
-                    '10 - 15': 2,
-                    '16 - 19': 3,
-                    '20 - 21': 4
-                };
-
-                return ageLookup[a.key] - ageLookup[b.key];
             }
         }
     }
