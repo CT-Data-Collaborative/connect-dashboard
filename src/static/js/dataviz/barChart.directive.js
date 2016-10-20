@@ -69,7 +69,9 @@ angular.module('app')
                 drawGroupedColumnGraphic();
             });
 
+            /* Should probably be its own directive */
             function addLegend(chart, keys) {
+                d3.select('#example').selectAll(".legend").remove()
                 var legend = chart.append('div')
                     .attr('class', 'legend grouped-bar-legend')
                    .append('ul')
@@ -89,6 +91,29 @@ angular.module('app')
                     .text(function(d) {
                         return d;
                     });
+            }
+
+            scope.regions = [
+                {'name' : 'Southwest Region', 'id' : 'South West'},
+                {'name' : 'South Central Region', 'id' : 'South Central'},
+                {'name' : 'Eastern Region', 'id' : 'East'},
+                {'name' : 'North Central Region', 'id' : 'North Central'},
+                {'name' : 'Western Region', 'id' : 'West'},
+                {'name' : 'Central Region', 'id' : 'Central'},
+                {'name' : 'Statewide', 'id' : 'State'}
+            ];
+
+
+            function sortByAge(a, b) {
+                var ageLookup = {
+                    '0 - 5': 0,
+                    '6 - 9': 1,
+                    '10 - 15': 2,
+                    '16 - 19': 3,
+                    '20 - 21': 4
+                };
+
+                return ageLookup[a.key] - ageLookup[b.key];
             }
         }
     }
