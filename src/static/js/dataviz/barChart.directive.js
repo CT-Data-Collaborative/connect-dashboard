@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.directive('barChart', function(libraries) {
+.directive('barChart', function($timeout, libraries) {
     return {
         template: '<div id="example"></div>',
         link: function(scope, elem) {
