@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.directive('barChart', function(reusableCharts, libraries) {
+.directive('ctdBarChart', function(reusableCharts, libraries) {
     return {
         scope: {
             data: '='

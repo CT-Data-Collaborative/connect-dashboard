@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.directive('donutChart', function(libraries) {
+.directive('ctdDonutChart', function(libraries) {
     return {
         template: '<div id="donut"></div',
         link: function(scope, elem) {
