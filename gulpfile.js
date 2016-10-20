@@ -62,7 +62,7 @@ gulp.task('build', ['js', 'js_dependencies', 'css_dependencies', 'sass'], functi
     gulp.src(['src/data/*.json', 'src/data/*.geojson', 'src/data/treatment_all.csv']).pipe(gulp.dest('dist/data/'));
     gulp.src(['src/data/pdfs/*']).pipe(gulp.dest('dist/data/pdfs'));
     gulp.src(['src/index.html']).pipe(gulp.dest('dist/'));
-    gulp.src(['src/static/partials/*.html']).pipe(gulp.dest('dist/partials'));
+    gulp.src(['src/static/partials/**/*.html']).pipe(gulp.dest('dist/partials'));
 });
 
 gulp.task('default', ['serve']);
