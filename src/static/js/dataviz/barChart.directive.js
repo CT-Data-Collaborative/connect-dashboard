@@ -4,32 +4,26 @@
 angular.module('app')
 .directive('barChart', function($timeout, libraries) {
     return {
-        template: '<div id="example"></div>',
+        templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
             var data = [];
+            scope.currentRegion = {'name' : 'Statewide', 'id' : 'State'};
 
-            function sortByAge(a, b) {
-                var ageLookup = {
-                    '0 - 5': 0,
-                    '6 - 9': 1,
-                    '10 - 15': 2,
-                    '16 - 19': 3,
-                    '20 - 21': 4
-                };
-
-                return ageLookup[a.key] - ageLookup[b.key];
+            scope.update = function(newRegion) {
+                scope.currentRegion = newRegion;
+                drawGroupedColumnGraphic();
             }
 
-            function drawGroupedColumnGraphic() {
+            function drawGroupedColumnGraphic(x) {
+                d3.select("#example").selectAll(".d4").remove();
                 //User should be able to change which filter to use
                 var filteredData = data.filter(function(d) {
-                    return d.Region === 'State';
+                    return d.Region === scope.currentRegion.id;
                 });
                 var parsedData = libraries.d4.parsers.nestedGroup()
                     .x('Group')
                     .y('Value')
                     .value('Value')(filteredData);
-
                 parsedData.data.sort(sortByAge);
 
                 var chart = libraries.d4.charts.groupedColumn();
@@ -90,7 +84,7 @@ angular.module('app')
                 entries.append('div')
                     .attr('class', function(obj, index) {return 'key series' + index;});
 
-                entries.append('div')
+                entries.append('span')
                     .attr('class', 'legend-text')
                     .text(function(d) {
                         return d;
