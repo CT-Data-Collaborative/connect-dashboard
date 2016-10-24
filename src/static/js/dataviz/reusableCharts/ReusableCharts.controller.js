@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.controller('ReusableChartsController', function(lodash, libraries){
+.controller('ReusableChartsController', function($scope, lodash, libraries){
     const lo = lodash;
     let vm = this;
 
@@ -36,12 +36,11 @@ angular.module('app')
                 'Tobacco': 0
             };
 
-            let totals = angular.copy(initial);
-
             let reducer = function(accumulator, item) {
                 accumulator[item.Substance] += +item.Value;
                 return accumulator;
             };
+            let data = [];
             let regionalData = {
                 'Region 1:Southwest': {},
                 'Region 2:South Central': {},
@@ -51,12 +50,38 @@ angular.module('app')
                 'Region 6:Central': {},
                 'Connecticut': {}
             }
+            let regionTranslator = {
+                'Region 1:Southwest' : 'South West',
+                'Region 2:South Central' : 'South Central',
+                'Region 3:Eastern' : 'East',
+                'Region 4:North Central' : 'North Central',
+                'Region 5:Western' : 'West',
+                'Region 6:Central' : 'Central',
+                'Connecticut' : 'State'
+            };
+
             for (let region in groupedByRegion) {
                 regionalData[region]  = lo.reduce(groupedByRegion[region], reducer, angular.copy(initial));
+
+                for (let r in regionalData[region]) {
+                    data.push({
+                        Group: r,
+                        Value: regionalData[region][r],
+                        Region: regionTranslator[region]
+                    });
+                }
             }
             regionalData.Connecticut = lo.reduce(vm.substanceBarChartData, reducer, initial);
-
-            console.log(regionalData);
+            for (let r in regionalData.Connecticut) {
+                data.push({
+                    Group: r,
+                    Value: regionalData.Connecticut[r],
+                    Region: 'State'
+                });
+            }
+            $scope.$apply(function() {
+                vm.processedSubstanceData = data;
+            });
         });
     });
 });
