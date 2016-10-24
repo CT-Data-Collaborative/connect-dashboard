@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.directive('ctdBarChart', function(reusableCharts, libraries) {
+.directive('ctdBarChart', function(lodash, reusableCharts, libraries) {
     return {
         scope: {
             data: '=',
@@ -10,11 +10,11 @@ angular.module('app')
         },
         templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
+            const lo = lodash;
             let data;
             let divName = '#' + scope.name;
-
-            scope.currentRegion = {'name' : 'Statewide', 'id' : 'State'};
             scope.regions = reusableCharts.regions;
+            scope.currentRegion = lo.find(scope.regions, {id:'State'});
 
             scope.update = function(newRegion) {
                 scope.currentRegion = newRegion;
