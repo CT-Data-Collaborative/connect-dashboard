@@ -8,7 +8,7 @@ angular.module('app')
             data: '=',
             name: '='
         },
-        template: '<div class="donut" id="{{name}}"></div',
+        template: '<div class="donut" id="{{name}}"><ctd-legend></ctd-legend></div',
         link: function(scope, elem) {
             let data;
             let divName = '#' + scope.name;
@@ -56,31 +56,8 @@ angular.module('app')
                 //Legend
                 var keyList = [];
                 libraries.d3.keys(data.forEach(function(obj) { keyList.push(obj.data.type); }));
-                addLegend(builtChart, keyList);
-            }
+                scope.$broadcast('legend:add', {chart:builtChart, keys:keyList, divName});
 
-            /* Should probably be its own directive */
-            function addLegend(chart, keys) {
-                d3.select(chart[0][0]).selectAll(".legend").remove()
-                var legend = chart.append('div')
-                    .attr('class', 'legend grouped-bar-legend')
-                   .append('ul')
-                    .attr('class', 'list-inline');
-
-                var keys = legend.selectAll('li.key')
-                    .data(keys);
-
-                var entries = keys.enter().append('li')
-                    .attr('class', 'legend-entry');
-
-                entries.append('div')
-                    .attr('class', function(obj, index) {return 'key series' + index;});
-
-                entries.append('span')
-                    .attr('class', 'legend-text')
-                    .text(function(d) {
-                        return d;
-                    });
             }
         }
     }
