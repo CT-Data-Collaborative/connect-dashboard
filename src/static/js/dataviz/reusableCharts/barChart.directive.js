@@ -6,7 +6,8 @@ angular.module('app')
     return {
         scope: {
             data: '=',
-            name: '='
+            name: '=',
+            grouping: '='
         },
         templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
@@ -69,10 +70,12 @@ angular.module('app')
                 .datum(parsedData.data)
                 .call(chart);
 
-                //Legend
-                var keyList = [];
-                libraries.d3.keys(parsedData.data[0].values.forEach(function(obj) { keyList.push(obj.Race); }));
-                scope.$broadcast('legend:add', {chart:builtChart, keys:keyList, divName});
+                //Add legend if this is a grouped bar chart
+                if (!!scope.grouping) {
+                    var keys = [];
+                    libraries.d3.keys(parsedData.data[0].values.forEach(obj => keys.push(obj[scope.grouping])));
+                    scope.$broadcast('legend:add', {chart:builtChart, keys, divName});
+                }
             }
             
 
