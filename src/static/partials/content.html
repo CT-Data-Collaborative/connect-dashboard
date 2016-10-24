@@ -7,7 +7,8 @@
     </div>
     <div class="card-block" id="content">
         <div class="reusable-charts" ng-controller="ReusableChartsController as vm">
-            <div class="bar-chart" ctd-bar-chart data="vm.treatmentBarChartData""></div>
+            <div class="bar-chart" ctd-bar-chart data="vm.treatmentBarChartData" name="'treatmentByRaceBarChart'"></div>
+            <div class="bar-chart" ctd-bar-chart data="vm.treatmentBarChartData" name="'treatmentByRaceBarChart2'"></div>
             <div class="donut-chart" ctd-donut-chart data="vm.treatmentDonutChartData" name="'treatmentDataByAge'"></div>
             <div class="donut-chart" ctd-donut-chart data="vm.treatmentDonutChartData" name="'treatmentDataByAge2'"></div>
         </div>

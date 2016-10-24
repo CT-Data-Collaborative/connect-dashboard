@@ -5,11 +5,14 @@ angular.module('app')
 .directive('ctdBarChart', function(reusableCharts, libraries) {
     return {
         scope: {
-            data: '='
+            data: '=',
+            name: '='
         },
         templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
             let data;
+            let divName = '#' + scope.name;
+
             scope.currentRegion = {'name' : 'Statewide', 'id' : 'State'};
             scope.regions = reusableCharts.regions;
 
@@ -27,11 +30,12 @@ angular.module('app')
             });
 
             function drawGroupedColumnGraphic(x) {
-                d3.select("#example").selectAll(".d4").remove();
+                d3.select(divName).selectAll(".d4").remove();
                 //User should be able to change which filter to use
                 var filteredData = data.filter(function(d) {
                     return d.Region === scope.currentRegion.id;
                 });
+
                 var parsedData = libraries.d4.parsers.nestedGroup()
                     .x('Group')
                     .y('Value')
@@ -61,7 +65,7 @@ angular.module('app')
                     });
                 });
 
-                var builtChart = libraries.d3.select('#example')
+                var builtChart = libraries.d3.select(divName)
                 .datum(parsedData.data)
                 .call(chart);
 
@@ -74,7 +78,7 @@ angular.module('app')
 
             /* Should probably be its own directive */
             function addLegend(chart, keys) {
-                d3.select('#example').selectAll(".legend").remove()
+                d3.select(divName).selectAll(".legend").remove()
                 var legend = chart.append('div')
                     .attr('class', 'legend grouped-bar-legend')
                    .append('ul')
