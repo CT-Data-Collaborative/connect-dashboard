@@ -5,12 +5,13 @@ angular.module('app')
 .directive('ctdDonutChart', function(libraries) {
     return {
         scope: {
-            data: '='
+            data: '=',
+            name: '='
         },
-        template: '<div id="donut"></div',
+        template: '<div class="donut" id="{{name}}"></div',
         link: function(scope, elem) {
             let data;
-
+            let divName = '#' + scope.name;
             let unbindWatcher = scope.$watch('data', function(newValue) {
                 data = scope.data;
                 if(!!data) {
@@ -25,7 +26,7 @@ angular.module('app')
             });
 
             var chart = libraries.d4.charts.donut()
-            .outerWidth($('#donut').width())
+            .outerWidth($(divName).context.documentElement.clientWidth)
             .margin({
                 left: 0,
                 top: 0,
@@ -49,7 +50,7 @@ angular.module('app')
             });
 
             function draw(data) {
-                var builtChart = libraries.d3.select('#donut')
+                var builtChart = libraries.d3.select(divName)
                   .datum(data)
                   .call(chart);
                 //Legend
