@@ -37,6 +37,7 @@ gulp.task('js', function() {
     .pipe(babel({
         presets: ['es2015']
     }))
+    .pipe(ngAnnotate())
     .pipe(concat('app.js'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./dist/js/'))
