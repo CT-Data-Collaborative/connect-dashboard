@@ -9,3 +9,44 @@
     }
   }
 }
+
+.bar-chart {
+    width: 100%;
+}
+
+.item0 {
+    fill:#F7AEF8;
+}
+.item1 {
+    fill:#B388EB;
+}
+.item2 {
+    fill:#8093F1;
+}
+.item3 {
+    fill:#72DDF7;
+}
+.item4 {
+    fill:#d7d7be;
+}
+
+.key {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.key.series0 {
+    background-color:#F7AEF8;
+}
+.key.series1 {
+    background-color:#B388EB;
+}
+.key.series2 {
+    background-color:#8093F1;
+}
+.key.series3 {
+    background-color:#72DDF7;
+}
+.key.series4 {
+    background-color:#d7d7be;
+}
