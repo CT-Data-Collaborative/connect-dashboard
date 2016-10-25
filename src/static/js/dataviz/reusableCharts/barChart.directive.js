@@ -49,7 +49,6 @@ angular.module('app')
                 .outerWidth(elem[0].clientWidth)
                 .x(function(x) {
                     x.key('Group');
-                    x.rangeRoundBands([0, chart.width()]);
                 })
                 .mixout('barLabels')
                 .y(function(y) {
@@ -61,9 +60,10 @@ angular.module('app')
                         if (val.toString().length > 4) {
                             return libraries.d3.format('.2s')(val);
                         } else {
-                            return libraries.d3.format('.1s')(val);
+                            return val;
                         }
-                    });
+                    })
+                    .ticks(5);
                 });
 
                 var builtChart = libraries.d3.select(divName)
