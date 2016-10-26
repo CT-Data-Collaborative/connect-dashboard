@@ -9,7 +9,7 @@ angular.module('app')
             name: '=',
             config: '='
         },
-        template: '<div class="donut" id="{{name}}"><ctd-legend></ctd-legend></div',
+        templateUrl: './partials/directives/donut-chart.html',
         link: function(scope, elem) {
             let data;
             let divName = '#' + scope.name;
