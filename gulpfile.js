@@ -57,7 +57,8 @@ gulp.task('pdfs', function() {
 gulp.task('serve', ['build'], function () {
   // will server on localhost:8080 or 0.0.0.0:8080
     connect.server({
-         root: 'dist/'
+         root: 'dist/',
+         port: 4444
      });
     gulp.watch(['src/**/*.*'],  ['build']);
 });
