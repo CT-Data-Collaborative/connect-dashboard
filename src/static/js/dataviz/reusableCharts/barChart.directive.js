@@ -58,10 +58,10 @@ angular.module('app')
                 .groupsOf(parsedData.data[0].values.length)
                 .using('yAxis', function(axis) {
                     axis.tickFormat(function(val) {
-                        if (val.toString().length > 4) {
-                            return libraries.d3.format('.2s')(val);
+                        if (+val === 0) {
+                            return libraries.d3.format('.1s')(val);
                         } else {
-                            return val;
+                            return libraries.d3.format('.2s')(val);
                         }
                     })
                     .ticks(5);
