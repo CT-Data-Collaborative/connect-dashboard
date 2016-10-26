@@ -1,3 +1,11 @@
+<div ng-if="config.source && config.source.length > 0" class="source-block">
+    {{ config.source }}
+    <span ng-if="config.ckan_url && config.ckan_url.length > 0"> &mdash; </span>
+    <a ng-if="config.ckan_url && config.ckan_url.length > 0" ng-href="{{config.ckan_url}}" target="_blank">
+        Explore the Data
+        <i class="fa fa-external-link"></i>
+    </a>
+</div>
 <div ng-if="config.footnotes && config.footnotes.length" class="footnote-block">
     <p ng-click="collapsed[(config.name|sluggify)] = !collapsed[(config.name|sluggify)]">
         Notes 
@@ -6,12 +14,4 @@
     <ul class="footnote-list" ng-show="collapsed[(config.name|sluggify)]">
         <li ng-repeat="footnote in config.footnotes">{{ footnote }}</li>
     </ul>
-</div>   
-<div ng-if="config.source && config.source.length > 0" class="source-block">
-    {{ config.source }}
-    <span ng-if="config.ckan_url && config.ckan_url.length > 0"> &mdash; </span>
-    <a ng-if="config.ckan_url && config.ckan_url.length > 0" ng-href="{{config.ckan_url}}" target="_blank">
-        Explore the Data
-        <i class="fa fa-external-link"></i>
-    </a>
 </div>
