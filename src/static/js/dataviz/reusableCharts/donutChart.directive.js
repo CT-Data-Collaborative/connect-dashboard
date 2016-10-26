@@ -6,7 +6,8 @@ angular.module('app')
     return {
         scope: {
             data: '=',
-            name: '='
+            name: '=',
+            config: '='
         },
         template: '<div class="donut" id="{{name}}"><ctd-legend></ctd-legend></div',
         link: function(scope, elem) {
