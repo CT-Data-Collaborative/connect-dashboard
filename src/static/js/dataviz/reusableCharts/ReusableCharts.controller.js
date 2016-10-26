@@ -5,7 +5,7 @@ angular.module('app')
 .controller('ReusableChartsController', function($scope, lodash, chartConfig, libraries){
     const lo = lodash;
     let vm = this;
-    vm.config = chartConfig.data;
+    vm.config = chartConfig;
 
     libraries.d3.csv('./data/treatment_all.csv', function(csv) {
         vm.treatmentBarChartData = csv
