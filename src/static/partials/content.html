@@ -7,10 +7,21 @@
     </div>
     <div class="card-block" id="content">
         <div class="reusable-charts" ng-controller="ReusableChartsController as vm">
-            <div class="bar-chart" ctd-bar-chart data="vm.processedSubstanceData" name="'substanceUseBarChart'"></div>
-            <div class="bar-chart" ctd-bar-chart data="vm.treatmentBarChartData" name="'treatmentByRaceBarChart2'" grouping="'Race'"></div>
-            <div class="donut-chart" ctd-donut-chart data="vm.treatmentDonutChartData" name="'treatmentDataByAge'"></div>
-            <div class="donut-chart" ctd-donut-chart data="vm.treatmentDonutChartData" name="'treatmentDataByAge2'"></div>
+            <div class="bar-chart" ctd-bar-chart
+                name="'substanceUseBarChart'"
+                data="vm.processedSubstanceData"
+                config="vm.config.treatmentByRace"></div>
+
+            <div class="bar-chart" ctd-bar-chart 
+                name="'treatmentByRaceBarChart2'"
+                data="vm.treatmentBarChartData" 
+                grouping="'Race'"
+                config="vm.config.substanceSanctions"></div>
+
+            <div class="donut-chart" ctd-donut-chart
+                name="'treatmentDataByAge'"
+                data="vm.treatmentDonutChartData"
+                config="vm.config.treatmentByAge"></div>
         </div>
         <div class="settings-section category-section row" ng-repeat="category in categories">
             <h3 class="section-title" id="{{ category.name | sluggify }}">{{ category.name }}</h3>

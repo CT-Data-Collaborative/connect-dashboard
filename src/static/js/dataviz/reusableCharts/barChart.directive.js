@@ -7,7 +7,8 @@ angular.module('app')
         scope: {
             data: '=',
             name: '=',
-            grouping: '='
+            grouping: '=',
+            config: '='
         },
         templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
