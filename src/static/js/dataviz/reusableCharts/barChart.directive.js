@@ -104,7 +104,7 @@ angular.module('app')
                         if (d4.functor(scope.accessors.wrap).bind(this)()) {
 
                             // FIXME: This should be moved into a helper injected using DI.
-                            group.selectAll('.tick text').call(d4.helpers.wrapText, 1);
+                            group.selectAll('.tick text').call(d4.helpers.wrapText, 125);
                         }
                         if (d4.functor(scope.accessors.stagger).bind(this)()) {
 
