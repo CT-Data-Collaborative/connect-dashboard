@@ -5,6 +5,33 @@ angular.module('app')
         d3: d3
     };
 
+    internalLibs.d4.helpers.wrapText = function(text, width) {
+        text.each(function() {
+            var text = d3.select(this),
+                words = text.text().split(/\s+/).reverse(),
+                word,
+                line = [],
+                lineNumber = 0,
+                lineHeight = 1.1, // ems
+                x = text.attr('x'),
+                y = text.attr('y'),
+                dy = parseFloat(text.attr('dy')),
+                tspan = text.text(null).append('tspan').attr('x', x).attr('y', y).attr('dy', dy + 'em');
+            word = words.pop();
+            while (word) {
+                line.push(word);
+                tspan.text(line.join(' '));
+                if (tspan.node().getComputedTextLength() > width - Math.abs(x)) {
+                    line.pop();
+                    tspan.text(line.join(' '));
+                    line = [word];
+                    tspan = text.append('tspan').attr('x', x).attr('y', y).attr('dy', lineNumber++ * lineHeight + dy + 'em').text(word);
+                }
+                word = words.pop();
+            }
+        });
+    };
+
     internalLibs.d4.feature('xAxis', function(name) {
         var axis = d3.svg.axis()
             .orient('bottom')
@@ -79,7 +106,7 @@ angular.module('app')
                     .call(axis);
                 alignAxis.bind(this)(aligned, group);
                 if (d4.functor(scope.accessors.wrap).bind(this)()) {
-                    group.selectAll('.tick text').call(d4.helpers.wrapText, xRangeBand);
+                    group.selectAll('.tick text').call(internalLibs.d4.helpers.wrapText, xRangeBand);
                 }
                 if (d4.functor(scope.accessors.stagger).bind(this)()) {
 
