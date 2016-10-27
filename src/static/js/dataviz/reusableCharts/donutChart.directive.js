@@ -43,6 +43,7 @@ angular.module('app')
                     return d.data.value;
                 })
                 labels.centroid(180);
+                labels.rotate(false);
             })
             .using('arcs', function(slices) {
                 slices.key(function(d) {
