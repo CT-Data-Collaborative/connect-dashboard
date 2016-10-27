@@ -67,7 +67,8 @@ angular.module('app')
                         return libraries.d3.format('.2s')(val);
                     })
                     .ticks(5);
-                });
+                })
+                .margin({ top: 25, right: 50, bottom: 75, left: 50 });
 
                 var builtChart = libraries.d3.select(divName)
                 .datum(parsedData.data)
