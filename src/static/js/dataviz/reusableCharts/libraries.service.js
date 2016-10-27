@@ -1,6 +1,11 @@
 angular.module('app')
 .service('libraries', function() {
-    d4.feature('xAxis', function(name) {
+    var internalLibs = {
+        d4: d4,
+        d3: d3
+    };
+
+    internalLibs.d4.feature('xAxis', function(name) {
         var axis = d3.svg.axis()
             .orient('bottom')
             .tickPadding(10)
@@ -94,8 +99,5 @@ angular.module('app')
         return obj;
     });
 
-    return {
-        d4: d4,
-        d3: d3
-    };
+    return internalLibs
 });
