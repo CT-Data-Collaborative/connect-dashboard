@@ -5,7 +5,7 @@ angular.module('app')
         d3: d3
     };
 
-    internalLibs.d4.helpers.wrapText = function(text, width) {
+    internalLibs.d4.helpers.wrapTextXAxis = function(text, width) {
         text.each(function() {
             var text = d3.select(this),
                 words = text.text().split(/\s+/).reverse(),
@@ -106,7 +106,7 @@ angular.module('app')
                     .call(axis);
                 alignAxis.bind(this)(aligned, group);
                 if (d4.functor(scope.accessors.wrap).bind(this)()) {
-                    group.selectAll('.tick text').call(internalLibs.d4.helpers.wrapText, xRangeBand);
+                    group.selectAll('.tick text').call(internalLibs.d4.helpers.wrapTextXAxis, xRangeBand);
                 }
                 if (d4.functor(scope.accessors.stagger).bind(this)()) {
 
