@@ -17,6 +17,11 @@ angular.module('app')
         vm.treatmentBarChartData = data.treatmentBarChartData;
         vm.treatmentDonutChartData = data.treatmentDonutChartData;
     });
+
+    chartData.getSanctionsByTypeData()
+    .then(function(data) {
+        vm.sanctionsByTypeData = data; 
+    });
 });
 
 })();

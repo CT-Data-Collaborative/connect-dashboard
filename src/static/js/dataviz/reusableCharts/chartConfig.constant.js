@@ -36,6 +36,16 @@ angular.module('app')
         "calculate_total": true,
         "name": "Treatment Age Pie",
         "type": "donut"
+    },
+    sanctionsByType: {
+        "category": "Education",
+        "source": "CT State Dept of Education",
+        "title": "School Sanctions by Type, 2012-2013",
+        "footnotes": ["Data includes only school districts that do not cross town boundaries.", "Values are a sum of unsuppressed data and include districts with suppressions."],
+        "grouping": "",
+        "calculate_total": true,
+        "name": "Sanctions by Type",
+        "type": "bar"
     }
 
 }); 

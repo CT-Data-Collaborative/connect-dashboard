@@ -92,9 +92,23 @@ angular.module('app')
         });
     }
 
+    function getSanctionsByTypeData() {
+        return $q(function(resolve, reject) {
+            libraries.d3.csv('./data/sanctions_by_type.csv', function(csv) {
+                let data = csv
+                .map(d => {
+                    d.Value = +d.Value;
+                    return d;
+                });
+                resolve(data);
+            });
+        });
+    }
+
     return {
-        getSubstanceSanctionsData,
-        getTreatmentData
+        getTreatmentData,
+        getSanctionsByTypeData,
+        getSubstanceSanctionsData
     };
 });
 
