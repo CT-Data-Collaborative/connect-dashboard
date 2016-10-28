@@ -39,7 +39,7 @@ angular.module('app')
                         'Connecticut': {}
                     }
                     let regionTranslator = {
-                        'Region 1:Southwest' : 'South West',
+                        'Region 1:Southwest' : 'Southwest',
                         'Region 2:South Central' : 'South Central',
                         'Region 3:Eastern' : 'East',
                         'Region 4:North Central' : 'North Central',

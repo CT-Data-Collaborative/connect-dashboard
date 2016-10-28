@@ -5,7 +5,7 @@ angular.module('app')
 .service('reusableCharts', function ($http, lodash) {
 
     const regions = [
-        {'name' : 'Southwest Region', 'id' : 'South West'},
+        {'name' : 'Southwest Region', 'id' : 'Southwest'},
         {'name' : 'South Central Region', 'id' : 'South Central'},
         {'name' : 'Eastern Region', 'id' : 'East'},
         {'name' : 'North Central Region', 'id' : 'North Central'},
