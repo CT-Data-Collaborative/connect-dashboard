@@ -85,11 +85,17 @@ angular.module('app')
                 labels.enter()
                     .append('text')
                     .attr('dy', 5)
-                    .attr('transform', function(d) {
-                        return 'translate(' + arc.centroid(d) + ') rotate(' + labelAngle(d) + ')';
-                    })
                     .style('text-anchor', 'start')
                     .text(d4.functor(scope.accessors.text).bind(this))
+                    .attr('transform', function(d) {
+                        if(arc.centroid(d)[0] < 0) {
+                            var arr = arc.centroid(d);
+                            arr[0] -= this.getBBox().width;
+                            return 'translate(' + arr + ') rotate(' + labelAngle(d) + ')';
+                        } else {
+                            return 'translate(' + arc.centroid(d) + ') rotate(' + labelAngle(d) + ')';
+                        }
+                    })
                     .attr('class', d4.functor(scope.accessors.classes).bind(this))
                     .attr('data-key', d4.functor(scope.accessors.key).bind(this))
                     .attr('d', arc)
