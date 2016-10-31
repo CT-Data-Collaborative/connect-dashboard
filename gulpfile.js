@@ -71,7 +71,8 @@ gulp.task('build', ['js', 'js_dependencies', 'css_dependencies', 'sass'], functi
         'src/data/treatment_all.csv',
         'src/data/substance_sanctions_all_towns.csv',
         'src/data/sanctions_by_type.csv',
-        'src/data/towns_and_regions.csv'
+        'src/data/towns_and_regions.csv',
+        'src/data/educational_needs.csv'
     ]).pipe(gulp.dest('dist/data/'));
     gulp.src(['src/data/pdfs/*']).pipe(gulp.dest('dist/data/pdfs'));
     gulp.src(['src/index.html']).pipe(gulp.dest('dist/'));
