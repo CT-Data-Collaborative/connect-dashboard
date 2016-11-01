@@ -37,6 +37,17 @@ angular.module('app')
         "name": "Treatment Age Pie",
         "type": "donut"
     },
+    treatmentByRaceDonut: {
+            "category": "Behavioral Health",
+            "source": "US Census; Calculations by CONNECT project",
+            "title": "Children in Need of Treatment by Race",
+            "footnotes": ["Other Race includes American Indian, Pacific Islander, Asian, and Multiracial persons."],
+            "order": ["Black", "Hispanic", "Other", "White"],
+            "grouping": "",
+            "calculate_total": true,
+            "name": "Treatment Race Pie",
+            "type": "donut"
+        },
     sanctionsByType: {
         "category": "Education",
         "source": "CT State Dept of Education",

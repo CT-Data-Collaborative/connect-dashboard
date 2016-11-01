@@ -87,7 +87,11 @@ angular.module('app')
                 .filter(d => d.Race === 'Total' && d.Label === 'Tx' && d.Region === 'State' && d.Group !== '0 - 21')
                 .map(obj => {return {value: obj.Value, type: obj.Group}});
 
-                resolve({treatmentBarChartData, treatmentDonutChartData});
+                let treatmentByRaceDonutChartData = csv
+                .filter(d => d.Race !== 'Total' && d.Label === 'Tx' && d.Region === 'State' && d.Group === '0 - 21')
+                .map(obj => {return {value: obj.Value, type: obj.Race}});
+
+                resolve({treatmentBarChartData, treatmentDonutChartData, treatmentByRaceDonutChartData});
             });
         });
     }
