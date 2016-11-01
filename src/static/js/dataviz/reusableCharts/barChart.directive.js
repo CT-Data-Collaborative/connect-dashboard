@@ -58,6 +58,7 @@ angular.module('app')
                     axis.wrap(true);
                 })
                 .mixout('barLabels')
+                .mixin({name : 'grid', feature : d4.features.grid, index: 0 })
                 .y(function(y) {
                     y.key('Value');
                 })

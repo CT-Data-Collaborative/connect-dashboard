@@ -50,3 +50,14 @@
 .key.series4 {
     background-color:#d7d7be;
 }
+
+.bar .d4 .grid.border rect, .x.grid {
+    display: none;
+}
+
+.bar .d4 .grid line {
+    fill:none;
+    stroke: $light-grey;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
