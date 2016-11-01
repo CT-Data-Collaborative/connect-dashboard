@@ -13,7 +13,7 @@
                 config="vm.config.substanceSanctions"></div>
 
             <div class="bar-chart" ctd-bar-chart 
-                name="'treatmentByRaceBarChart2'"
+                name="'treatmentByRaceBarChart'"
                 data="vm.treatmentBarChartData" 
                 grouping="'Race'"
                 config="vm.config.treatmentByRace"></div>
@@ -22,6 +22,16 @@
                 name="'treatmentDataByAge'"
                 data="vm.treatmentDonutChartData"
                 config="vm.config.treatmentByAge"></div>
+
+            <div class="bar-chart" ctd-bar-chart
+                name="'sanctionsByTypeData'"
+                data="vm.sanctionsByTypeData"
+                config="vm.config.sanctionsByType"></div>
+
+            <div class="bar-chart" ctd-bar-chart
+                name="'educationNeedsData'"
+                data="vm.educationNeedsData"
+                config="vm.config.educationNeeds"></div>
         </div>
         <div class="settings-section category-section row" ng-repeat="category in categories">
             <h3 class="section-title" id="{{ category.name | sluggify }}">{{ category.name }}</h3>

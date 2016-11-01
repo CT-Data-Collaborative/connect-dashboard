@@ -58,7 +58,9 @@ angular.module('app')
                 .groupsOf(parsedData.data[0].values.length)
                 .using('yAxis', function(axis) {
                     axis.tickFormat(function(val) {
-                        if (+val === 0) {
+                        if (scope.config.percentage) {
+                            return libraries.d3.format('.0%')(val);
+                        } else if (+val === 0) {
                             return libraries.d3.format('.1s')(val);
                         } else {
                             return libraries.d3.format('.2s')(val);
