@@ -22,6 +22,11 @@ angular.module('app')
     .then(function(data) {
         vm.sanctionsByTypeData = data; 
     });
+
+    chartData.getEducationNeedsData()
+    .then(function(data) {
+        vm.educationNeedsData = data;
+    })
 });
 
 })();

@@ -46,6 +46,18 @@ angular.module('app')
         "calculate_total": true,
         "name": "Sanctions by Type",
         "type": "bar"
+    }, 
+    educationNeeds: {
+        "category": "Education",
+        "source": "CT State Dept of Education",
+        "title": "Student Characteristics, 2013-2014",
+        "footnotes": ["Data includes only school districts that do not cross town boundaries."],
+        "grouping": "",
+        "ckan_url": "http://data.ctdata.org/visualization/educational-need",
+        "calculate_total": false,
+        "name": "Student Characteristics",
+        "type": "bar",
+        "percentage": true
     }
 
 }); 
