@@ -31,6 +31,7 @@ angular.module('app')
                 }
             });
 
+
             function drawGroupedColumnGraphic(x) {
                 d3.select(divName).selectAll(".d4").remove();
                 //User should be able to change which filter to use
@@ -51,6 +52,11 @@ angular.module('app')
                 .x(function(x) {
                     x.key('Group');
                 })
+                .using('xAxis', function(axis) {
+                    // pass in the rangeBand lookup in order to give wrapText axis to a proper width value
+                    axis.rangeBand(this.x.rangeBand);
+                    axis.wrap(true);
+                })
                 .mixout('barLabels')
                 .y(function(y) {
                     y.key('Value');
@@ -67,7 +73,8 @@ angular.module('app')
                         }
                     })
                     .ticks(5);
-                });
+                })
+                .margin({ top: 25, right: -20, bottom: 75, left: 50 });
 
                 var builtChart = libraries.d3.select(divName)
                 .datum(parsedData.data)
