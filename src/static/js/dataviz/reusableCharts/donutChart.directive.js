@@ -27,7 +27,7 @@ angular.module('app')
             });
 
             var chart = libraries.d4.charts.donut()
-            .outerWidth($(divName).context.documentElement.clientWidth)
+            .outerWidth(elem[0].clientWidth)
             .margin({
                 left: 0,
                 top: 0,
