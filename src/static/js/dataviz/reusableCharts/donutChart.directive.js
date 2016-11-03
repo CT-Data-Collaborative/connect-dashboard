@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.directive('ctdDonutChart', function(libraries) {
+.directive('ctdDonutChart', function(lodash, libraries, reusableCharts) {
     return {
         scope: {
             data: '=',
@@ -11,22 +11,55 @@ angular.module('app')
         },
         templateUrl: './partials/directives/donut-chart.html',
         link: function(scope, elem) {
+            let lo = lodash;
+
+            scope.regions = reusableCharts.regions;
+            scope.currentRegion = lo.find(scope.regions, {id:'State'});
+
             let data;
             let divName = '#' + scope.name;
+
             let unbindWatcher = scope.$watch('data', function(newValue) {
                 data = scope.data;
                 if(!!data) {
-                    var pie = libraries.d3.layout.pie()
-                    .sort(null)
-                    .value(function(d) {
-                        return d.value;
-                    });
-                    draw(pie(data));
+                    processData();
                     unbindWatcher();
                 }
             });
 
-            var chart = libraries.d4.charts.donut()
+            function processData() {
+                let filteredData = data.filter(function(d) {
+                    return d.region === scope.currentRegion.id;
+                });
+
+                let pie = libraries.d3.layout.pie()
+                .sort(null)
+                .value(function(d) {
+                    return d.value;
+                });
+
+                draw(pie(filteredData));
+            }
+
+            scope.update = function(newRegion) {
+                scope.currentRegion = newRegion;
+                processData();
+            }
+
+            function draw(data) {
+                d3.select(divName).selectAll(".d4").remove();
+
+                let builtChart = libraries.d3.select(divName)
+                    .datum(data)
+                    .call(chart);
+
+                //Legend
+                let keyList = [];
+                libraries.d3.keys(data.forEach(function(obj) { keyList.push(obj.data.type); }));
+                scope.$broadcast('legend:add', {chart:builtChart, keys:keyList, divName});
+            }
+
+            let chart = libraries.d4.charts.donut()
             .outerWidth(elem[0].clientWidth)
             .margin({
                 left: 0,
@@ -50,17 +83,6 @@ angular.module('app')
                     return d.data.type;
                 });
             });
-
-            function draw(data) {
-                var builtChart = libraries.d3.select(divName)
-                  .datum(data)
-                  .call(chart);
-                //Legend
-                var keyList = [];
-                libraries.d3.keys(data.forEach(function(obj) { keyList.push(obj.data.type); }));
-                scope.$broadcast('legend:add', {chart:builtChart, keys:keyList, divName});
-
-            }
         }
     }
 });

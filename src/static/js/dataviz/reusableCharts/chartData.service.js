@@ -84,12 +84,12 @@ angular.module('app')
                 });
 
                 let treatmentDonutChartData = csv
-                .filter(d => d.Race === 'Total' && d.Label === 'Tx' && d.Region === 'State' && d.Group !== '0 - 21')
-                .map(obj => {return {value: obj.Value, type: obj.Group}});
+                .filter(d => d.Race === 'Total' && d.Label === 'Tx' && d.Group !== '0 - 21')
+                .map(obj => {return {value: obj.Value, type: obj.Group, region: obj.Region}});
 
                 let treatmentByRaceDonutChartData = csv
-                .filter(d => d.Race !== 'Total' && d.Label === 'Tx' && d.Region === 'State' && d.Group === '0 - 21')
-                .map(obj => {return {value: obj.Value, type: obj.Race}});
+                .filter(d => d.Race !== 'Total' && d.Label === 'Tx' && d.Group === '0 - 21')
+                .map(obj => {return {value: obj.Value, type: obj.Race, region: obj.Region}});
 
                 resolve({treatmentBarChartData, treatmentDonutChartData, treatmentByRaceDonutChartData});
             });
