@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.directive('ctdDonutChart', function(lodash, libraries, reusableCharts) {
+.directive('ctdDonutChart', function($rootScope, lodash, libraries, reusableCharts) {
     return {
         scope: {
             data: '=',
@@ -13,11 +13,9 @@ angular.module('app')
         link: function(scope, elem) {
             let lo = lodash;
 
-            scope.regions = reusableCharts.regions;
-            scope.currentRegion = lo.find(scope.regions, {id:'State'});
-
             let data;
             let divName = '#' + scope.name;
+            let selectedRegion = reusableCharts.selectedRegion;
 
             let unbindWatcher = scope.$watch('data', function(newValue) {
                 data = scope.data;
@@ -27,9 +25,13 @@ angular.module('app')
                 }
             });
 
+            $rootScope.$on('region:changed', function(newRegion) {
+                processData();
+            });
+
             function processData() {
                 let filteredData = data.filter(function(d) {
-                    return d.region === scope.currentRegion.id;
+                    return d.region === selectedRegion.selected.code;
                 });
 
                 let pie = libraries.d3.layout.pie()
@@ -39,11 +41,6 @@ angular.module('app')
                 });
 
                 draw(pie(filteredData));
-            }
-
-            scope.update = function(newRegion) {
-                scope.currentRegion = newRegion;
-                processData();
             }
 
             function draw(data) {

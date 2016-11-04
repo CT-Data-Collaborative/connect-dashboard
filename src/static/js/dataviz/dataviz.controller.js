@@ -1,7 +1,6 @@
 angular.module('app')
 .controller('DataVizController',
-    ['$scope', '$http', '$log', '$q', 'lodash', 'dataConfig', 'dataProvider', 'townList',
-    function($scope, $http, $log, $q, lodash, dataConfig, dataProvider, townList){
+    function($scope, $http, $log, $q, lodash, dataConfig, dataProvider, townList, reusableCharts){
         var lo = lodash;
         $scope.offcanvas = false;
         $scope.data = dataConfig;
@@ -11,19 +10,8 @@ angular.module('app')
             "data" : '',
             "type" : "regionmap"
         };
-
-        $scope.regions = [
-            {'name' : 'Southwest Region', 'id' : '1'},
-            {'name' : 'South Central Region', 'id' : '2'},
-            {'name' : 'Eastern Region', 'id' : '3'},
-            {'name' : 'North Central Region', 'id' : '4'},
-            {'name' : 'Western Region', 'id' : '5'},
-            {'name' : 'Central Region', 'id' : '6'},
-            {'name' : 'Statewide', 'id' : 'State'}
-        ];
-
-
-        $scope.selectedRegion = {'selected' : {'name' : 'Statewide', 'id' : 'State'}};
+        $scope.regions = reusableCharts.regions;
+        $scope.selectedRegion = reusableCharts.selectedRegion;
 
         $scope.categories = [
             {
@@ -164,10 +152,11 @@ angular.module('app')
         $scope.$watch(function() {
             return $scope.selectedRegion;
         }, function() {
+            reusableCharts.updateRegion($scope.selectedRegion.selected);
             $scope.updateData();
             $scope.updateRegionMap();
         }, true);
         // -----------------------------------------
         // End of Watch function on selected Region
         // -----------------------------------------
-}]);
+});

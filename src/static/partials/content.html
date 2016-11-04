@@ -4,6 +4,7 @@
             <button type="button" class="pull-left visible-sm visible-xs toggle fa fa-bars fa-inverse" ng-click="$parent.offcanvas =! $parent.offcanvas"></button>
             {{ selectedRegion.selected.name }}
         </h3>
+        <ctd-region-selector></ctd-region-selector>
     </div>
     <div class="card-block" id="content">
         <div class="reusable-charts" ng-controller="ReusableChartsController as vm">
