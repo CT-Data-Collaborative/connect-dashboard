@@ -1,0 +1,13 @@
+<div ng-if="nestedData.length">
+    <h5>{{config.title}}</h5>
+    <table class="ctdata-table ctdata-table-wide ctdata-simpletable">
+        <thead>
+            <th class="col-name">{{config['nest_key']}}</th>
+            <th class="col-name" ng-repeat="item in nestedData[0].values">{{item[config.groups]}}</th>
+        </thead>
+        <tr ng-repeat="datum in nestedData">
+            <td class="name">{{datum.key}}</td>
+            <td class="value" ng-repeat="val in datum.values">{{val.value}}</td>
+        <br></tr>
+    </table>
+</div>
