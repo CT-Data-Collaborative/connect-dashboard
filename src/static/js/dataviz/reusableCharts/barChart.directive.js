@@ -2,7 +2,7 @@
 'use strict';
 
 angular.module('app')
-.directive('ctdBarChart', function(lodash, reusableCharts, libraries) {
+.directive('ctdBarChart', function($rootScope, lodash, reusableCharts, libraries) {
     return {
         scope: {
             data: '=',
@@ -13,15 +13,13 @@ angular.module('app')
         templateUrl: './partials/directives/bar-chart.html',
         link: function(scope, elem) {
             const lo = lodash;
+            let selectedRegion = reusableCharts.selectedRegion;
             let data;
             let divName = '#' + scope.name;
-            scope.regions = reusableCharts.regions;
-            scope.currentRegion = lo.find(scope.regions, {id:'State'});
 
-            scope.update = function(newRegion) {
-                scope.currentRegion = newRegion;
+            $rootScope.$on('region:changed', function(newRegion) {
                 drawGroupedColumnGraphic();
-            }
+            });
 
             let unbindWatcher = scope.$watch('data', function(newValue) {
                 data = scope.data;
@@ -36,8 +34,9 @@ angular.module('app')
                 d3.select(divName).selectAll(".d4").remove();
                 //User should be able to change which filter to use
                 var filteredData = data.filter(function(d) {
-                    return d.Region === scope.currentRegion.id;
+                    return d.Region === selectedRegion.selected.code;
                 });
+
 
                 var parsedData = libraries.d4.parsers.nestedGroup()
                     .x('Group')

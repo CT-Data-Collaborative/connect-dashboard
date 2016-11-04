@@ -2,17 +2,25 @@
 'use strict';
 
 angular.module('app')
-.service('reusableCharts', function ($http, lodash) {
-
+.service('reusableCharts', function ($rootScope, lodash) {
+    const lo = lodash;
     const regions = [
-        {'name' : 'Southwest Region', 'id' : 'Southwest'},
-        {'name' : 'South Central Region', 'id' : 'South Central'},
-        {'name' : 'Eastern Region', 'id' : 'East'},
-        {'name' : 'North Central Region', 'id' : 'North Central'},
-        {'name' : 'Western Region', 'id' : 'West'},
-        {'name' : 'Central Region', 'id' : 'Central'},
-        {'name' : 'Statewide', 'id' : 'State'}
+        {'name' : 'Southwest Region', 'code' : 'Southwest', 'id' : '1'},
+        {'name' : 'South Central Region', 'code' : 'South Central', 'id' : '2'},
+        {'name' : 'Eastern Region', 'code' : 'East', 'id' : '3'},
+        {'name' : 'North Central Region', 'code' : 'North Central', 'id' : '4'},
+        {'name' : 'Western Region', 'code' : 'West', 'id' : '5'},
+        {'name' : 'Central Region', 'code' : 'Central', 'id' : '6'},
+        {'name' : 'Statewide', 'code' : 'State', 'id' : 'State'}
     ];
+
+    let selectedRegion = {};
+    selectedRegion.selected = lo.find(regions, {code:'State'});
+
+    function updateRegion(newRegion) {
+        selectedRegion.selected = newRegion;
+        $rootScope.$emit('region:changed', newRegion);
+    }
 
     function sortByAge(a, b) {
         var ageLookup = {
@@ -28,6 +36,8 @@ angular.module('app')
 
     return {
         regions,
+        selectedRegion,
+        updateRegion,
         sortByAge
     };
 });

@@ -2,14 +2,16 @@
 'use strict';
 
 angular.module('app')
-.directive('ctdRegionSelector', function() {
+.directive('ctdRegionSelector', function(reusableCharts) {
     return {
-        scope: {
-            regions: '=',
-            currentRegion: '=',
-            update: '='
-        },
-        templateUrl: './partials/directives/region-selector.html'
+        templateUrl: './partials/directives/region-selector.html',
+        link: function(scope) {
+            scope.regions = reusableCharts.regions;
+            scope.selectedRegion = reusableCharts.selectedRegion;
+            scope.updateRegion = function(newRegion) {
+                reusableCharts.updateRegion(newRegion);
+            };
+        }
     }
 });
 
