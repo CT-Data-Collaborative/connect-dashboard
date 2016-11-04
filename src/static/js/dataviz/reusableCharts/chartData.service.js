@@ -170,15 +170,29 @@ angular.module('app')
                 }
 
                 resolve(data);
-            })
-        })
+            });
+        });
+    }
+
+    function getChildrenInPlacementData() {
+        return $q(function(resolve, reject) {
+            libraries.d3.csv('./data/children_in_placement__filtered.csv', function(csv) {
+                let data = csv
+                .map(d => {
+                    d.value = +d.value;
+                    return d;
+                });
+                resolve(data);
+            });
+        });
     }
 
     return {
         getTreatmentData,
         getSanctionsByTypeData,
         getSubstanceSanctionsData,
-        getEducationNeedsData
+        getEducationNeedsData,
+        getChildrenInPlacementData
     };
 });
 

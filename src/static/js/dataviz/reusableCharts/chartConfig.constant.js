@@ -69,6 +69,19 @@ angular.module('app')
         "name": "Student Characteristics",
         "type": "bar",
         "percentage": true
+    },
+    placementInState: {
+        "category": "Child Welfare",
+        "title": "Children in Placement, In State by Age SFY 2014",
+        "header_offset": false,
+        "source": "CT Dept of Children and Families, accessed via data.ct.gov",
+        "footnotes": "",
+        "ckan_url": "http://data.ctdata.org/visualization/children-in-placement-by-age",
+        "calculate_total": false,
+        "nest_key": "placement",
+        "groups": "age_group",
+        "type": "simpletable",
+        "name": "CIP In State Age Table"
     }
 
 }); 

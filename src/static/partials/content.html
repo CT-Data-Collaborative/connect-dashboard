@@ -8,6 +8,10 @@
     </div>
     <div class="card-block" id="content">
         <div class="reusable-charts" ng-controller="ReusableChartsController as vm">
+            <ctd-table 
+                data="vm.childrenInPlacementData"
+                config="vm.config.placementInState"></ctd-table>
+
             <div class="bar-chart" ctd-bar-chart
                 name="'substanceUseBarChart'"
                 data="vm.processedSubstanceData"

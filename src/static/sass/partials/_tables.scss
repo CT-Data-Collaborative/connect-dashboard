@@ -26,6 +26,7 @@ table.ctdata-table {
     }
 
     .col-name {
+        text-transform: capitalize;
         text-align: right;
         font-weight: 700;
         background-color: $ctdata-extra-light-blue;

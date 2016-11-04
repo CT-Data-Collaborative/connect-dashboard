@@ -27,7 +27,12 @@ angular.module('app')
     chartData.getEducationNeedsData()
     .then(function(data) {
         vm.educationNeedsData = data;
-    })
+    });
+
+    chartData.getChildrenInPlacementData()
+    .then(function(data) {
+        vm.childrenInPlacementData = data;
+    });
 });
 
 })();
