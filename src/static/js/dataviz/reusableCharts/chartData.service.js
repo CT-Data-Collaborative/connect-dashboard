@@ -91,7 +91,13 @@ angular.module('app')
                 .filter(d => d.Race !== 'Total' && d.Label === 'Tx' && d.Group === '0 - 21')
                 .map(obj => {return {value: obj.Value, type: obj.Race, region: obj.Region}});
 
-                resolve({treatmentBarChartData, treatmentDonutChartData, treatmentByRaceDonutChartData});
+                let treatmentByAgeAndRaceTableData = csv
+                .map(d => {
+                    d.Value = +d.Value;
+                    return d;
+                });
+
+                resolve({treatmentBarChartData, treatmentDonutChartData, treatmentByRaceDonutChartData, treatmentByAgeAndRaceTableData});
             });
         });
     }

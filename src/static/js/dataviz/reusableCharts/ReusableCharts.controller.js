@@ -17,6 +17,7 @@ angular.module('app')
         vm.treatmentBarChartData = data.treatmentBarChartData;
         vm.treatmentDonutChartData = data.treatmentDonutChartData;
         vm.treatmentByRaceDonutChartData = data.treatmentByRaceDonutChartData;
+        vm.treatmentByAgeAndRaceTableData = data.treatmentByAgeAndRaceTableData;
     });
 
     chartData.getSanctionsByTypeData()

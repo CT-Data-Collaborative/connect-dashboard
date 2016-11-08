@@ -8,6 +8,10 @@
     </div>
     <div class="card-block" id="content">
         <div class="reusable-charts" ng-controller="ReusableChartsController as vm">
+            <ctd-nested-table
+                data="vm.treatmentByAgeAndRaceTableData"
+                config="vm.config.treatmentByAgeAndRaceTable"></ctd-nested-table>
+
             <ctd-table 
                 data="vm.childrenInPlacementData"
                 config="vm.config.placementInState"></ctd-table>

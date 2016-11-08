@@ -1,0 +1,17 @@
+<div ng-if="nestedData.length">
+    <h5>{{config.title}}</h5>
+    <table class="ctdata-table ctdata-table-wide ctdata-verticaltable">
+        <thead>
+            <th class="col-name">{{config['nest_key_1']}}</th>
+            <th class="col-name">{{config['nest_key_2']}}</th>
+            <th class="col-name" ng-repeat="item in nestedData[0].values[0].values">{{item[config.groups]}}</th>
+        </thead>
+        <tbody ng-repeat="datum in nestedData">
+            <tr ng-repeat="val in datum.values"> 
+                <td rowspan="3" class="group-label" ng-if="val.key === 'Pop'">{{datum.key}}</td>
+                <td class="row-label"> {{val.key}}</td>
+                <td class="value" ng-repeat="value in val.values">{{value.Value | number}}</td>
+            </tr>
+        <br></tbody>
+    </table>
+</div>
